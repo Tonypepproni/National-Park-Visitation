@@ -1,9 +1,5 @@
 import pandas as pd
 
-'''
-for i in df2021.iloc[:,1:13]:
-    print(f"The mean for {i} is {df2021[i].mean()}")
-'''
 class Park:
     def __init__(self,data):
         self.data=data
@@ -18,8 +14,11 @@ class Park:
     def spefYearDF(self,year):
         self.spefYear=self.df[self.df["YEAR"]>=year]
 
-    def indMean(self,df,month):
-        self.mean={'mean':df[month].mean(),"month":month}
+    def oneMonthStats(self,month):
+        self.oneMean=self.spefYear[month].mean()
+        self.oneVar=self.spefYear[month].var()
+        self.oneMin=self.spefYear[month].min()
+        self.oneMax=self.spefYear[month].max()
 
 
 
@@ -29,11 +28,12 @@ class Park:
     def printDF(self):
         print(self.df)
 
-    def printIndMean(self):
-        print(f"The mean visits for {self.mean['month']} is {self.mean['mean']}")
+    def printOneMonthStats(self):
+        print(f"The mean is {self.oneMean:,.3f} and the var is {self.oneVar:,.3f}")
+        print(f"{self.oneMin:,} {self.oneMax:,}")
 
 cedarBreaks=Park('data/CedarBreaks.csv')
 cedarBreaks.spefYearDF(2021)
 cedarBreaks.printSpefYearDF()
-cedarBreaks.indMean(cedarBreaks.spefYear,"MAY")
-cedarBreaks.printIndMean()
+cedarBreaks.oneMonthStats("MAY")
+cedarBreaks.printOneMonthStats()

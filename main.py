@@ -16,7 +16,7 @@ class Park:
 
     def oneMonthStats(self,month):
         self.oneMean=self.spefYear[month].mean()
-        self.oneVar=self.spefYear[month].var()
+        self.oneSD=self.spefYear[month].std()
         self.oneMin=self.spefYear[month].min()
         self.oneMax=self.spefYear[month].max()
         self.oneRange=self.oneMax-self.oneMin
@@ -32,11 +32,11 @@ class Park:
 
     def printOneMonthStats(self):
         print(f"Mean   {self.oneMean:,.3f}")
-        print(f"Var    {self.oneVar:,.3f}")
+        print(f"SD     {self.oneSD:,.3f}")
         print(f"Min    {self.oneMin:,}")
         print(f"Max    {self.oneMax:,}")
         print(f"Range  {self.oneRange:,}")
-        print(f"E(x)   {self.oneEx:,}")
+        print(f"∑(x)   {self.oneEx:,}")
 
 cedarBreaks=Park('data/CedarBreaks.csv')
 cedarBreaks.spefYearDF(2021)

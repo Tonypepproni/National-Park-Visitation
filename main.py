@@ -57,7 +57,7 @@ class Park:
         print(f"Range  {self.oneRange:,}")
         print(f"∑(x)   {self.oneEx:,}")
 
-cedarBreaks=Park('data/CedarBreaks.csv')
+'''cedarBreaks=Park('data/CedarBreaks.csv')
 cedarBreaks.spefYearDF(2021)
 cedarBreaks.printSpefYearDF()
 cedarBreaks.oneMonthStatsSpef("MAY")
@@ -66,4 +66,4 @@ cedarBreaks.oneMonthStats("MAY")
 cedarBreaks.printOneMonthStats()
 
 cedarBreaks.df.loc[cedarBreaks.df["YEAR"]==2024,cedarBreaks.df.columns[2:13]].plot(kind="bar",width=1)
-plt.show()
+plt.show()'''

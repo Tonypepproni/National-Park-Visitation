@@ -61,6 +61,9 @@ class Window(QMainWindow):
         inputFrame=QFrame()
         inputFrame.setFrameShape(QFrame.Shape.Box)
 
+        yearFrame=QFrame()
+        yearFrame.setFrameShape(QFrame.Shape.Box)
+
         ############################################################
 
         labelFramLayout=QVBoxLayout()
@@ -77,6 +80,9 @@ class Window(QMainWindow):
         inputLayout.addWidget(self.calc)
         inputLayout.addWidget(self.combo)
         inputLayout.addWidget(self.dates)
+        inputLayout.addWidget(yearFrame)
+
+        yearLayout=QHBoxLayout()
 
         layout=QVBoxLayout()
         layout.addWidget(self.titleLabel, alignment=Qt.AlignmentFlag.AlignCenter | Qt.AlignmentFlag.AlignTop)
@@ -86,6 +92,7 @@ class Window(QMainWindow):
         central_widget.setLayout(layout)
         labelFrame.setLayout(labelFramLayout)
         inputFrame.setLayout(inputLayout)
+        yearFrame.setLayout(yearLayout)
 
         self.show()
     

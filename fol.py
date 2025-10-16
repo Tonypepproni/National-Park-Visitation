@@ -106,6 +106,9 @@ for i in range(0,len(df)):
             popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
             icon=iconMaker('cadetblue','person-hiking','fa')
         ).add_to(m)
-    
+
+    point1=[41.305594292346036, -81.55982166630241]
+    point2=[41.66844054799753, -87.04324191386478]
+    line = folium.PolyLine(locations=[point1, point2], color='blue', weight=5, opacity=0.8).add_to(m)
 
 m.save("footprint.html")

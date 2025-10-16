@@ -94,6 +94,18 @@ for i in range(0,len(df)):
             popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
             icon=iconMaker('lightgreen','frog','fa')
         ).add_to(m)
+    elif df.iloc[i]['type']=='NMEMPWKY':
+        folium.Marker(
+            location=[df.iloc[i]['lat'],df.iloc[i]['long']],
+            popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
+            icon=iconMaker('gray','car','fa')
+        ).add_to(m)
+    elif df.iloc[i]['type']=='OTHERPARK':
+        folium.Marker(
+            location=[df.iloc[i]['lat'],df.iloc[i]['long']],
+            popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
+            icon=iconMaker('cadetblue','person-hiking','fa')
+        ).add_to(m)
     
 
 m.save("footprint.html")

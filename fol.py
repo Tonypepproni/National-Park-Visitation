@@ -4,6 +4,12 @@ import pandas as pd
 df=pd.read_csv('info/parks.csv')
 
 m = folium.Map(location=(41.087564845018235, -74.0133280647248), zoom_start=7, tiles="cartodb positron")
+BattleOneLat=[41.0938684589138]
+BigSummerLat=[41.0938684589138]
+BattleTwoLat=[41.0938684589138]
+BattleOneLong=[-74.0152150078762]
+BigSummerLong=[-74.0152150078762]
+BattleTwoLong=[-74.0152150078762]
 
 def iconMaker(color,icon,prefix):
     return folium.Icon(color=color,icon=icon,prefix=prefix)
@@ -24,7 +30,17 @@ def htmlMaker(df,i):
     </html>
     """
     return marker_html
-    
+
+def lineMaker(lat,long,color):
+    for i in range(0,len(lat)):
+        if i+1 >= len(lat):
+            point1=[lat[i],long[i]]
+            point2=[41.0938684589138,-74.0152150078762]
+        else:
+            point1=[lat[i],long[i]]
+            point2=[lat[i+1],long[i+1]]
+        line = folium.PolyLine(locations=[point1, point2], color=color, weight=5, opacity=0.8).add_to(m)
+
 
 for i in range(0,len(df)):
     if df.iloc[i]['type']=='NP':
@@ -107,8 +123,19 @@ for i in range(0,len(df)):
             icon=iconMaker('cadetblue','person-hiking','fa')
         ).add_to(m)
 
-    point1=[41.305594292346036, -81.55982166630241]
-    point2=[41.66844054799753, -87.04324191386478]
-    line = folium.PolyLine(locations=[point1, point2], color='blue', weight=5, opacity=0.8).add_to(m)
+    if df.iloc[i]['trip'] != '':
+        if df.iloc[i]['trip'] == "BattleOne":
+            BattleOneLat.append(df.iloc[i]['lat'])
+            BattleOneLong.append(df.iloc[i]['long'])
+        elif df.iloc[i]['trip'] == "BigSummer":
+            BigSummerLat.append(df.iloc[i]['lat'])
+            BigSummerLong.append(df.iloc[i]['long'])
+        elif df.iloc[i]['trip'] == "BattleTwo":
+            BattleTwoLat.append(df.iloc[i]['lat'])
+            BattleTwoLong.append(df.iloc[i]['long'])
+
+lineMaker(BattleOneLat,BattleOneLong,'blue')
+lineMaker(BigSummerLat,BigSummerLong,'green')
+lineMaker(BattleTwoLat,BattleTwoLong,'red')
 
 m.save("footprint.html")

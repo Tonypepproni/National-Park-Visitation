@@ -56,7 +56,7 @@ for i in range(0,len(df)):
             popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
             icon=iconMaker('purple','landmark','fa')#creates a marker with this style
         ).add_to(m)
-    elif df.iloc[i]['type']=='NPres':
+    elif df.iloc[i]['type']=='NPres' or df.iloc[i]['type']=='NHRES':
         folium.Marker(
             location=[df.iloc[i]['lat'],df.iloc[i]['long']],#locates long and lat from the data frame and displays it
             popup=folium.Popup(html=htmlMaker(df,i),max_width=300),

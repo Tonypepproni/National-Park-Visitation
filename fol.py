@@ -3,13 +3,17 @@ import pandas as pd
 
 df=pd.read_csv('info/parks.csv')
 
-m = folium.Map(location=(41.087564845018235, -74.0133280647248), zoom_start=7, tiles="cartodb positron")
+m = folium.Map(location=(40.002889953443024, -98.66778859149203), zoom_start=5, tiles="cartodb positron")
 BattleOneLat=[41.0938684589138]
 BigSummerLat=[41.0938684589138]
 BattleTwoLat=[41.0938684589138]
+DesLat=[41.0938684589138]
 BattleOneLong=[-74.0152150078762]
 BigSummerLong=[-74.0152150078762]
 BattleTwoLong=[-74.0152150078762]
+DesLong=[-74.0152150078762]
+
+staylat=''
 
 def iconMaker(color,icon,prefix):
     return folium.Icon(color=color,icon=icon,prefix=prefix)
@@ -41,6 +45,19 @@ def lineMaker(lat,long,color):
             point2=[lat[i+1],long[i+1]]
         line = folium.PolyLine(locations=[point1, point2], color=color, weight=5, opacity=0.8).add_to(m)
 
+def tripapend(lat,long):
+    if df.iloc[i]['trip'] == "BattleOne":
+        BattleOneLat.append(lat)
+        BattleOneLong.append(long)
+    elif df.iloc[i]['trip'] == "BigSummer":
+        BigSummerLat.append(lat)
+        BigSummerLong.append(long)
+    elif df.iloc[i]['trip'] == "BattleTwo":
+        BattleTwoLat.append(lat)
+        BattleTwoLong.append(long)
+    elif df.iloc[i]['trip'] == "Des":
+        DesLat.append(lat)
+        DesLong.append(long)
 
 for i in range(0,len(df)):
     if df.iloc[i]['type']=='NP':
@@ -122,20 +139,43 @@ for i in range(0,len(df)):
             popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
             icon=iconMaker('cadetblue','person-hiking','fa')
         ).add_to(m)
-
+    elif df.iloc[i]['type']=='AIRPORT':
+        folium.Marker(
+            location=[df.iloc[i]['lat'],df.iloc[i]['long']],
+            popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
+            icon=iconMaker('darkgreen','plane','fa')
+        ).add_to(m)
+    elif df.iloc[i]['type']=='Bur':
+        folium.Marker(
+            location=[df.iloc[i]['lat'],df.iloc[i]['long']],
+            popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
+            icon=iconMaker('pink','burger','fa')
+        ).add_to(m)
     if df.iloc[i]['trip'] != '':
-        if df.iloc[i]['trip'] == "BattleOne":
-            BattleOneLat.append(df.iloc[i]['lat'])
-            BattleOneLong.append(df.iloc[i]['long'])
-        elif df.iloc[i]['trip'] == "BigSummer":
-            BigSummerLat.append(df.iloc[i]['lat'])
-            BigSummerLong.append(df.iloc[i]['long'])
-        elif df.iloc[i]['trip'] == "BattleTwo":
-            BattleTwoLat.append(df.iloc[i]['lat'])
-            BattleTwoLong.append(df.iloc[i]['long'])
+        if df.iloc[i]['stay'] == '' or (df.iloc[i]['stay']=='through'):
+            #print(df.iloc[i]['name'])
+            staylat=''
+            staylong=''
+        elif df.iloc[i]['stay']=='through' '''and (staylat>0 or staylat!=0)''':
+            print(df.iloc[i]['name'])
+            tripapend(staylat,staylong)
+            staylat=0
+        elif (df.iloc[i]['stay'] == 'stay' and staylat == '') or (df.iloc[i]['stay'] == 'through'):
+            #print(df.iloc[i]['name'])
+            staylat=df.iloc[i]['lat']
+            staylong=df.iloc[i]['long']
+        elif (df.iloc[i]['stay'] == 'stay' and staylat>0)or(df.iloc[i]['stay'] == 'through' and staylat>0):
+            
+            tripapend(staylat,staylong)
+            staylat=df.iloc[i]['lat']
+            staylong=df.iloc[i]['long']
+        
+
+        tripapend(df.iloc[i]['lat'],df.iloc[i]['long'])
 
 lineMaker(BattleOneLat,BattleOneLong,'blue')
 lineMaker(BigSummerLat,BigSummerLong,'green')
 lineMaker(BattleTwoLat,BattleTwoLong,'red')
+lineMaker(DesLat,DesLong,'purple')
 
 m.save("footprint.html")

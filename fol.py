@@ -1,6 +1,6 @@
 import folium
 import pandas as pd
-
+from makers import maker_tools
 df=pd.read_csv('info/parks.csv')
 
 m = folium.Map(location=(40.002889953443024, -98.66778859149203), zoom_start=5, tiles="cartodb positron")
@@ -21,32 +21,6 @@ triplinefg=folium.FeatureGroup(name='Trip lines',show=False)
 
 staylat=''
 
-def iconMaker(color,icon,prefix):
-    return folium.Icon(color=color,icon=icon,prefix=prefix)
-
-def popupMaker(df,i):
-    return df.iloc[i]['name']
-
-def htmlMaker(df,i):
-    marker_html = f"""
-    <!DOCTYPE html>
-    <html>
-        <body><center>
-            <h3>{df.iloc[i]['name']}</h3>
-            <p>{df.iloc[i]['disp']}</p>
-            <h3>Dates visted</h3>
-            <p>{df.iloc[i]['dates']}</p>
-        </center></body>
-    </html>
-    """
-    return marker_html
-
-def marker_maker(df,group,color,img):
-    folium.Marker(
-            location=[df.iloc[i]['lat'],df.iloc[i]['long']],#locates long and lat from the data frame and displays it
-            popup=folium.Popup(html=htmlMaker(df,i),max_width=300),
-            icon=iconMaker(color,img,'fa')#creates a marker with this style
-        ).add_to(group)
 
 def lineMaker(lat,long,color):
     for i in range(0,len(lat)):
@@ -74,44 +48,44 @@ def tripapend(lat,long):
 
 for i in range(0,len(df)):
     if df.iloc[i]['type']=='NP':
-        marker_maker(df,npfg,'green','tree')
+        maker_tools.marker_maker(df,npfg,'green','tree',i)
 
     elif df.iloc[i]['type']=='NHP':
-        marker_maker(df,littlefg,'purple','landmark')
+        maker_tools.marker_maker(df,littlefg,'purple','landmark',i)
 
     elif df.iloc[i]['type']=='NPres' or df.iloc[i]['type']=='NHRES':
-        marker_maker(df,littlefg,'red','binoculars')
+        maker_tools.marker_maker(df,littlefg,'red','binoculars',i)
     elif df.iloc[i]['type']=='NHS':
-        marker_maker(df,littlefg,'black','landmark-dome')
+        maker_tools.marker_maker(df,littlefg,'black','landmark-dome',i)
 
     elif df.iloc[i]['type']=='NM':
-        marker_maker(df,littlefg,'lightred','monument')
+        maker_tools.marker_maker(df,littlefg,'lightred','monument',i)
 
     elif df.iloc[i]['type']=='NRA':
-        marker_maker(df,littlefg,'darkpurple','compass')
+        maker_tools.marker_maker(df,littlefg,'darkpurple','compass',i)
 
     elif df.iloc[i]['type']=='NS':
-        marker_maker(df,littlefg,'darkblue','water')
+        maker_tools.marker_maker(df,littlefg,'darkblue','water',i)
 
     elif df.iloc[i]['type']=='NL':
-        marker_maker(df,littlefg,'lightblue','wind')
+        maker_tools.marker_maker(df,littlefg,'lightblue','wind',i)
 
     elif df.iloc[i]['type']=='NMEM':
-        marker_maker(df,littlefg,'darkred','archway')
+        maker_tools.marker_maker(df,littlefg,'darkred','archway',i)
 
     elif (df.iloc[i]['type']=='NMP') or (df.iloc[i]['type']=='NB') or (df.iloc[i]['type']=='NBP'):
-        marker_maker(df,littlefg,'orange','person-rifle')
+        maker_tools.marker_maker(df,littlefg,'orange','person-rifle',i)
 
     elif df.iloc[i]['type']=='PARK':
-        marker_maker(df,littlefg,'lightgreen','frog')
+        maker_tools.marker_maker(df,littlefg,'lightgreen','frog',i)
 
     elif df.iloc[i]['type']=='NMEMPWKY':
-        marker_maker(df,littlefg,'gray','car')
+        maker_tools.marker_maker(df,littlefg,'gray','car',i)
 
     elif df.iloc[i]['type']=='AIRPORT':
-        marker_maker(df,airportfg,'darkgreen','plane')
+        maker_tools.marker_maker(df,airportfg,'darkgreen','plane',i)
     elif df.iloc[i]['type']=='Bur':
-        marker_maker(df,inoutfg,'pink','burger')
+        maker_tools.marker_maker(df,inoutfg,'pink','burger',i)
 
     if df.iloc[i]['trip'] != '':
         if df.iloc[i]['stay'] == '' or (df.iloc[i]['stay']=='through'):

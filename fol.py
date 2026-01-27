@@ -4,6 +4,7 @@ from makers import maker_tools
 df=pd.read_csv('info/parks.csv')
 
 m = folium.Map(location=(40.002889953443024, -98.66778859149203), zoom_start=5, tiles="cartodb positron")
+
 BattleOneLat=[41.0938684589138]
 BigSummerLat=[41.0938684589138]
 BattleTwoLat=[41.0938684589138]

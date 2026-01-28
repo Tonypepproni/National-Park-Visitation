@@ -6,15 +6,38 @@ from mapObj import park, trip
 
 df=pd.read_csv('info/parks.csv')
 sites={}
+trips={}
 in_n_out=[]
+coords=[0,0]
 
 for i in range(0,len(df)):
     if df.iloc[i]['name'] not in sites and df.iloc[i]['name']!='In N Out Burger':
+        #checks if its a park site and adds it to sites dict
         sites[df.iloc[i]['name']]=park(df.iloc[i]['name'],df.iloc[i]['type'],df.iloc[i]['lat'],df.iloc[i]['long'],df.iloc[i]['dates'],df.iloc[i]['disp'])
     elif df.iloc[i]['name']=='In N Out Burger':
+        #adds to in n out specific list
         in_n_out.append(park(df.iloc[i]['name'],df.iloc[i]['type'],df.iloc[i]['lat'],df.iloc[i]['long'],df.iloc[i]['dates'],df.iloc[i]['disp']))
     elif df.iloc[i]['name'] in sites:
+        #if its already in sites it appends the date
         sites[df.iloc[i]['name']].add_date(df.iloc[i]['dates'])
+
+    if (df.iloc[i]['trip'] not in trips) and (not pd.isna(df.iloc[i]['trip'])):
+        trips[df.iloc[i]['trip']]=trip(df.iloc[i]['trip'],41.0938684589138,-74.0152150078762)
+    elif (df.iloc[i]['trip'] in trips) and (df.iloc[i]['stay'] !=''):
+        if df.iloc[i]['stay'] =='stay' and (coords[0]==0):
+            coords[0] = df.iloc[i]['lat']
+            coords[1] = df.iloc[i]['long']
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+        elif df.iloc[i]['stay'] =='through' and (coords[0]!=0):
+            coords[0]=0
+            coords[1]=0
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+        elif df.iloc[i]['stay'] =='through' and (coords[0]==0):
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+        elif df.iloc[i]['stay'] =='visit':
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+
+
     
 m = folium.Map(location=(40.002889953443024, -98.66778859149203), zoom_start=5, tiles="cartodb positron")
 
@@ -64,8 +87,13 @@ for key in sites:
     elif sites[key].type=='AIRPORT':
         maker_tools.marker_maker(airportfg,'darkgreen','plane',sites[key])
 
+
 for i in in_n_out:
     maker_tools.marker_maker(inoutfg,'pink','burger',i)
+
+maker_tools.line_maker(trips['BattleOne'],triplinefg)
+    
+
 
 
 npfg.add_to(m)

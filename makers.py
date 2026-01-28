@@ -31,5 +31,23 @@ class maker_tools:
                 popup=folium.Popup(html=self.htmlMaker(obj),max_width=300),
                 icon=self.iconMaker(color,icon,'fa')#creates a marker with this style
             ).add_to(group)
-        
+
+    def line_maker(self,obj,group):
+        for i in range(0,len(obj.lat)):
+            if i+1 >= len(obj.lat):
+                point1=[obj.lat[i],obj.long[i]]
+                point2=[obj.lat[0],obj.long[0]]
+            else:
+                point1=[obj.lat[i],obj.long[i]]
+                point2=[obj.lat[i+1],obj.long[i+1]]
+
+            folium.PolyLine(locations=[point1,point2 ], 
+                            color='green', 
+                            weight=5, 
+                            opacity=0.8).add_to(group)
+
+
+
+
+
 maker_tools=maker_tools()

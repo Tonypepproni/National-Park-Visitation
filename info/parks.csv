@@ -17,16 +17,16 @@ Home of Franklin D. Roosevelt,NHS,41.768115417443425, -73.93500258991189,11/11/2
 Thomas Edison,NHP,40.78415357484253, -74.23406140087086,12/27/24,National Historic Park,,
 Saint Paul's Church,NHS,40.893621765203896, -73.82590156410045,1/8/25,National Historic Site,,
 Gateway,NRA,40.461817981614395, -74.00208137019406,2/28/25,National Recration Area,,
-Hopewell Furnace,NHS,40.206309194399424, -75.76804130089477,3/16/25,National Historic Site,BattleOne,
-Gettysburg,NMP,39.81198622312757, -77.22619112181776,3/17/25-3/18/25,National Military Park,BattleOne,
-Eisenhower,NHS,39.794088746306976, -77.26318467207552,3/18/25,National Historic Site,BattleOne,
-Catoctin Mountain,PARK,39.627054939928875, -77.44005895251543,3/18/25,Park,BattleOne,
-Antietam,NB,39.467229992299146, -77.73630331627025,3/19/25,National Battlefield,BattleOne,
-Harpers Ferry,NHP,39.318003478374855, -77.75807712976753,3/19/25,National Historic Site,BattleOne,
-Chesapeake & Ohio Canal,NHP,39.32500506806593, -77.72666198591575,3/19/25,National Historical Park,BattleOne,
-Monocacy,NB,39.377611442452164, -77.39718631441997,3/20/25,National Battlefield,BattleOne,
-Fort McHenry,NM,39.264374790915554, -76.58071650464116,3/20/25,National Monument,BattleOne,
-Hampton,NHS,39.41652779750747, -76.58762117394485,3/20/25,National Historic Site,BattleOne,
+Hopewell Furnace,NHS,40.206309194399424, -75.76804130089477,3/16/25,National Historic Site,BattleOne,through
+Gettysburg,NMP,39.81198622312757, -77.22619112181776,3/17/25-3/18/25,National Military Park,BattleOne,through
+Eisenhower,NHS,39.794088746306976, -77.26318467207552,3/18/25,National Historic Site,BattleOne,through
+Catoctin Mountain,PARK,39.627054939928875, -77.44005895251543,3/18/25,Park,BattleOne,through
+Antietam,NB,39.467229992299146, -77.73630331627025,3/19/25,National Battlefield,BattleOne,through
+Harpers Ferry,NHP,39.318003478374855, -77.75807712976753,3/19/25,National Historic Site,BattleOne,through
+Chesapeake & Ohio Canal,NHP,39.32500506806593, -77.72666198591575,3/19/25,National Historical Park,BattleOne,through
+Monocacy,NB,39.377611442452164, -77.39718631441997,3/20/25,National Battlefield,BattleOne,through
+Fort McHenry,NM,39.264374790915554, -76.58071650464116,3/20/25,National Monument,BattleOne,through
+Hampton,NHS,39.41652779750747, -76.58762117394485,3/20/25,National Historic Site,BattleOne,through
 Paterson Great Falls,NHP,40.91823731914403, -74.17983531806414,3/28/25,National Historical Park,,
 Clara Barton,NHS,38.96766959002962, -77.14085763348939,3/29/25,National Historic Site,,
 George Washington,NMEMPWKY,38.960382676001636, -77.15153254141921,3/29/25,National Memorial Parkway,,
@@ -109,16 +109,16 @@ Effigy Mounds,NM,43.08900791616202, -91.1856634333162,7/20/2025,National Monumen
 Assategue Island,NS,38.1330239838343, -75.17877761817766,7/29/2025-7/31/2025,National Seashore,,
 Harriet Tubman Underground Railroad,NHP,38.45021371522037, -76.1376508470013,7/30/2025,National Historical Park,,
 First State,NHP,39.6600101435011, -75.56323212789964,7/31/2025,National Historical Park,,
-Booker T Washington,NM,37.11950163155294, -79.73160231450946,8/15/2025,National Monument,BattleTwo,
-Guilford Courthouse,NMP,36.13198969788494, -79.84643248385709,8/15/2025,National Military Park,BattleTwo,
-Appomattox Courthouse,NHP,37.37665998233936, -78.79707814786389,8/16/2025,National Historical Park,BattleTwo,
-Blue Ridge,NMEMPWKY,37.435143706467116, -79.60496501651365,8/16/2025,National Memorial Parkway,BattleTwo,
-Petersburg,NB,37.24396874353688, -77.35689793355756,8/17/2025,National Battlefield,BattleTwo,
-Richmond,NB,37.52702265446766, -77.41220327402009,8/18/2025,National Battlefield,BattleTwo,
-Fort Monroe,NM,37.004123815936936, -76.3073626182217,8/19/2025,National Monument,BattleTwo,
-Colonial,NHP,37.225884175859264, -76.78423341736202,8/19/2025,National Historical Park,BattleTwo,
-Fredericksburg & Spotslyvania County Battlefields Memorial,NMP,38.29396010126794, -77.46737601631742,8/20/2025,National Military Park,BattleTwo,
-Prince Willams Forest,PARK,38.585562961348785, -77.3839464972529,8/20/2025-8/21/2025,,BattleTwo,
+Booker T Washington,NM,37.11950163155294, -79.73160231450946,8/15/2025,National Monument,BattleTwo,through
+Guilford Courthouse,NMP,36.13198969788494, -79.84643248385709,8/15/2025,National Military Park,BattleTwo,through
+Appomattox Courthouse,NHP,37.37665998233936, -78.79707814786389,8/16/2025,National Historical Park,BattleTwo,through
+Blue Ridge,NMEMPWKY,37.435143706467116, -79.60496501651365,8/16/2025,National Memorial Parkway,BattleTwo,through
+Petersburg,NB,37.24396874353688, -77.35689793355756,8/17/2025,National Battlefield,BattleTwo,through
+Richmond,NB,37.52702265446766, -77.41220327402009,8/18/2025,National Battlefield,BattleTwo,through
+Fort Monroe,NM,37.004123815936936, -76.3073626182217,8/19/2025,National Monument,BattleTwo,through
+Colonial,NHP,37.225884175859264, -76.78423341736202,8/19/2025,National Historical Park,BattleTwo,through
+Fredericksburg & Spotslyvania County Battlefields Memorial,NMP,38.29396010126794, -77.46737601631742,8/20/2025,National Military Park,BattleTwo,through
+Prince Willams Forest,PARK,38.585562961348785, -77.3839464972529,8/20/2025-8/21/2025,,BattleTwo,through
 Steamtown,NHS,41.40805866106717, -75.6719577585171,8/31/2025,National Historic Site,,
 Harry Reid International Airport,AIRPORT,36.08204718885973, -115.13621407678643,1/2/2026;1/13/2026,Airport,Des,stay
 Tule Springs Fossil Bed's,NM,36.3487609386247, -115.2904797292476,1/2/2026,National Monument,Des,through

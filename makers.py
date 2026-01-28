@@ -42,9 +42,10 @@ class maker_tools:
                 point2=[obj.lat[i+1],obj.long[i+1]]
 
             folium.PolyLine(locations=[point1,point2 ], 
-                            color='green', 
+                            color=obj.color, 
                             weight=5, 
                             opacity=0.8).add_to(group)
+        
 
 
 

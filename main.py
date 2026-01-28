@@ -1,5 +1,6 @@
 import pandas as pd
 import folium
+import random
 
 from makers import maker_tools
 from mapObj import park, trip
@@ -9,6 +10,7 @@ sites={}
 trips={}
 in_n_out=[]
 coords=[0,0]
+colors=['red','blue','green','purple','pink','darkred']
 
 for i in range(0,len(df)):
     if df.iloc[i]['name'] not in sites and df.iloc[i]['name']!='In N Out Burger':
@@ -22,19 +24,47 @@ for i in range(0,len(df)):
         sites[df.iloc[i]['name']].add_date(df.iloc[i]['dates'])
 
     if (df.iloc[i]['trip'] not in trips) and (not pd.isna(df.iloc[i]['trip'])):
-        trips[df.iloc[i]['trip']]=trip(df.iloc[i]['trip'],41.0938684589138,-74.0152150078762)
+        color=colors[random.randint(0,len(colors))-1]
+        trips[df.iloc[i]['trip']]=trip(df.iloc[i]['trip'],41.0938684589138,-74.0152150078762,color)
+        colors.remove(color)
+        
+        if df.iloc[i]['stay'] =='stay' and (coords[0]==0):
+            coords[0] = df.iloc[i]['lat']
+            coords[1] = df.iloc[i]['long']
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+
+        elif df.iloc[i]['stay'] =='through':
+            coords[0]=0
+            coords[1]=0
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+
+        elif df.iloc[i]['stay'] =='visit':
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+
+        elif df.iloc[i]['stay'] == 'stay':
+            trips[df.iloc[i]['trip']].add_loc(coords[0],coords[1])
+            coords[0] = df.iloc[i]['lat']
+            coords[1] = df.iloc[i]['long']
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+
     elif (df.iloc[i]['trip'] in trips) and (df.iloc[i]['stay'] !=''):
         if df.iloc[i]['stay'] =='stay' and (coords[0]==0):
             coords[0] = df.iloc[i]['lat']
             coords[1] = df.iloc[i]['long']
             trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
-        elif df.iloc[i]['stay'] =='through' and (coords[0]!=0):
+
+        elif df.iloc[i]['stay'] =='through':
             coords[0]=0
             coords[1]=0
             trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
-        elif df.iloc[i]['stay'] =='through' and (coords[0]==0):
-            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+
         elif df.iloc[i]['stay'] =='visit':
+            trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
+
+        elif df.iloc[i]['stay'] == 'stay':
+            trips[df.iloc[i]['trip']].add_loc(coords[0],coords[1])
+            coords[0] = df.iloc[i]['lat']
+            coords[1] = df.iloc[i]['long']
             trips[df.iloc[i]['trip']].add_loc(df.iloc[i]['lat'],df.iloc[i]['long'])
 
 
@@ -91,10 +121,8 @@ for key in sites:
 for i in in_n_out:
     maker_tools.marker_maker(inoutfg,'pink','burger',i)
 
-maker_tools.line_maker(trips['BattleOne'],triplinefg)
-    
-
-
+for keys in trips:
+    maker_tools.line_maker(trips[keys],triplinefg)
 
 npfg.add_to(m)
 littlefg.add_to(m)

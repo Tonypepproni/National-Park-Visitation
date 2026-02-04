@@ -6,9 +6,17 @@ class park:
         self.long=long
         self.date=date
         self.disp=disp
+        self.group=''
+        self.color=''
+        self.icon=''
 
     def add_date(self,date):
         self.date = self.date + ', ' + date
+
+    def add_three(self,group,color,icon):
+        self.group=group
+        self.color=color
+        self.icon=icon
 
 class trip:
     def __init__(self,trip_name,start_lat,start_long,color):

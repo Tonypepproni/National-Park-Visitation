@@ -46,11 +46,11 @@ class icon(maker_tools):
         """
         return marker_html
     
-    def make(self,group,color,icon,obj):
+    def make(self,obj,group):
         folium.Marker(
                 location=[obj.lat,obj.long],#locates long and lat from the data frame and displays it
                 popup=folium.Popup(html=self.htmlMaker(obj),max_width=300),
-                icon=self.iconMaker(color,icon,'fa')#creates a marker with this style
+                icon=self.iconMaker(obj.color,obj.icon_type,'fa')#creates a marker with this style
             ).add_to(group)
 
     

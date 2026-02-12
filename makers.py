@@ -1,6 +1,9 @@
 import pandas as pd
 import folium
+from folium import plugins
 from abc import ABC,abstractclassmethod
+from mapObj import park, trip
+import random
 
 class maker_tools(ABC):
     def make(self,obj,group):
@@ -27,7 +30,15 @@ class icon(maker_tools):
         pass
 
     def iconMaker(self,color,icon,prefix):
-        return folium.Icon(color=color,icon=icon,prefix=prefix)
+        return plugins.BeautifyIcon(
+            background_color=color,
+            border_color=color,
+            text_color='white',
+            icon=icon,
+            prefix=prefix,
+            icon_shape='marker',
+            inner_icon_style='margin_top:2'
+        )
     
     def popupMaker(self,df,i):
         return df.iloc[i]['name']
@@ -53,6 +64,34 @@ class icon(maker_tools):
                 icon=self.iconMaker(obj.color,obj.icon_type,'fa')#creates a marker with this style
             ).add_to(group)
 
-    
+class obj(maker_tools):
+    colors=['red','blue','green','purple','pink','darkred','orange']
+    def __init__(self):
+        pass
+    def make(self,df,sites,trips,in_n_out):
+        for i in range(0,len(df)):
+            row=df.iloc[i]
+            if row['name'] not in sites and row['name']!='In N Out Burger':
+                #checks if its a park site and adds it to sites dict
+                sites[row['name']]=park(row['name'],row['type'],row['lat'],row['long'],row['dates'],row['disp'])
+
+            elif row['name']=='In N Out Burger':
+                #adds to in n out specific list
+                in_n_out.append(park(row['name'],row['type'],row['lat'],row['long'],row['dates'],row['disp']))
+            elif df.iloc[i]['name'] in sites:
+                #if its already in sites it appends the date
+                sites[row['name']].add_date(row['dates'])
+
+            if (row['trip'] not in trips) and (not pd.isna(row['trip'])):
+                color=obj.colors[random.randint(0,len(obj.colors)-1)]
+                trips[row['trip']]=trip(row['trip'],41.0938684589138,-74.0152150078762,color)
+                obj.colors.remove(color)
+                
+                trips[row['trip']].path_logic(row)
+
+            elif (row['trip'] in trips) and (row['stay'] !=''):
+                trips[row['trip']].path_logic(row)
+
 line=line()
 icon=icon()
+obj=obj()

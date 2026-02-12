@@ -1,52 +1,32 @@
 import pandas as pd
 import folium
-import random
 
-from makers import line,icon
+from makers import line,icon,obj
 from mapObj import park, trip
 
 df=pd.read_csv('info/parks.csv')
+dfn=pd.read_csv('info/native_sites.csv')
 sites={}
 trips={}
 in_n_out=[]
-colors=['red','blue','green','purple','pink','darkred','orange']
 npfg=folium.FeatureGroup(name='National parks',show=True)
 littlefg=folium.FeatureGroup(name="'small' parks",show=True)
 inoutfg=folium.FeatureGroup(name='In n Out Locations',show=False)
 airportfg=folium.FeatureGroup(name='Airports',show=True)
 triplinefg=folium.FeatureGroup(name='Trip lines',show=False)
+nativeSitesfg=folium.FeatureGroup(name='Native American Sites',show=False)
 
 groups={
 'npfg':npfg,
 'littlefg':littlefg,
 'inoutfg':inoutfg,
 'airportfg':airportfg,
-'triplinefg':triplinefg
+'triplinefg':triplinefg,
+'nativeSitesfg':nativeSitesfg
 }
 
-
-for i in range(0,len(df)):
-    row=df.iloc[i]
-    if row['name'] not in sites and row['name']!='In N Out Burger':
-        #checks if its a park site and adds it to sites dict
-        sites[row['name']]=park(row['name'],row['type'],row['lat'],row['long'],row['dates'],row['disp'])
-
-    elif row['name']=='In N Out Burger':
-        #adds to in n out specific list
-        in_n_out.append(park(row['name'],row['type'],row['lat'],row['long'],row['dates'],row['disp']))
-    elif df.iloc[i]['name'] in sites:
-        #if its already in sites it appends the date
-        sites[row['name']].add_date(row['dates'])
-
-    if (row['trip'] not in trips) and (not pd.isna(row['trip'])):
-        color=colors[random.randint(0,len(colors)-1)]
-        trips[row['trip']]=trip(row['trip'],41.0938684589138,-74.0152150078762,color)
-        colors.remove(color)
-        
-        trips[row['trip']].path_logic(row)
-
-    elif (row['trip'] in trips) and (row['stay'] !=''):
-        trips[row['trip']].path_logic(row)
+obj.make(df,sites,trips,in_n_out)
+obj.make(dfn,sites,trips,in_n_out)
 
     
 m = folium.Map(location=(40.002889953443024, -98.66778859149203), zoom_start=5, tiles="cartodb positron")
@@ -67,6 +47,7 @@ littlefg.add_to(m)
 inoutfg.add_to(m)
 airportfg.add_to(m)
 triplinefg.add_to(m)
+nativeSitesfg.add_to(m)
 
 folium.LayerControl().add_to(m)
 

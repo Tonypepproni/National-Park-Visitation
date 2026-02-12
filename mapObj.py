@@ -6,18 +6,22 @@ class park:
     'NPres': ('red', 'binoculars', 'littlefg'),
     'NHRES': ('red', 'binoculars', 'littlefg'),
     'NHS': ('black', 'landmark-dome', 'littlefg'),
-    'NM': ('lightred', 'monument', 'littlefg'),
-    'NRA': ('darkpurple', 'compass', 'littlefg'),
+    'NM': ('#FF8E7F', 'monument', 'littlefg'),
+    'NRA': ('#5B396B', 'compass', 'littlefg'),
     'NS': ('darkblue', 'water', 'littlefg'),
     'NL': ('lightblue', 'water', 'littlefg'),
     'NMEM': ('darkred', 'archway', 'littlefg'),
-    'NMP': ('orange', 'person-rifle', 'littlefg'),
+    'NMP': ('orange', 'person-military-rifle', 'littlefg'),
     'NB': ('orange', 'person-rifle', 'littlefg'),
-    'NBP': ('orange', 'person-rifle', 'littlefg'),
+    'NBP': ('orange', 'person-military-pointing', 'littlefg'),
     'PARK': ('lightgreen', 'frog', 'littlefg'),
     'NMEMPWKY': ('gray', 'car', 'littlefg'),
     'AIRPORT': ('darkgreen', 'plane', 'airportfg'),
-    'Bur':('pink','burger','inoutfg')
+    'Bur':('pink','burger','inoutfg'),
+    'petroglyph':('#7D2929','wave-square','nativeSitesfg'),
+    'quarry':('#C56C39','hill-rockslide','nativeSitesfg'),
+    'mound':('#694C38','mound','nativeSitesfg'),
+    'greatwork':('#F8F8F6','connectdevelop','nativeSitesfg')
     }
 
     def __init__(self,name,type,lat,long,date,disp):

@@ -37,7 +37,7 @@ class icon(maker_tools):
             icon=icon,
             prefix=prefix,
             icon_shape='marker',
-            inner_icon_style='margin_top:2'
+            inner_icon_style='margin_top:0;'
         )
     
     def popupMaker(self,df,i):

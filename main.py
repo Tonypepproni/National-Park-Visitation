@@ -70,4 +70,4 @@ triplinefg.add_to(m)
 
 folium.LayerControl().add_to(m)
 
-m.save("newMap.html")
+m.save("index.html")

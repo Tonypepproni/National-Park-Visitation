@@ -13,7 +13,11 @@ class line(maker_tools):
     def make(self,obj,group):
         obj.cap()
         folium.plugins.AntPath(
-            locations=obj.locations,dash_array=[20,30],color=obj.color
+            locations=obj.locations,
+            dash_array=[20,30],
+            color=obj.color,
+            tooltip=obj.name,
+            delay=2000
         ).add_to(group)
         
 

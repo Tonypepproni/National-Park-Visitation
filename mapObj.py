@@ -1,27 +1,27 @@
 class park:
 
     type_map = {
-    'NP': ('green', 'tree', 'npfg','National Park'),
-    'NHP': ('purple', 'landmark', 'littlefg','National Historical Park'),
-    'NPres': ('red', 'binoculars', 'littlefg','National Preserve'),
-    'NHRES': ('red', 'binoculars', 'littlefg','National Historic Reserve'),
-    'NHS': ('black', 'landmark-dome', 'littlefg','National Historic Site'),
-    'NM': ('#FF8E7F', 'monument', 'littlefg','National Monument'),
-    'NRA': ('#5B396B', 'compass', 'littlefg','National Recreation Area'),
-    'NS': ('darkblue', 'water', 'littlefg','National Seashore'),
-    'NL': ('lightblue', 'water', 'littlefg','National Lakeshore'),
-    'NMEM': ('darkred', 'archway', 'littlefg','National Memorial'),
-    'NMP': ('orange', 'person-military-rifle', 'littlefg','National Military Park'),
-    'NB': ('orange', 'person-rifle', 'littlefg','National Battle Field'),
-    'NBP': ('orange', 'person-military-pointing', 'littlefg','National Battle Field Park'),
-    'PARK': ('lightgreen', 'frog', 'littlefg','Park'),
-    'NMEMPWKY': ('gray', 'car', 'littlefg','National Memorial Parkway'),
-    'AIRPORT': ('darkgreen', 'plane', 'airportfg','Burger King'),
-    'Bur':('pink','burger','inoutfg','In N Out'),
-    'petroglyph':('#7D2929','wave-square','nativeSitesfg','Petroglyphs'),
-    'quarry':('#C56C39','hill-rockslide','nativeSitesfg','Rock Formations or Quarry'),
-    'mound':('#694C38','mound','nativeSitesfg','Mound'),
-    'greatwork':('#F8F8F6','connectdevelop','nativeSitesfg','Great Works')
+        'NP': ('green', 'tree', 'npfg','National Park'),
+        'NHP': ('purple', 'landmark', 'littlefg','National Historical Park'),
+        'NPres': ('red', 'binoculars', 'littlefg','National Preserve'),
+        'NHRES': ('red', 'binoculars', 'littlefg','National Historic Reserve'),
+        'NHS': ('black', 'landmark-dome', 'littlefg','National Historic Site'),
+        'NM': ('#FF8E7F', 'monument', 'littlefg','National Monument'),
+        'NRA': ('#5B396B', 'compass', 'littlefg','National Recreation Area'),
+        'NS': ('darkblue', 'water', 'littlefg','National Seashore'),
+        'NL': ('lightblue', 'water', 'littlefg','National Lakeshore'),
+        'NMEM': ('darkred', 'archway', 'littlefg','National Memorial'),
+        'NMP': ('orange', 'person-military-rifle', 'littlefg','National Military Park'),
+        'NB': ('orange', 'person-rifle', 'littlefg','National Battle Field'),
+        'NBP': ('orange', 'person-military-pointing', 'littlefg','National Battle Field Park'),
+        'PARK': ('lightgreen', 'frog', 'littlefg','Park'),
+        'NMEMPWKY': ('gray', 'car', 'littlefg','National Memorial Parkway'),
+        'AIRPORT': ('darkgreen', 'plane', 'airportfg','Burger King'),
+        'Bur':('pink','burger','inoutfg','In N Out'),
+        'petroglyph':('#7D2929','wave-square','nativeSitesfg','Petroglyphs'),
+        'quarry':('#C56C39','hill-rockslide','nativeSitesfg','Rock Formations or Quarry'),
+        'mound':('#694C38','mound','nativeSitesfg','Mound'),
+        'greatwork':('#F8F8F6','connectdevelop','nativeSitesfg','Great Works')
     }
 
     def __init__(self,name,type,lat,long,date):
@@ -31,7 +31,7 @@ class park:
         self.long=long
         self.date=date
         self.mapping()
-
+        
 
     def add_date(self,date):
         self.date = self.date + ', ' + date

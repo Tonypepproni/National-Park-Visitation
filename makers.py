@@ -55,6 +55,7 @@ class icon(maker_tools):
                 popup=folium.Popup(html=self.htmlMaker(obj),max_width=300),
                 icon=self.iconMaker(obj.color,obj.icon_type,'fa')#creates a marker with this style
             ).add_to(group)
+            
 
 class obj(maker_tools):
     colors=['red','blue','green','purple','pink','darkred','orange']

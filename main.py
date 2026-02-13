@@ -9,6 +9,8 @@ dfn=pd.read_csv('info/native_sites.csv')
 sites={}
 trips={}
 in_n_out=[]
+
+
 npfg=folium.FeatureGroup(name='National parks',show=True)
 littlefg=folium.FeatureGroup(name="'small' parks",show=True)
 inoutfg=folium.FeatureGroup(name='In n Out Locations',show=False)
@@ -44,10 +46,10 @@ for keys in trips:
 
 npfg.add_to(m)
 littlefg.add_to(m)
+nativeSitesfg.add_to(m)
 inoutfg.add_to(m)
 airportfg.add_to(m)
 triplinefg.add_to(m)
-nativeSitesfg.add_to(m)
 
 folium.LayerControl().add_to(m)
 

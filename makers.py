@@ -11,18 +11,10 @@ class maker_tools(ABC):
 
 class line(maker_tools):
     def make(self,obj,group):
-        for i in range(0,len(obj.lat)):
-            if i+1 >= len(obj.lat):
-                point1=[obj.lat[i],obj.long[i]]
-                point2=[obj.lat[0],obj.long[0]]
-            else:
-                point1=[obj.lat[i],obj.long[i]]
-                point2=[obj.lat[i+1],obj.long[i+1]]
-
-            folium.PolyLine(locations=[point1,point2 ], 
-                            color=obj.color, 
-                            weight=5, 
-                            opacity=0.8).add_to(group)
+        obj.cap()
+        folium.plugins.AntPath(
+            locations=obj.locations,dash_array=[20,30],color=obj.color
+        ).add_to(group)
         
 
 class icon(maker_tools):

@@ -43,6 +43,10 @@ class park:
 class trip:
     def __init__(self,trip_name,start_lat,start_long,color):
         self.name=trip_name
+        self.locations=[
+            [start_lat,start_long]
+        ]
+        self.start=[start_lat,start_long]
         self.lat=[start_lat]
         self.long=[start_long]
         self.color=color
@@ -50,8 +54,10 @@ class trip:
     
     
     def add_loc(self,lat,long):
-        self.lat.append(lat)
-        self.long.append(long)
+        self.locations.append([lat,long])
+
+    def cap(self):
+        self.add_loc(self.start[0],self.start[])
 
     def path_logic(self,row):
         if row['stay'] =='stay' and (self.coords[0]==0):

@@ -1,6 +1,7 @@
-name,type,lat,long,dates,disp,trip,stay
-Swelter Shelter Petroglyphs,petroglyph,40.439255453937704, -109.29177873606974,5/23/2025,Petroglyphs,,
-Ute Indian Petroglyphs,petroglyph,38.73764691164049, -109.51858118481002,5/25/2025,Petroglyphs,,
-Pipestone Quarry,quarry,44.01350445349972, -96.32521183142151,7/19/2025,Quarry for Pipestone,,
-Effigy Mounds ,mound,43.08900791616202, -91.1856634333162,7/20/2025,Effigy & Burial Mounds,,
-Rock Art Site,petroglyph,34.02597543413127, -116.14707855461828,1/10/2026,Petroglyphs,,
+name,type,lat,long,dates,trip,stay
+Swelter Shelter Petroglyphs,petroglyph,40.439255453937704, -109.29177873606974,5/23/2025,,
+Ute Indian Petroglyphs,petroglyph,38.73764691164049, -109.51858118481002,5/25/2025,,
+Pipestone Quarry,quarry,44.01350445349972, -96.32521183142151,7/19/2025,,
+Effigy Mounds ,mound,43.08900791616202, -91.1856634333162,7/20/2025,,
+Rock Art Site,petroglyph,34.02597543413127, -116.14707855461828,1/10/2026,,
+Burial Mound,mound,34.978129088362365, -85.81001240536865,2/14/2026,,

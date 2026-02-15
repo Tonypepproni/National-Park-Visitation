@@ -1,32 +1,32 @@
-name,type,lat,long,dates,disp,trip,stay
-Chickamauga & Chattanooga,NMP,35.010826835294615, -85.3436311713325,,National Park,galavant,through
-Russell Cave,NM,34.978835744082154, -85.80981648481189,d,National Monument,galavant,through
-Ocmulgee Mounds,NHP,32.83830898845751, -83.60207312908646,d,National Historical Park,galavant,through
-Andersonville,NHS,32.20044913671737, -84.1303314289075,d,National Historic Site,galavant,through
-Jimmy Carter,NHP,32.03654149900641, -84.39250569831609,d,National Historical Park,galavant,through
-Tuskegee Institute,NHS,32.429875301973574, -85.70685294623361,d,Natoinal Historic Site,galavant,through
-Tuskegee Airmen,NHS,32.457433916684835, -85.68016074426122,d,National Historic Site,galavant,through
-Horseshoe Bend,NMP,32.97635621269059, -85.73353958845578,d,National Military Park,galavant,through
-Martin Luther King Jr.,NHP,33.756923659819485, -84.37326563095695,d,National Historical Park,galavant,through
-Chattahoochee River,NRA,33.98728723029985, -84.3235488934976,d,National Recreation Area,galavant,through
-Kennesaw Mountain,NBP,33.98324812380776, -84.57805964617742,d,National Battlefield Park,galavant,through
-Cuyahoga Valley,NP,41.28955611985271, -81.56733017084902,d,National Park,civil3,through
-Hopewell Culture,NHP,40.04207839199868, -82.42803229212687,d,National Historical Park,civil3,through
-George Rogers Clark,NHP,38.6780796380196, -87.53668442895214,d,National Historical Park,civil3,through
-Lincoln Boyhood,NMEM,38.113569696010586, -86.99585211372789,d,National Memorial,civil3,through
-Mammoth Cave,NP,37.20358746110172, -86.11347305484813,d,National Park,civil3,stay
-Camp Nelson,NM,37.797135166692065, -84.60071208850053,d,National Monument,civil3,visit
-Mill Springs BattleField,NM,37.0690584490587, -84.7362787884872,d,National Monument,civil3,visit
-Abraham Lincoln Birthplace,NHP,37.531292063980956, -85.73747164253732,d,National Historical Park,civil3,visit
-Stones River,NB,35.87628414861126, -86.43074058478331,d,National Battlefield,civil3,through
-Fort Donelson,NB,36.48196099696205, -87.86314447124678,d,National Battlefield,civil3,through
-Tupelo,NB,34.25591397411444, -88.73693599664362,d,National Battlefield,civil3,through
-Brices Cross Roads,NB,34.50640293117454, -88.7289276442784,d,National Battlefield,civil3,through
-Natchez Trace,NMEMPWKY,34.33688600726793, -88.70823443241088,d,National Memroial Parkway,civil3,through
-Shiloh,NMP,35.13922620930207, -88.34214005593678,d,National Military Park,civil3,through
-William Howard Taft,NHS,39.11964250396415, -84.50823069822661,d,National Historic Site,civil3,through
-Hopewell Culture,NHP,39.37667966445504, -83.0043216011488,d,National Historical Park,civil3,through
-Charles Young Buffalo Soldier,NM,39.707438085414275, -83.89026190012379,d,National Monument,civil3,through
-Dayton Avitation Heritage,NHP,39.755871917403525, -84.21168781365174,d,National Historical Park,civil3,through
-James A. Garfield,NHS,41.664937534355154, -81.35083331361842,d,National Historic Site,civil3,through
-First Ladies,NHS,40.79770372945249, -81.37520389650176,d,National Historic Site,civil3,through
+name,type,lat,long,dates,trip,stay
+Chickamauga & Chattanooga,NMP,35.010826835294615, -85.3436311713325,,galavant,through
+Russell Cave,NM,34.978835744082154, -85.80981648481189,d,galavant,through
+Ocmulgee Mounds,NHP,32.83830898845751, -83.60207312908646,d,galavant,through
+Andersonville,NHS,32.20044913671737, -84.1303314289075,d,galavant,through
+Jimmy Carter,NHP,32.03654149900641, -84.39250569831609,d,galavant,through
+Tuskegee Institute,NHS,32.429875301973574, -85.70685294623361,d,galavant,through
+Tuskegee Airmen,NHS,32.457433916684835, -85.68016074426122,d,galavant,through
+Horseshoe Bend,NMP,32.97635621269059, -85.73353958845578,d,galavant,through
+Martin Luther King Jr.,NHP,33.756923659819485, -84.37326563095695,d,galavant,through
+Chattahoochee River,NRA,33.98728723029985, -84.3235488934976,d,galavant,through
+Kennesaw Mountain,NBP,33.98324812380776, -84.57805964617742,d,galavant,through
+Cuyahoga Valley,NP,41.28955611985271, -81.56733017084902,d,civil3,through
+Hopewell Culture,NHP,40.04207839199868, -82.42803229212687,d,civil3,through
+George Rogers Clark,NHP,38.6780796380196, -87.53668442895214,d,civil3,through
+Lincoln Boyhood,NMEM,38.113569696010586, -86.99585211372789,d,civil3,through
+Mammoth Cave,NP,37.20358746110172, -86.11347305484813,d,civil3,stay
+Camp Nelson,NM,37.797135166692065, -84.60071208850053,d,civil3,visit
+Mill Springs BattleField,NM,37.0690584490587, -84.7362787884872,d,civil3,visit
+Abraham Lincoln Birthplace,NHP,37.531292063980956, -85.73747164253732,d,civil3,visit
+Stones River,NB,35.87628414861126, -86.43074058478331,d,civil3,through
+Fort Donelson,NB,36.48196099696205, -87.86314447124678,d,civil3,through
+Tupelo,NB,34.25591397411444, -88.73693599664362,d,civil3,through
+Brices Cross Roads,NB,34.50640293117454, -88.7289276442784,d,civil3,through
+Natchez Trace,NMEMPWKY,34.33688600726793, -88.70823443241088,d,civil3,through
+Shiloh,NMP,35.13922620930207, -88.34214005593678,d,civil3,through
+William Howard Taft,NHS,39.11964250396415, -84.50823069822661,d,civil3,through
+Hopewell Culture,NHP,39.37667966445504, -83.0043216011488,d,civil3,through
+Charles Young Buffalo Soldier,NM,39.707438085414275, -83.89026190012379,d,civil3,through
+Dayton Avitation Heritage,NHP,39.755871917403525, -84.21168781365174,d,civil3,through
+James A. Garfield,NHS,41.664937534355154, -81.35083331361842,d,civil3,through
+First Ladies,NHS,40.79770372945249, -81.37520389650176,d,civil3,through

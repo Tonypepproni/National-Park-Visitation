@@ -1,8 +1,4 @@
 name,type,lat,long,dates,trip,stay
-Tuskegee Institute,NHS,32.429875301973574, -85.70685294623361,2/16/2026,galavant,through
-Tuskegee Airmen,NHS,32.457433916684835, -85.68016074426122,2/16/2026,galavant,through
-Horseshoe Bend,NMP,32.97635621269059, -85.73353958845578,2/16/2026,galavant,through
-Freedom Riders,NM,33.658344786149414, -85.83113381366509,2/16/2026,galavant,through
 Martin Luther King Jr.,NHP,33.756923659819485, -84.37326563095695,d,galavant,through
 Chattahoochee River,NRA,33.98728723029985, -84.3235488934976,d,galavant,through
 Kennesaw Mountain,NBP,33.98324812380776, -84.57805964617742,d,galavant,through
@@ -26,3 +22,19 @@ Charles Young Buffalo Soldier,NM,39.707438085414275, -83.89026190012379,d,Civil 
 Dayton Avitation Heritage,NHP,39.755871917403525, -84.21168781365174,d,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
 James A. Garfield,NHS,41.664937534355154, -81.35083331361842,d,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
 First Ladies,NHS,40.79770372945249, -81.37520389650176,d,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+Phoenix Sky Harbor International Airport,AIRPORT,33.43611569053197, -112.01021402006121,d,arizona,through
+Case Grande Ruins,NM,32.99763355706648, -111.53257898660242,d,arizona,through
+Organ Pipe Cactus,NM,32.0281747198298, -112.8321055731125,d,arizona,through
+Saguro,NP,32.20874358137888, -110.61961178465316,d,arizona,stay
+Tumacacori,NHP,31.568035665976613, -111.05110790598502,d,arizona,visit
+Coronado,NMEM,31.345956828790207, -110.25380768661668,d,arizona,visit
+Fort Bowie,NHS,32.14463723132088, -109.43601577126582,d,arizona,visit
+Chiricahua,NM,32.01234553913868, -109.34161050008285,d,arizona,visit
+Tonto,NM,33.64850004998671, -111.11358475779492,d,arizona,through
+Montezuma Castle,NM,34.61169029074903, -111.83488884059165,d,arizona,through
+Tuzigoot,NM,34.76863964000016, -112.02673062522548,d,arizona,through
+Walnut Canyon,NM,35.16915922557785, -111.50428325590448,d,arizona,through
+Sunset Crater Volcano,NM,35.371244130452276, -111.51086161547086,d,arizona,through
+Wupatki,NM,35.56008823574024, -111.39347345593865,d,arizona,through
+Grand Canyon,NP,36.33079310940465, -112.35851187631067,d,arizona,stay
+Phoenix Sky Harbor International Airport,AIRPORT,33.43611569053197, -112.01021402006121,d,arizona,through

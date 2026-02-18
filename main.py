@@ -1,8 +1,6 @@
 import pandas as pd
 import folium
 
-from folium.plugins.treelayercontrol import TreeLayerControl
-
 from makers import line,icon,obj
 from mapObj import park, trip
 

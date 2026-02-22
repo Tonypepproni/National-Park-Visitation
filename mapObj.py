@@ -24,8 +24,9 @@ class park:
         'greatwork':('#F8F8F6','connectdevelop','nativeSitesfg','Great Works')
     }
 
-    def __init__(self,name,type,lat,long,date):
+    def __init__(self,name,code,type,lat,long,date):
         self.name=name
+        self.code=code
         self.type=type
         self.lat=lat
         self.long=long

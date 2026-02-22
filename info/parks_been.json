@@ -1,0 +1,18 @@
+{
+    "COGA": {
+        "name": "Constitution Gardens",
+        "code": "COGA"
+    },
+    "NACE": {
+        "name": "National Capital Parks-East",
+        "code": "NACE"
+    },
+    "THIS": {
+        "name": "Theodore Roosevelt Island",
+        "code": "THIS"
+    },
+    "WAMO": {
+        "name": "Washington Monument",
+        "code": "WAMO"
+    }
+}

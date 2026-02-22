@@ -68,9 +68,9 @@ class obj(maker_tools):
     def make(self,df,sites,trips,in_n_out):
         for i in range(0,len(df)):
             row=df.iloc[i]
-            if row['name'] not in sites and row['name']!='In N Out Burger':
+            if row['code'] not in sites and row['code']!='In N Out Burger':
                 #checks if its a park site and adds it to sites dict
-                sites[row['name']]=park(row['name'],row['type'],row['lat'],row['long'],row['dates'])
+                sites[row['name']]=park(row['name'],row['code'],row['type'],row['lat'],row['long'],row['dates'])
 
             elif row['name']=='In N Out Burger':
                 #adds to in n out specific list

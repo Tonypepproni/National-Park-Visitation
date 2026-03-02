@@ -1,69 +1,56 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+import folium
 
-class Park:
-    def __init__(self,data):
-        self.data=data
+from makers import line,icon,obj
+from mapObj import park, trip
 
-        #Creates data frame upon init
-        self.df=pd.read_csv(self.data, header=2)
-        self.df.columns=self.df.columns.str.strip().str.upper()
-        self.df.iloc[:,1:14]=self.df.iloc[:,1:14].replace(",","",regex=True)
-        for col in self.df.columns[1:14]:
-            self.df[col]=pd.to_numeric(self.df[col],errors="coerce")
+df=pd.read_csv('info/parks.csv')
+dfn=pd.read_csv('info/native_sites.csv')
+sites={}
+trips={}
+in_n_out=[]
 
-    def spefYearDF(self,year):
-        self.spefYear=self.df[self.df["YEAR"]>=year]
 
-    def oneMonthStatsSpef(self,month):
-        self.oneMeanSpef=self.spefYear[month].mean()
-        self.oneMedianSpef=self.spefYear[month].median()
-        self.oneSDSpef=self.spefYear[month].std()
-        self.oneMinSpef=self.spefYear[month].min()
-        self.oneMaxSpef=self.spefYear[month].max()
-        self.oneRangeSpef=self.oneMaxSpef-self.oneMinSpef
-        self.oneExSpef=self.spefYear[month].sum()
-        
-    def oneMonthStats(self,month):
-        self.oneMean=self.df[month].mean()
-        self.oneMedian=self.df[month].median()
-        self.oneSD=self.df[month].std()
-        self.oneMin=self.df[month].min()
-        self.oneMax=self.df[month].max()
-        self.oneRange=self.oneMax-self.oneMin
-        self.oneEx=self.df[month].sum()
+npfg=folium.FeatureGroup(name='National parks',show=True)
+littlefg=folium.FeatureGroup(name="'small' parks",show=True)
+inoutfg=folium.FeatureGroup(name='In n Out Locations',show=False)
+airportfg=folium.FeatureGroup(name='Airports',show=True)
+triplinefg=folium.FeatureGroup(name='Trip lines',show=False)
+nativeSitesfg=folium.FeatureGroup(name='Native American Sites',show=False)
 
-    def printSpefYearDF(self):
-        print(self.spefYear)
+groups={
+'npfg':npfg,
+'littlefg':littlefg,
+'inoutfg':inoutfg,
+'airportfg':airportfg,
+'triplinefg':triplinefg,
+'nativeSitesfg':nativeSitesfg
+}
 
-    def printDF(self):
-        print(self.df)
+obj.make(df,sites,trips,in_n_out)
+obj.make(dfn,sites,trips,in_n_out)
 
-    def printOneMonthStatsSpef(self):
-        print(f"Mean   {self.oneMeanSpef:,.3f}")
-        print(f'Median {self.oneMedianSpef:,}')
-        print(f"SD     {self.oneSDSpef:,.3f}")
-        print(f"Min    {self.oneMinSpef:,}")
-        print(f"Max    {self.oneMaxSpef:,}")
-        print(f"Range  {self.oneRangeSpef:,}")
-        print(f"∑(x)   {self.oneExSpef:,}")
+    
+m = folium.Map(location=(40.002889953443024, -98.66778859149203), zoom_start=5, tiles="cartodb positron")
 
-    def printOneMonthStats(self):
-        print(f"Mean   {self.oneMean:,.3f}")
-        print(f'Median {self.oneMedian:,}')
-        print(f"SD     {self.oneSD:,.3f}")
-        print(f"Min    {self.oneMin:,}")
-        print(f"Max    {self.oneMax:,}")
-        print(f"Range  {self.oneRange:,}")
-        print(f"∑(x)   {self.oneEx:,}")
+for key in sites:
+    icon.make(sites[key],groups[sites[key].group])
+    
 
-'''cedarBreaks=Park('data/CedarBreaks.csv')
-cedarBreaks.spefYearDF(2021)
-cedarBreaks.printSpefYearDF()
-cedarBreaks.oneMonthStatsSpef("MAY")
-cedarBreaks.printOneMonthStatsSpef()
-cedarBreaks.oneMonthStats("MAY")
-cedarBreaks.printOneMonthStats()
 
-cedarBreaks.df.loc[cedarBreaks.df["YEAR"]==2024,cedarBreaks.df.columns[2:13]].plot(kind="bar",width=1)
-plt.show()'''
+for i in in_n_out:
+    icon.make(i,groups[i.group])
+
+for keys in trips:
+    line.make(trips[keys],groups['triplinefg'])
+
+npfg.add_to(m)
+littlefg.add_to(m)
+nativeSitesfg.add_to(m)
+inoutfg.add_to(m)
+airportfg.add_to(m)
+triplinefg.add_to(m)
+
+folium.LayerControl().add_to(m)
+
+m.save("index.html")

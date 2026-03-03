@@ -5,7 +5,6 @@ from makers import line,icon,obj
 from mapObj import park, trip
 
 df=pd.read_csv('info/parks.csv')
-dfn=pd.read_csv('info/native_sites.csv')
 sites={}
 trips={}
 in_n_out=[]
@@ -16,27 +15,22 @@ littlefg=folium.FeatureGroup(name="'small' parks",show=True)
 inoutfg=folium.FeatureGroup(name='In n Out Locations',show=False)
 airportfg=folium.FeatureGroup(name='Airports',show=True)
 triplinefg=folium.FeatureGroup(name='Trip lines',show=False)
-nativeSitesfg=folium.FeatureGroup(name='Native American Sites',show=False)
 
 groups={
 'npfg':npfg,
 'littlefg':littlefg,
 'inoutfg':inoutfg,
 'airportfg':airportfg,
-'triplinefg':triplinefg,
-'nativeSitesfg':nativeSitesfg
+'triplinefg':triplinefg
 }
 
 obj.make(df,sites,trips,in_n_out)
-obj.make(dfn,sites,trips,in_n_out)
 
     
-m = folium.Map(location=(40.002889953443024, -98.66778859149203), zoom_start=5, tiles="cartodb positron")
+m = folium.Map(location=(40.70812490067838, -74.0015293469354), zoom_start=5, tiles="cartodb positron")
 
 for key in sites:
     icon.make(sites[key],groups[sites[key].group])
-    
-
 
 for i in in_n_out:
     icon.make(i,groups[i.group])
@@ -46,7 +40,6 @@ for keys in trips:
 
 npfg.add_to(m)
 littlefg.add_to(m)
-nativeSitesfg.add_to(m)
 inoutfg.add_to(m)
 airportfg.add_to(m)
 triplinefg.add_to(m)

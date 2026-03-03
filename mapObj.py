@@ -17,11 +17,7 @@ class park:
         'PARK': ('#50C878', 'frog', 'littlefg','Park'),
         'NMEMPWKY': ('#848884', 'car', 'littlefg','National Memorial Parkway'),
         'AIRPORT': ('#AFAFAF', 'plane', 'airportfg','Burger King'),
-        'Bur':('pink','burger','inoutfg','In N Out'),
-        'petroglyph':('#7D2929','wave-square','nativeSitesfg','Petroglyphs'),
-        'quarry':('#C56C39','hill-rockslide','nativeSitesfg','Rock Formations or Quarry'),
-        'mound':('#694C38','mound','nativeSitesfg','Mound'),
-        'greatwork':('#F8F8F6','connectdevelop','nativeSitesfg','Great Works')
+        'Bur':('pink','burger','inoutfg','In N Out')
     }
 
     def __init__(self,name,type,lat,long,date):

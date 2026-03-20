@@ -68,13 +68,13 @@ class obj(maker_tools):
     def make(self,df,sites,trips,in_n_out):
         for i in range(0,len(df)):
             row=df.iloc[i]
-            if row['code'] not in sites and row['code']!='In N Out Burger':
+            if row['code'] not in sites and row['code']!='INOB':
                 #checks if its a park site and adds it to sites dict
                 sites[row['name']]=park(row['name'],row['code'],row['type'],row['lat'],row['long'],row['dates'])
 
             elif row['name']=='In N Out Burger':
                 #adds to in n out specific list
-                in_n_out.append(park(row['name'],row['type'],row['lat'],row['long'],row['dates']))
+                in_n_out.append(park(name=row['name'],code=row['code'],type=row['type'],lat=row['lat'],long=row['long'],date=row['dates']))
             elif df.iloc[i]['name'] in sites:
                 #if its already in sites it appends the date
                 sites[row['name']].add_date(row['dates'])

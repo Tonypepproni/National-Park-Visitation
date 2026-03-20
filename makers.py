@@ -70,14 +70,14 @@ class obj(maker_tools):
             row=df.iloc[i]
             if row['code'] not in sites and row['code']!='INOB':
                 #checks if its a park site and adds it to sites dict
-                sites[row['name']]=park(row['name'],row['code'],row['type'],row['lat'],row['long'],row['dates'])
+                sites[row['code']]=park(row['name'],row['code'],row['type'],row['lat'],row['long'],row['dates'])
 
-            elif row['name']=='In N Out Burger':
+            elif row['code']=='INOB':
                 #adds to in n out specific list
                 in_n_out.append(park(name=row['name'],code=row['code'],type=row['type'],lat=row['lat'],long=row['long'],date=row['dates']))
-            elif df.iloc[i]['name'] in sites:
+            elif df.iloc[i]['code'] in sites:
                 #if its already in sites it appends the date
-                sites[row['name']].add_date(row['dates'])
+                sites[row['code']].add_date(row['dates'])
 
             if (row['trip'] not in trips) and (not pd.isna(row['trip'])):
                 color=obj.colors[random.randint(0,len(obj.colors)-1)]

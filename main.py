@@ -25,6 +25,7 @@ groups={
 
 obj.make(df,sites,trips,in_n_out)
 
+
     
 m = folium.Map(location=(40.70812490067838, -74.0015293469354), zoom_start=5, tiles="cartodb positron")
 

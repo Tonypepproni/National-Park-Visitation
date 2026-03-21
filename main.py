@@ -1,7 +1,10 @@
 import pandas as pd
 import folium
 
-from makers import line,icon,obj
+from makers import line,icon,objPark
+
+from makers import obj
+
 from mapObj import park, trip
 
 df=pd.read_csv('info/parks.csv')
@@ -23,9 +26,7 @@ groups={
 'triplinefg':triplinefg
 }
 
-obj.make(df,sites,trips,in_n_out)
-
-
+objPark.make(df,sites,trips,in_n_out)
     
 m = folium.Map(location=(40.70812490067838, -74.0015293469354), zoom_start=5, tiles="cartodb positron")
 
@@ -47,3 +48,41 @@ triplinefg.add_to(m)
 folium.LayerControl().add_to(m)
 
 m.save("index.html")
+
+coObj=obj(42.41516630203087, -71.15539475358685)
+
+dfc=pd.read_csv('info/co.csv')
+
+sitesc={}
+tripc={}
+
+city=folium.FeatureGroup(name='Cities',show=True)
+airportfg=folium.FeatureGroup(name='Airports',show=True)
+nature=folium.FeatureGroup(name='Nature Place',show=True)
+triplinecfg=folium.FeatureGroup(name='Trip lines',show=False)
+
+groupsc={
+'city':city,
+'airportfg':airportfg,
+'nature':nature,
+'triplinecfg':triplinecfg
+}
+
+coObj.make(dfc,sites=sitesc,trips=tripc)
+    
+mc = folium.Map(location=(34.42660027781548, -41.54689363489738), zoom_start=3, tiles="cartodb positron")
+
+for key in sitesc:
+    icon.make(sitesc[key],groupsc[sitesc[key].group])
+
+for keys in tripc:
+    line.make(tripc[keys],groupsc['triplinecfg'])
+
+city.add_to(mc)
+airportfg.add_to(mc)
+nature.add_to(mc)
+triplinecfg.add_to(mc)
+
+folium.LayerControl().add_to(mc)
+
+mc.save("countires.html")

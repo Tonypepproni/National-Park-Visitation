@@ -1,0 +1,21 @@
+name,code,type,lat,long,dates,trip,stay
+Boston,BOST,city,42.3523172104093,-71.05518097826045,meow,,
+Logan International Airport,LOAR,AIRPORT,42.36642695539527, -71.01937601406813,6/12/2025,portugal,through
+Humberto Delgado Airport,HUDE,AIRPORT_INT,38.7797459944043, -9.132012700441736,6/13/2025,portugal,through
+Lisbon,LISB,city,38.721444399802536, -9.146295763265787,6/13/2025-6/16/2025,portugal,stay
+Sintra,SINT,town,38.802432784657675, -9.382555797093001,6/16/2025,portugal,through
+Torres Vedras,TOVE,town,39.091165800268335, -9.259207602601165,6/16/2025,portugal,through
+Paria Del Rey Portugal,PDRP,resort,39.38768233065305, -9.28620425530794,6/16/2025;6/17/2025,portugal,stay
+Obidos,OBID,town,39.35769568468899, -9.159589193369547,6/17/2025,portugal,visit
+Caldas da Rainha,CDRA,town,39.40460049232336, -9.141634295147153,6/17/2025,portugal,visit
+Foz do Arelho,FODA,beach,39.43594658994609, -9.220062382949996,6/17/2025,portugal,visit
+Paria Del Rey Portugal,PDRP,resort,39.38768233065305, -9.28620425530794,6/18/2025,portugal,stay
+Peniche,PENC,town,39.36014860550417, -9.387204282377528,6/18/2025,portugal,visit
+Reserva Natural das Berlengas,RNDB,nationalPark,39.41501040195802, -9.50693030433991,portugal,visit
+Pegadas De Dinossauro,PEDD,nationalPark,39.50728649389884, -9.176986776222938,6/19/2025,portugal,through
+Nazare,NAZR,town,39.60142844892871, -9.06949572187929,6/19/2025,portugal,through
+Leiria,LEIR,city,39.748782390977894, -8.806302029456129,6/19/2025,portugal,through
+Coimbra,COIM,city,40.204378655789, -8.410094546492141,6/19/2025,portugal,through
+Porto,PORT,city,41.157795406429976, -8.626416849852568,6/19/2025-6/21/2025,portugal,stay
+Francisco Sa Carneiro Airport,FSCA,AIRPORT_INT,41.24764926680866, -8.680513596439852,6/21/2025,portugal,through
+Logan International Airport,LOAR,AIRPORT,42.36642695539527, -71.01937601406813,6/21/2025,portugal,through

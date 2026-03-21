@@ -63,9 +63,10 @@ class icon(maker_tools):
 
 class obj(maker_tools):
     colors=['red','blue','green','purple','pink','darkred','orange']
-    def __init__(self):
-        pass
-    def make(self,df,sites,trips,in_n_out):
+    def __init__(self,start_lat,start_long):
+        self.lat=start_lat
+        self.long=start_long
+    def make(self,df,sites,trips,in_n_out=None):
         for i in range(0,len(df)):
             row=df.iloc[i]
             if row['code'] not in sites and row['code']!='INOB':
@@ -81,7 +82,7 @@ class obj(maker_tools):
 
             if (row['trip'] not in trips) and (not pd.isna(row['trip'])):
                 color=obj.colors[random.randint(0,len(obj.colors)-1)]
-                trips[row['trip']]=trip(row['trip'],41.0938684589138,-74.0152150078762,color)
+                trips[row['trip']]=trip(row['trip'],self.lat,self.long,color)
                 obj.colors.remove(color)
                 
                 trips[row['trip']].path_logic(row)
@@ -91,4 +92,4 @@ class obj(maker_tools):
 
 line=line()
 icon=icon()
-obj=obj()
+objPark=obj(41.0938684589138,-74.0152150078762)

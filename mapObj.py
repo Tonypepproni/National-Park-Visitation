@@ -16,12 +16,18 @@ class park:
         'NBP': ('#B02B3B', 'person-military-pointing', 'littlefg','National Battle Field Park'),
         'PARK': ('#50C878', 'frog', 'littlefg','Park'),
         'NMEMPWKY': ('#848884', 'car', 'littlefg','National Memorial Parkway'),
-        'AIRPORT': ('#AFAFAF', 'plane', 'airportfg','Burger King'),
+        'AIRPORT': ('#AFAFAF', 'plane', 'airportfg','An Airport Man IDK'),
+        'AIRPORT_INT': ('#AFAFAF', 'passport', 'airportfg','An Airport Man IDK'),
         'Bur':('pink','burger','inoutfg','In N Out'),
         'petroglyph':('#7D2929','wave-square','nativeSitesfg','Petroglyphs'),
         'quarry':('#C56C39','hill-rockslide','nativeSitesfg','Rock Formations or Quarry'),
         'mound':('#694C38','mound','nativeSitesfg','Mound'),
-        'greatwork':('#F8F8F6','connectdevelop','nativeSitesfg','Great Works')
+        'greatwork':('#F8F8F6','connectdevelop','nativeSitesfg','Great Works'),
+        'city':("#000000",'city','city','City'),
+        'town':("#FFA500",'tree-city','city','Town or Other Municaplity'),
+        'resort':('#48D1CC','umbrella-beach','city','Resort'),
+        'beach':('#00008B','water','nature','Beach'),
+        'nationalPark':('#4A5D23','tree','nature','National Park or Reserve')
     }
 
     def __init__(self,name,code,type,lat,long,date):

@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d57e967ca3ff6d95103966ce17634bae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d57e967ca3ff6d95103966ce17634bae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d57e967ca3ff6d95103966ce17634bae = L.map(
+                "map_d57e967ca3ff6d95103966ce17634bae",
+                {
+                    center: [34.42660027781548, -41.54689363489738],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f61544c012b2234d0b3d5e77885b5b42 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f61544c012b2234d0b3d5e77885b5b42.addTo(map_d57e967ca3ff6d95103966ce17634bae);
+        
+    
+            var feature_group_6c84e503646840889ead4678c83de760 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_28546a86843cf337b645a9ac265ce39b = L.marker(
+                [42.3523172104093, -71.05518097826045],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_1fff8e6356ca4671a926df2aa4ecf7bd = new L.BeautifyIcon.icon(
+                {
+  "icon": "city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#000000",
+  "textColor": "white",
+  "backgroundColor": "#000000",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_28546a86843cf337b645a9ac265ce39b.setIcon(beautify_icon_1fff8e6356ca4671a926df2aa4ecf7bd);
+        
+    
+        var popup_f6ea714e62eb7f9881a8383cb711d5fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2aed3fa834b62d14e5467ff37d380d8 = $(`<div id="html_f2aed3fa834b62d14e5467ff37d380d8" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Boston</h3>                 <p>City</p>                 <h3>Dates visted</h3>                 <p>meow</p>             </center></body>         </html>         </div>`)[0];
+                popup_f6ea714e62eb7f9881a8383cb711d5fd.setContent(html_f2aed3fa834b62d14e5467ff37d380d8);
+            
+        
+
+        marker_28546a86843cf337b645a9ac265ce39b.bindPopup(popup_f6ea714e62eb7f9881a8383cb711d5fd)
+        ;
+
+        
+    
+    
+                marker_28546a86843cf337b645a9ac265ce39b.setIcon(beautify_icon_1fff8e6356ca4671a926df2aa4ecf7bd);
+            
+    
+            var marker_fe9bc33a452aa370225c7218e58666b5 = L.marker(
+                [38.721444399802536, -9.146295763265789],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_792d514c7ffd3d2ac680c2909dc9fe03 = new L.BeautifyIcon.icon(
+                {
+  "icon": "city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#000000",
+  "textColor": "white",
+  "backgroundColor": "#000000",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_fe9bc33a452aa370225c7218e58666b5.setIcon(beautify_icon_792d514c7ffd3d2ac680c2909dc9fe03);
+        
+    
+        var popup_913543dca43604aa2293095fecd2c20c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bff70619b219de2709a42eeaa9543176 = $(`<div id="html_bff70619b219de2709a42eeaa9543176" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Lisbon</h3>                 <p>City</p>                 <h3>Dates visted</h3>                 <p>6/13/2025-6/16/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_913543dca43604aa2293095fecd2c20c.setContent(html_bff70619b219de2709a42eeaa9543176);
+            
+        
+
+        marker_fe9bc33a452aa370225c7218e58666b5.bindPopup(popup_913543dca43604aa2293095fecd2c20c)
+        ;
+
+        
+    
+    
+                marker_fe9bc33a452aa370225c7218e58666b5.setIcon(beautify_icon_792d514c7ffd3d2ac680c2909dc9fe03);
+            
+    
+            var marker_feb037759b26b30c5a7a7aad883c1658 = L.marker(
+                [38.80243278465768, -9.382555797093],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_211745ce505e0e4c584280c04903fc6b = new L.BeautifyIcon.icon(
+                {
+  "icon": "tree-city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#FFA500",
+  "textColor": "white",
+  "backgroundColor": "#FFA500",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_feb037759b26b30c5a7a7aad883c1658.setIcon(beautify_icon_211745ce505e0e4c584280c04903fc6b);
+        
+    
+        var popup_e35c6816bad75dd3364418639f5efe8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5636aa455dc919612d525bb696da99fc = $(`<div id="html_5636aa455dc919612d525bb696da99fc" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Sintra</h3>                 <p>Town or Other Municaplity</p>                 <h3>Dates visted</h3>                 <p>6/16/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_e35c6816bad75dd3364418639f5efe8f.setContent(html_5636aa455dc919612d525bb696da99fc);
+            
+        
+
+        marker_feb037759b26b30c5a7a7aad883c1658.bindPopup(popup_e35c6816bad75dd3364418639f5efe8f)
+        ;
+
+        
+    
+    
+                marker_feb037759b26b30c5a7a7aad883c1658.setIcon(beautify_icon_211745ce505e0e4c584280c04903fc6b);
+            
+    
+            var marker_ac0803c9a8d5d058eaa9d089efbc1285 = L.marker(
+                [39.091165800268335, -9.259207602601164],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_fe339a554505ca6b0315ce6fea576346 = new L.BeautifyIcon.icon(
+                {
+  "icon": "tree-city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#FFA500",
+  "textColor": "white",
+  "backgroundColor": "#FFA500",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_ac0803c9a8d5d058eaa9d089efbc1285.setIcon(beautify_icon_fe339a554505ca6b0315ce6fea576346);
+        
+    
+        var popup_4c280dab9050a078645a5ddf9213b653 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6397b4291bef5815512e3fda3d1b52c1 = $(`<div id="html_6397b4291bef5815512e3fda3d1b52c1" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Torres Vedras</h3>                 <p>Town or Other Municaplity</p>                 <h3>Dates visted</h3>                 <p>6/16/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_4c280dab9050a078645a5ddf9213b653.setContent(html_6397b4291bef5815512e3fda3d1b52c1);
+            
+        
+
+        marker_ac0803c9a8d5d058eaa9d089efbc1285.bindPopup(popup_4c280dab9050a078645a5ddf9213b653)
+        ;
+
+        
+    
+    
+                marker_ac0803c9a8d5d058eaa9d089efbc1285.setIcon(beautify_icon_fe339a554505ca6b0315ce6fea576346);
+            
+    
+            var marker_307ab74cf711d4f411f6f6610a1fc5ce = L.marker(
+                [39.38768233065305, -9.28620425530794],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_c130a63903b502dcb43cee7e6cbc83a4 = new L.BeautifyIcon.icon(
+                {
+  "icon": "umbrella-beach",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#48D1CC",
+  "textColor": "white",
+  "backgroundColor": "#48D1CC",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_307ab74cf711d4f411f6f6610a1fc5ce.setIcon(beautify_icon_c130a63903b502dcb43cee7e6cbc83a4);
+        
+    
+        var popup_182e516da1adeaaaf7f777f89d0b97d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9a3283c4d0e0203a830db1a47bcdb4d = $(`<div id="html_d9a3283c4d0e0203a830db1a47bcdb4d" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Paria Del Rey Portugal</h3>                 <p>Resort</p>                 <h3>Dates visted</h3>                 <p>6/16/2025;6/17/2025, 6/18/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_182e516da1adeaaaf7f777f89d0b97d0.setContent(html_d9a3283c4d0e0203a830db1a47bcdb4d);
+            
+        
+
+        marker_307ab74cf711d4f411f6f6610a1fc5ce.bindPopup(popup_182e516da1adeaaaf7f777f89d0b97d0)
+        ;
+
+        
+    
+    
+                marker_307ab74cf711d4f411f6f6610a1fc5ce.setIcon(beautify_icon_c130a63903b502dcb43cee7e6cbc83a4);
+            
+    
+            var marker_a7cf36f2d117e530a4f8a90262382b4f = L.marker(
+                [39.35769568468899, -9.159589193369548],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_891f536c77f9329951645adc442c4459 = new L.BeautifyIcon.icon(
+                {
+  "icon": "tree-city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#FFA500",
+  "textColor": "white",
+  "backgroundColor": "#FFA500",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_a7cf36f2d117e530a4f8a90262382b4f.setIcon(beautify_icon_891f536c77f9329951645adc442c4459);
+        
+    
+        var popup_fd3e8cd4e95e8a591596869a894c78de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3250cd7a6ebdaa9ad260ce9ee47e514 = $(`<div id="html_f3250cd7a6ebdaa9ad260ce9ee47e514" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Obidos</h3>                 <p>Town or Other Municaplity</p>                 <h3>Dates visted</h3>                 <p>6/17/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_fd3e8cd4e95e8a591596869a894c78de.setContent(html_f3250cd7a6ebdaa9ad260ce9ee47e514);
+            
+        
+
+        marker_a7cf36f2d117e530a4f8a90262382b4f.bindPopup(popup_fd3e8cd4e95e8a591596869a894c78de)
+        ;
+
+        
+    
+    
+                marker_a7cf36f2d117e530a4f8a90262382b4f.setIcon(beautify_icon_891f536c77f9329951645adc442c4459);
+            
+    
+            var marker_cce64a35f7bc0c6fff70f9fec56777b2 = L.marker(
+                [39.40460049232336, -9.141634295147153],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_12d4eb519b38a33d29ef21bdb8ce0848 = new L.BeautifyIcon.icon(
+                {
+  "icon": "tree-city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#FFA500",
+  "textColor": "white",
+  "backgroundColor": "#FFA500",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_cce64a35f7bc0c6fff70f9fec56777b2.setIcon(beautify_icon_12d4eb519b38a33d29ef21bdb8ce0848);
+        
+    
+        var popup_479a6a7598a0d710abac75a59cb34830 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_367a3c684793b9cbab5dd0935ce3276a = $(`<div id="html_367a3c684793b9cbab5dd0935ce3276a" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Caldas da Rainha</h3>                 <p>Town or Other Municaplity</p>                 <h3>Dates visted</h3>                 <p>6/17/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_479a6a7598a0d710abac75a59cb34830.setContent(html_367a3c684793b9cbab5dd0935ce3276a);
+            
+        
+
+        marker_cce64a35f7bc0c6fff70f9fec56777b2.bindPopup(popup_479a6a7598a0d710abac75a59cb34830)
+        ;
+
+        
+    
+    
+                marker_cce64a35f7bc0c6fff70f9fec56777b2.setIcon(beautify_icon_12d4eb519b38a33d29ef21bdb8ce0848);
+            
+    
+            var marker_c76217b8be13a9b3f98c0dc99fa641e2 = L.marker(
+                [39.36014860550417, -9.387204282377528],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_c26cae7b28437d3c8972b54ff6e2857b = new L.BeautifyIcon.icon(
+                {
+  "icon": "tree-city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#FFA500",
+  "textColor": "white",
+  "backgroundColor": "#FFA500",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_c76217b8be13a9b3f98c0dc99fa641e2.setIcon(beautify_icon_c26cae7b28437d3c8972b54ff6e2857b);
+        
+    
+        var popup_526a8b708dc26ac878487b1bdcfa288b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1257ccea396bb58f3c7d066ec558b14a = $(`<div id="html_1257ccea396bb58f3c7d066ec558b14a" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Peniche</h3>                 <p>Town or Other Municaplity</p>                 <h3>Dates visted</h3>                 <p>6/18/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_526a8b708dc26ac878487b1bdcfa288b.setContent(html_1257ccea396bb58f3c7d066ec558b14a);
+            
+        
+
+        marker_c76217b8be13a9b3f98c0dc99fa641e2.bindPopup(popup_526a8b708dc26ac878487b1bdcfa288b)
+        ;
+
+        
+    
+    
+                marker_c76217b8be13a9b3f98c0dc99fa641e2.setIcon(beautify_icon_c26cae7b28437d3c8972b54ff6e2857b);
+            
+    
+            var marker_6633c96daaeeb5b97873e8fc62635146 = L.marker(
+                [39.60142844892871, -9.06949572187929],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_a1cec8a4a881ce2bcf6b6baa1db17029 = new L.BeautifyIcon.icon(
+                {
+  "icon": "tree-city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#FFA500",
+  "textColor": "white",
+  "backgroundColor": "#FFA500",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_6633c96daaeeb5b97873e8fc62635146.setIcon(beautify_icon_a1cec8a4a881ce2bcf6b6baa1db17029);
+        
+    
+        var popup_3c1bfbacf8c594936d7aa12a266a1c75 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e8130ba997dce2913b009d617a52a63a = $(`<div id="html_e8130ba997dce2913b009d617a52a63a" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Nazare</h3>                 <p>Town or Other Municaplity</p>                 <h3>Dates visted</h3>                 <p>6/19/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_3c1bfbacf8c594936d7aa12a266a1c75.setContent(html_e8130ba997dce2913b009d617a52a63a);
+            
+        
+
+        marker_6633c96daaeeb5b97873e8fc62635146.bindPopup(popup_3c1bfbacf8c594936d7aa12a266a1c75)
+        ;
+
+        
+    
+    
+                marker_6633c96daaeeb5b97873e8fc62635146.setIcon(beautify_icon_a1cec8a4a881ce2bcf6b6baa1db17029);
+            
+    
+            var marker_e4c85860060f6a37d9ce6926b46a2d80 = L.marker(
+                [39.74878239097789, -8.806302029456129],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_648424a9b004006170a53d9ea1d52f66 = new L.BeautifyIcon.icon(
+                {
+  "icon": "city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#000000",
+  "textColor": "white",
+  "backgroundColor": "#000000",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_e4c85860060f6a37d9ce6926b46a2d80.setIcon(beautify_icon_648424a9b004006170a53d9ea1d52f66);
+        
+    
+        var popup_2aa46cb77f4142c0259113ff38f64a92 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_83fc02fb10f79ebabfd7de69914da670 = $(`<div id="html_83fc02fb10f79ebabfd7de69914da670" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Leiria</h3>                 <p>City</p>                 <h3>Dates visted</h3>                 <p>6/19/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_2aa46cb77f4142c0259113ff38f64a92.setContent(html_83fc02fb10f79ebabfd7de69914da670);
+            
+        
+
+        marker_e4c85860060f6a37d9ce6926b46a2d80.bindPopup(popup_2aa46cb77f4142c0259113ff38f64a92)
+        ;
+
+        
+    
+    
+                marker_e4c85860060f6a37d9ce6926b46a2d80.setIcon(beautify_icon_648424a9b004006170a53d9ea1d52f66);
+            
+    
+            var marker_32d9b02d7a0c3be56129b6838d7d40e7 = L.marker(
+                [40.204378655789, -8.410094546492141],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_d7a4cf141d5ce9ccca445b7ccc1a6214 = new L.BeautifyIcon.icon(
+                {
+  "icon": "city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#000000",
+  "textColor": "white",
+  "backgroundColor": "#000000",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_32d9b02d7a0c3be56129b6838d7d40e7.setIcon(beautify_icon_d7a4cf141d5ce9ccca445b7ccc1a6214);
+        
+    
+        var popup_544677489a22be0fc0e06510949d1c63 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_03027e3a49acd3d5b435228f9b31905c = $(`<div id="html_03027e3a49acd3d5b435228f9b31905c" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Coimbra</h3>                 <p>City</p>                 <h3>Dates visted</h3>                 <p>6/19/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_544677489a22be0fc0e06510949d1c63.setContent(html_03027e3a49acd3d5b435228f9b31905c);
+            
+        
+
+        marker_32d9b02d7a0c3be56129b6838d7d40e7.bindPopup(popup_544677489a22be0fc0e06510949d1c63)
+        ;
+
+        
+    
+    
+                marker_32d9b02d7a0c3be56129b6838d7d40e7.setIcon(beautify_icon_d7a4cf141d5ce9ccca445b7ccc1a6214);
+            
+    
+            var marker_0913ef97b8ecc3800a57545b7259a6f6 = L.marker(
+                [41.157795406429976, -8.626416849852568],
+                {
+}
+            ).addTo(feature_group_6c84e503646840889ead4678c83de760);
+        
+    
+            var beautify_icon_12650303b19430b89f3cf5b53c282123 = new L.BeautifyIcon.icon(
+                {
+  "icon": "city",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#000000",
+  "textColor": "white",
+  "backgroundColor": "#000000",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_0913ef97b8ecc3800a57545b7259a6f6.setIcon(beautify_icon_12650303b19430b89f3cf5b53c282123);
+        
+    
+        var popup_c51a0cc20af7de79c51ffd3f7c2cc994 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4263c798a790812b88c19bb54290e52 = $(`<div id="html_a4263c798a790812b88c19bb54290e52" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Porto</h3>                 <p>City</p>                 <h3>Dates visted</h3>                 <p>6/19/2025-6/21/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_c51a0cc20af7de79c51ffd3f7c2cc994.setContent(html_a4263c798a790812b88c19bb54290e52);
+            
+        
+
+        marker_0913ef97b8ecc3800a57545b7259a6f6.bindPopup(popup_c51a0cc20af7de79c51ffd3f7c2cc994)
+        ;
+
+        
+    
+    
+                marker_0913ef97b8ecc3800a57545b7259a6f6.setIcon(beautify_icon_12650303b19430b89f3cf5b53c282123);
+            
+    
+            feature_group_6c84e503646840889ead4678c83de760.addTo(map_d57e967ca3ff6d95103966ce17634bae);
+        
+    
+            var feature_group_d10957e02433ac8d6fd88747c06de2ce = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_25de7f89b8c38753586be16f18844a24 = L.marker(
+                [42.36642695539527, -71.01937601406813],
+                {
+}
+            ).addTo(feature_group_d10957e02433ac8d6fd88747c06de2ce);
+        
+    
+            var beautify_icon_79ec4f47aac345dc0ffb3f7eb17f54e9 = new L.BeautifyIcon.icon(
+                {
+  "icon": "plane",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#AFAFAF",
+  "textColor": "white",
+  "backgroundColor": "#AFAFAF",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_25de7f89b8c38753586be16f18844a24.setIcon(beautify_icon_79ec4f47aac345dc0ffb3f7eb17f54e9);
+        
+    
+        var popup_41d621236d24f8655c44fb62265785b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dfa1d631a6825c7adb91b15a3775dfa5 = $(`<div id="html_dfa1d631a6825c7adb91b15a3775dfa5" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Logan International Airport</h3>                 <p>An Airport Man IDK</p>                 <h3>Dates visted</h3>                 <p>6/12/2025, 6/21/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_41d621236d24f8655c44fb62265785b3.setContent(html_dfa1d631a6825c7adb91b15a3775dfa5);
+            
+        
+
+        marker_25de7f89b8c38753586be16f18844a24.bindPopup(popup_41d621236d24f8655c44fb62265785b3)
+        ;
+
+        
+    
+    
+                marker_25de7f89b8c38753586be16f18844a24.setIcon(beautify_icon_79ec4f47aac345dc0ffb3f7eb17f54e9);
+            
+    
+            var marker_73beccd33432585deded86d1d97d0760 = L.marker(
+                [38.7797459944043, -9.132012700441736],
+                {
+}
+            ).addTo(feature_group_d10957e02433ac8d6fd88747c06de2ce);
+        
+    
+            var beautify_icon_2efc478de1043d82a42ae29960b2b244 = new L.BeautifyIcon.icon(
+                {
+  "icon": "passport",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#AFAFAF",
+  "textColor": "white",
+  "backgroundColor": "#AFAFAF",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_73beccd33432585deded86d1d97d0760.setIcon(beautify_icon_2efc478de1043d82a42ae29960b2b244);
+        
+    
+        var popup_05890c93b2705120e169898a74772e51 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22929182b8e55cb43dafe75e75745276 = $(`<div id="html_22929182b8e55cb43dafe75e75745276" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Humberto Delgado Airport</h3>                 <p>An Airport Man IDK</p>                 <h3>Dates visted</h3>                 <p>6/13/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_05890c93b2705120e169898a74772e51.setContent(html_22929182b8e55cb43dafe75e75745276);
+            
+        
+
+        marker_73beccd33432585deded86d1d97d0760.bindPopup(popup_05890c93b2705120e169898a74772e51)
+        ;
+
+        
+    
+    
+                marker_73beccd33432585deded86d1d97d0760.setIcon(beautify_icon_2efc478de1043d82a42ae29960b2b244);
+            
+    
+            var marker_405b896740cbe4899221535a14107e6d = L.marker(
+                [41.24764926680866, -8.680513596439852],
+                {
+}
+            ).addTo(feature_group_d10957e02433ac8d6fd88747c06de2ce);
+        
+    
+            var beautify_icon_cb4be1260ee1bf662c7d50a2a6c1f4cb = new L.BeautifyIcon.icon(
+                {
+  "icon": "passport",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#AFAFAF",
+  "textColor": "white",
+  "backgroundColor": "#AFAFAF",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_405b896740cbe4899221535a14107e6d.setIcon(beautify_icon_cb4be1260ee1bf662c7d50a2a6c1f4cb);
+        
+    
+        var popup_cbe33a6985b69b18ac53793a662447d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2976c1a7d54526c31fc624c67d288a05 = $(`<div id="html_2976c1a7d54526c31fc624c67d288a05" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Francisco Sa Carneiro Airport</h3>                 <p>An Airport Man IDK</p>                 <h3>Dates visted</h3>                 <p>6/21/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_cbe33a6985b69b18ac53793a662447d0.setContent(html_2976c1a7d54526c31fc624c67d288a05);
+            
+        
+
+        marker_405b896740cbe4899221535a14107e6d.bindPopup(popup_cbe33a6985b69b18ac53793a662447d0)
+        ;
+
+        
+    
+    
+                marker_405b896740cbe4899221535a14107e6d.setIcon(beautify_icon_cb4be1260ee1bf662c7d50a2a6c1f4cb);
+            
+    
+            feature_group_d10957e02433ac8d6fd88747c06de2ce.addTo(map_d57e967ca3ff6d95103966ce17634bae);
+        
+    
+            var feature_group_0eac5ee4d578337a96810c580fc79145 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_f029cbee512a3704d800df17398b0359 = L.marker(
+                [39.43594658994609, -9.220062382949996],
+                {
+}
+            ).addTo(feature_group_0eac5ee4d578337a96810c580fc79145);
+        
+    
+            var beautify_icon_6bab6f7546056a06ccec3bb15791c167 = new L.BeautifyIcon.icon(
+                {
+  "icon": "water",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#00008B",
+  "textColor": "white",
+  "backgroundColor": "#00008B",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_f029cbee512a3704d800df17398b0359.setIcon(beautify_icon_6bab6f7546056a06ccec3bb15791c167);
+        
+    
+        var popup_1dc3776c2fa0f010512bb90252f38db9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_587d7cf595f0dab4eda2dbf0b9a50c78 = $(`<div id="html_587d7cf595f0dab4eda2dbf0b9a50c78" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Foz do Arelho</h3>                 <p>Beach</p>                 <h3>Dates visted</h3>                 <p>6/17/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_1dc3776c2fa0f010512bb90252f38db9.setContent(html_587d7cf595f0dab4eda2dbf0b9a50c78);
+            
+        
+
+        marker_f029cbee512a3704d800df17398b0359.bindPopup(popup_1dc3776c2fa0f010512bb90252f38db9)
+        ;
+
+        
+    
+    
+                marker_f029cbee512a3704d800df17398b0359.setIcon(beautify_icon_6bab6f7546056a06ccec3bb15791c167);
+            
+    
+            var marker_5572dafaa45dcf8fd80909967be20fcb = L.marker(
+                [39.41501040195802, -9.50693030433991],
+                {
+}
+            ).addTo(feature_group_0eac5ee4d578337a96810c580fc79145);
+        
+    
+            var beautify_icon_ed372593072b8ce186c320fdeb5086c3 = new L.BeautifyIcon.icon(
+                {
+  "icon": "tree",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#4A5D23",
+  "textColor": "white",
+  "backgroundColor": "#4A5D23",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_5572dafaa45dcf8fd80909967be20fcb.setIcon(beautify_icon_ed372593072b8ce186c320fdeb5086c3);
+        
+    
+        var popup_feb28929fddbda6461dbd33fcea37a3f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_51314cad349e8948f20588b310eae3a1 = $(`<div id="html_51314cad349e8948f20588b310eae3a1" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Reserva Natural das Berlengas</h3>                 <p>National Park or Reserve</p>                 <h3>Dates visted</h3>                 <p>portugal</p>             </center></body>         </html>         </div>`)[0];
+                popup_feb28929fddbda6461dbd33fcea37a3f.setContent(html_51314cad349e8948f20588b310eae3a1);
+            
+        
+
+        marker_5572dafaa45dcf8fd80909967be20fcb.bindPopup(popup_feb28929fddbda6461dbd33fcea37a3f)
+        ;
+
+        
+    
+    
+                marker_5572dafaa45dcf8fd80909967be20fcb.setIcon(beautify_icon_ed372593072b8ce186c320fdeb5086c3);
+            
+    
+            var marker_f48e1218d44f81867d224d08a739f2a2 = L.marker(
+                [39.50728649389884, -9.176986776222938],
+                {
+}
+            ).addTo(feature_group_0eac5ee4d578337a96810c580fc79145);
+        
+    
+            var beautify_icon_4e05a91a90f641cedc00701a82697d00 = new L.BeautifyIcon.icon(
+                {
+  "icon": "tree",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "#4A5D23",
+  "textColor": "white",
+  "backgroundColor": "#4A5D23",
+  "innerIconStyle": "margin_top:0;",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "prefix": "fa",
+}
+            )
+            marker_f48e1218d44f81867d224d08a739f2a2.setIcon(beautify_icon_4e05a91a90f641cedc00701a82697d00);
+        
+    
+        var popup_883237ac95e9061fc14a95919f89cf42 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1a66e5784b30b9284872460672c23f02 = $(`<div id="html_1a66e5784b30b9284872460672c23f02" style="width: 100.0%; height: 100.0%;">         <!DOCTYPE html>         <html>             <body><center>                 <h3>Pegadas De Dinossauro</h3>                 <p>National Park or Reserve</p>                 <h3>Dates visted</h3>                 <p>6/19/2025</p>             </center></body>         </html>         </div>`)[0];
+                popup_883237ac95e9061fc14a95919f89cf42.setContent(html_1a66e5784b30b9284872460672c23f02);
+            
+        
+
+        marker_f48e1218d44f81867d224d08a739f2a2.bindPopup(popup_883237ac95e9061fc14a95919f89cf42)
+        ;
+
+        
+    
+    
+                marker_f48e1218d44f81867d224d08a739f2a2.setIcon(beautify_icon_4e05a91a90f641cedc00701a82697d00);
+            
+    
+            feature_group_0eac5ee4d578337a96810c580fc79145.addTo(map_d57e967ca3ff6d95103966ce17634bae);
+        
+    
+            var feature_group_1a93b82d3e3df12b604db7544889bbc2 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            ant_path_9565d7284f7c9ad2c0c90a33cefefb0e = L.polyline.antPath(
+              [[42.41516630203087, -71.15539475358685], [42.36642695539527, -71.01937601406813], [38.7797459944043, -9.132012700441736], [38.721444399802536, -9.146295763265789], [38.80243278465768, -9.382555797093], [39.091165800268335, -9.259207602601164], [39.38768233065305, -9.28620425530794], [39.35769568468899, -9.159589193369548], [39.40460049232336, -9.141634295147153], [39.43594658994609, -9.220062382949996], [39.38768233065305, -9.28620425530794], [39.38768233065305, -9.28620425530794], [39.36014860550417, -9.387204282377528], [39.50728649389884, -9.176986776222938], [39.60142844892871, -9.06949572187929], [39.74878239097789, -8.806302029456129], [40.204378655789, -8.410094546492141], [41.157795406429976, -8.626416849852568], [41.24764926680866, -8.680513596439852], [42.36642695539527, -71.01937601406813], [42.41516630203087, -71.15539475358685]],
+              {
+  "stroke": true,
+  "color": "green",
+  "weight": 5,
+  "opacity": 0.5,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+20,
+30,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 2000,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(feature_group_1a93b82d3e3df12b604db7544889bbc2);
+        
+    
+            ant_path_9565d7284f7c9ad2c0c90a33cefefb0e.bindTooltip(
+                `<div>
+                     portugal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            ant_path_50826d45fe0c8a94ec202dd84218023c = L.polyline.antPath(
+              [[42.41516630203087, -71.15539475358685], [42.41516630203087, -71.15539475358685]],
+              {
+  "stroke": true,
+  "color": "orange",
+  "weight": 5,
+  "opacity": 0.5,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+20,
+30,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 2000,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(feature_group_1a93b82d3e3df12b604db7544889bbc2);
+        
+    
+            ant_path_50826d45fe0c8a94ec202dd84218023c.bindTooltip(
+                `<div>
+                     visit
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var layer_control_485840401338c9bf79db7a755e8ff959_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_f61544c012b2234d0b3d5e77885b5b42,
+                },
+                overlays :  {
+                    "Cities" : feature_group_6c84e503646840889ead4678c83de760,
+                    "Airports" : feature_group_d10957e02433ac8d6fd88747c06de2ce,
+                    "Nature Place" : feature_group_0eac5ee4d578337a96810c580fc79145,
+                    "Trip lines" : feature_group_1a93b82d3e3df12b604db7544889bbc2,
+                },
+            };
+            let layer_control_485840401338c9bf79db7a755e8ff959 = L.control.layers(
+                layer_control_485840401338c9bf79db7a755e8ff959_layers.base_layers,
+                layer_control_485840401338c9bf79db7a755e8ff959_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_d57e967ca3ff6d95103966ce17634bae);
+
+        
+</script>
+</html>

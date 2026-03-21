@@ -59,7 +59,7 @@ tripc={}
 city=folium.FeatureGroup(name='Cities',show=True)
 airportfg=folium.FeatureGroup(name='Airports',show=True)
 nature=folium.FeatureGroup(name='Nature Place',show=True)
-triplinecfg=folium.FeatureGroup(name='Trip lines',show=False)
+triplinecfg=folium.FeatureGroup(name='Trip lines',show=True)
 
 groupsc={
 'city':city,

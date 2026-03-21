@@ -49,7 +49,7 @@ folium.LayerControl().add_to(m)
 
 m.save("index.html")
 
-coObj=obj(42.41516630203087, -71.15539475358685)
+coObj=obj(42.36593547920669, -71.00937673924525)
 
 dfc=pd.read_csv('info/co.csv')
 

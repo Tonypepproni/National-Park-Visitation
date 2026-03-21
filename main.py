@@ -17,13 +17,16 @@ littlefg=folium.FeatureGroup(name="'small' parks",show=True)
 inoutfg=folium.FeatureGroup(name='In n Out Locations',show=False)
 airportfg=folium.FeatureGroup(name='Airports',show=True)
 triplinefg=folium.FeatureGroup(name='Trip lines',show=False)
+city=folium.FeatureGroup(name='Cities',show=False)
+
 
 groups={
 'npfg':npfg,
 'littlefg':littlefg,
 'inoutfg':inoutfg,
 'airportfg':airportfg,
-'triplinefg':triplinefg
+'triplinefg':triplinefg,
+'city':city
 }
 
 objPark.make(df,sites,trips,in_n_out)
@@ -44,6 +47,7 @@ littlefg.add_to(m)
 inoutfg.add_to(m)
 airportfg.add_to(m)
 triplinefg.add_to(m)
+city.add_to(m)
 
 folium.LayerControl().add_to(m)
 

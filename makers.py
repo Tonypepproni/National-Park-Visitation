@@ -62,7 +62,7 @@ class icon(maker_tools):
             
 
 class obj(maker_tools):
-    colors=['red','blue','green','purple','pink','darkred','orange']
+    colors=['red','blue','green','purple','pink','darkred','orange','darkblue','lightred','black','orange']
     def __init__(self,start_lat,start_long):
         self.lat=start_lat
         self.long=start_long

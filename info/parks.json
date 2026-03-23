@@ -1,2302 +1,1995 @@
 {
-    "ABLI": {
-        "name": "Abraham Lincoln Birthplace National Historical Park",
-        "code": "ABLI"
-    },
-    "ACAD": {
-        "name": "Acadia National Park",
-        "code": "ACAD"
-    },
-    "ADAM": {
-        "name": "Adams National Historical Park",
-        "code": "ADAM"
-    },
-    "AFAM": {
-        "name": "African American Civil War Memorial",
-        "code": "AFAM"
-    },
-    "AFBG": {
-        "name": "African Burial Ground National Monument",
-        "code": "AFBG"
-    },
-    "AGFO": {
-        "name": "Agate Fossil Beds National Monument",
-        "code": "AGFO"
-    },
-    "ALKA": {
-        "name": "Ala Kahakai National Historic Trail",
-        "code": "ALKA"
-    },
-    "ALAG": {
-        "name": "Alagnak Wild River",
-        "code": "ALAG"
-    },
-    "ANCH": {
-        "name": "Alaska Public Lands",
-        "code": "ANCH"
-    },
-    "AKR": {
-        "name": "Alaska Region",
-        "code": "AKR"
-    },
-    "AKRO": {
-        "name": "Alaska Regional Office",
-        "code": "AKRO"
-    },
-    "ALCA": {
-        "name": "Alcatraz Island",
-        "code": "ALCA"
-    },
-    "ALEU": {
-        "name": "Aleutian World War II National Historic Area",
-        "code": "ALEU"
-    },
-    "ALFL": {
-        "name": "Alibates Flint Quarries National Monument",
-        "code": "ALFL"
-    },
-    "ALPO": {
-        "name": "Allegheny Portage Railroad National Historic Site",
-        "code": "ALPO"
-    },
-    "AMCH": {
-        "name": "Amache National Historic Site",
-        "code": "AMCH"
-    },
-    "AMME": {
-        "name": "American Memorial Park",
-        "code": "AMME"
-    },
-    "AMIS": {
-        "name": "Amistad National Recreation Area",
-        "code": "AMIS"
-    },
-    "ANAC": {
-        "name": "Anacostia Park",
-        "code": "ANAC"
-    },
-    "ANDE": {
-        "name": "Andersonville National Historic Site",
-        "code": "ANDE"
-    },
-    "ANJO": {
-        "name": "Andrew Johnson National Historic Site",
-        "code": "ANJO"
-    },
-    "ANIA": {
-        "name": "Aniakchak National Monument and Preserve",
-        "code": "ANIA"
-    },
-    "ANTI": {
-        "name": "Antietam National Battlefield",
-        "code": "ANTI"
-    },
-    "APIS": {
-        "name": "Apostle Islands National Lakeshore",
-        "code": "APIS"
-    },
-    "APHN": {
-        "name": "Appalachian Highlands Network",
-        "code": "APHN"
-    },
-    "APPA": {
-        "name": "Appalachian National Scenic Trail",
-        "code": "APPA"
-    },
-    "APCO": {
-        "name": "Appomattox Court House National Historical Park",
-        "code": "APCO"
-    },
-    "ARMO": {
-        "name": "Arabia Mountain National Heritage Area",
-        "code": "ARMO"
-    },
-    "ARCH": {
-        "name": "Arches National Park",
-        "code": "ARCH"
-    },
-    "ARCN": {
-        "name": "Arctic Network",
-        "code": "ARCN"
-    },
-    "ARPO": {
-        "name": "Arkansas Post National Memorial",
-        "code": "ARPO"
-    },
-    "ARHO": {
-        "name": "Arlington House, The Robert E. Lee Memorial",
-        "code": "ARHO"
-    },
-    "ASIS": {
-        "name": "Assateague Island National Seashore",
-        "code": "ASIS"
-    },
-    "ATTR": {
-        "name": "Atchafalaya National Heritage Area",
-        "code": "ATTR"
-    },
-    "AUCA": {
-        "name": "Augusta Canal National Heritage Area",
-        "code": "AUCA"
-    },
-    "AZRU": {
-        "name": "Aztec Ruins National Monument",
-        "code": "AZRU"
-    },
-    "BADL": {
-        "name": "Badlands National Park",
-        "code": "BADL"
-    },
-    "BALT": {
-        "name": "Baltimore National Heritage Area",
-        "code": "BALT"
-    },
-    "BAWA": {
-        "name": "Baltimore-Washington Parkway",
-        "code": "BAWA"
-    },
-    "BAND": {
-        "name": "Bandelier National Monument",
-        "code": "BAND"
-    },
-    "BEPA": {
-        "name": "Belmont-Paul Women's Equality National Monument (Sewall-Belmont Women's Equality NM)",
-        "code": "BEPA"
-    },
-    "BEOL": {
-        "name": "Bent's Old Fort National Historic Site",
-        "code": "BEOL"
-    },
-    "BELA": {
-        "name": "Bering Land Bridge National Preserve",
-        "code": "BELA"
-    },
-    "BIBE": {
-        "name": "Big Bend National Park",
-        "code": "BIBE"
-    },
-    "BICY": {
-        "name": "Big Cypress National Preserve",
-        "code": "BICY"
-    },
-    "BIHO": {
-        "name": "Big Hole National Battlefield",
-        "code": "BIHO"
-    },
-    "BISO": {
-        "name": "Big South Fork National River and Recreation Area",
-        "code": "BISO"
-    },
-    "BITH": {
-        "name": "Big Thicket National Preserve",
-        "code": "BITH"
-    },
-    "BICA": {
-        "name": "Bighorn Canyon National Recreation Area",
-        "code": "BICA"
-    },
-    "BICR": {
-        "name": "Birmingham Civil Rights National Monument",
-        "code": "BICR"
-    },
-    "BISC": {
-        "name": "Biscayne National Park",
-        "code": "BISC"
-    },
-    "BLCA": {
-        "name": "Black Canyon Of The Gunnison National Park",
-        "code": "BLCA"
-    },
-    "BLRV": {
-        "name": "Blackstone River Valley National Historical Park",
-        "code": "BLRV"
-    },
-    "BLSC": {
-        "name": "Blackwell School National Historic Site",
-        "code": "BLSC"
-    },
-    "BLRN": {
-        "name": "Blue Ridge National Heritage Area",
-        "code": "BLRN"
-    },
-    "BLRI": {
-        "name": "Blue Ridge Parkway",
-        "code": "BLRI"
-    },
-    "BLUE": {
-        "name": "Bluestone National Scenic River",
-        "code": "BLUE"
-    },
-    "BOWA": {
-        "name": "Booker T. Washington National Monument",
-        "code": "BOWA"
-    },
-    "BOAF": {
-        "name": "Boston African American National Historic Site",
-        "code": "BOAF"
-    },
-    "BOHA": {
-        "name": "Boston Harbor Islands National Recreation Area",
-        "code": "BOHA"
-    },
-    "BOST": {
-        "name": "Boston National Historical Park",
-        "code": "BOST"
-    },
-    "BRCR": {
-        "name": "Brices Cross Roads National Battlefield Site",
-        "code": "BRCR"
-    },
-    "BRVB": {
-        "name": "Brown v. Board Of Education National Historic Site",
-        "code": "BRVB"
-    },
-    "BRCA": {
-        "name": "Bryce Canyon National Park",
-        "code": "BRCA"
-    },
-    "BUIS": {
-        "name": "Buck Island Reef National Monument",
-        "code": "BUIS"
-    },
-    "BUFF": {
-        "name": "Buffalo National River",
-        "code": "BUFF"
-    },
-    "CABR": {
-        "name": "Cabrillo National Monument",
-        "code": "CABR"
-    },
-    "CALA": {
-        "name": "Cache la Poudre River National Heritage Area",
-        "code": "CALA"
-    },
-    "CALI": {
-        "name": "California National Historic Trail",
-        "code": "CALI"
-    },
-    "CANE": {
-        "name": "Camp Nelson National Monument",
-        "code": "CANE"
-    },
-    "CANA": {
-        "name": "Canaveral National Seashore",
-        "code": "CANA"
-    },
-    "CARI": {
-        "name": "Cane River Creole National Historical Park",
-        "code": "CARI"
-    },
-    "CRHA": {
-        "name": "Cane River National Heritage Area",
-        "code": "CRHA"
-    },
-    "CACH": {
-        "name": "Canyon de Chelly National Monument",
-        "code": "CACH"
-    },
-    "CANY": {
-        "name": "Canyonlands National Park",
-        "code": "CANY"
-    },
-    "CACO": {
-        "name": "Cape Cod National Seashore",
-        "code": "CACO"
-    },
-    "CAHA": {
-        "name": "Cape Henry Memorial, Part of Colonial National Historical Park",
-        "code": "CAHA"
-    },
-    "CAKR": {
-        "name": "Cape Krusenstern National Monument",
-        "code": "CAKR"
-    },
-    "CALO": {
-        "name": "Cape Lookout National Seashore",
-        "code": "CALO"
-    },
-    "CAHI": {
-        "name": "Capitol Hill Parks",
-        "code": "CAHI"
-    },
-    "CARE": {
-        "name": "Capitol Reef National Park",
-        "code": "CARE"
-    },
-    "CAJO": {
-        "name": "Captain John Smith Chesapeake National Historic Trail",
-        "code": "CAJO"
-    },
-    "CAVO": {
-        "name": "Capulin Volcano National Monument",
-        "code": "CAVO"
-    },
-    "CARL": {
-        "name": "Carl Sandburg Home National Historic Site",
-        "code": "CARL"
-    },
-    "CAVE (formerly CACA)": {
-        "name": "Carlsbad Caverns National Park",
-        "code": "CAVE (formerly CACA)"
-    },
-    "CAWO": {
-        "name": "Carter G. Woodson Home National Historic Site",
-        "code": "CAWO"
-    },
-    "CAGR": {
-        "name": "Casa Grande Ruins National Monument",
-        "code": "CAGR"
-    },
-    "CASA": {
-        "name": "Castillo de San Marcos National Monument",
-        "code": "CASA"
-    },
-    "CACL": {
-        "name": "Castle Clinton National Monument",
-        "code": "CACL"
-    },
-    "CAMO": {
-        "name": "Castle Mountains National Monument",
-        "code": "CAMO"
-    },
-    "CATO": {
-        "name": "Catoctin Mountain Park",
-        "code": "CATO"
-    },
-    "CEBR": {
-        "name": "Cedar Breaks National Monument",
-        "code": "CEBR"
-    },
-    "CEBE": {
-        "name": "Cedar Creek and Belle Grove National Historical Park",
-        "code": "CEBE"
-    },
-    "CAKN": {
-        "name": "Central Alaska Network",
-        "code": "CAKN"
-    },
-    "CECH": {
-        "name": "C\u00e9sar E. Ch\u00e1vez National Monument",
-        "code": "CECH"
-    },
-    "CHCU": {
-        "name": "Chaco Culture National Historical Park",
-        "code": "CHCU"
-    },
-    "CHAM": {
-        "name": "Chamizal National Memorial",
-        "code": "CHAM"
-    },
-    "CHVA": {
-        "name": "Champlain Valley National Heritage Partnership",
-        "code": "CHVA"
-    },
-    "CHIS": {
-        "name": "Channel Islands National Park",
-        "code": "CHIS"
-    },
-    "CHPI": {
-        "name": "Charles Pinckney National Historic Site",
-        "code": "CHPI"
-    },
-    "CHYO": {
-        "name": "Charles Young Buffalo Soldiers National Monument",
-        "code": "CHYO"
-    },
-    "CHAT": {
-        "name": "Chattahoochee River National Recreation Area",
-        "code": "CHAT"
-    },
-    "CHOH": {
-        "name": "Chesapeake and Ohio Canal National Historical Park",
-        "code": "CHOH"
-    },
-    "CHBA": {
-        "name": "Chesapeake Bay Gateways",
-        "code": "CHBA"
-    },
-    "CHCH": {
-        "name": "Chickamauga and Chattanooga National Military Park",
-        "code": "CHCH"
-    },
-    "CHIC": {
-        "name": "Chickasaw National Recreation Area (formerly Platt National Park)",
-        "code": "CHIC"
-    },
-    "CHDN": {
-        "name": "Chihuahuan Desert Network",
-        "code": "CHDN"
-    },
-    "use MWR": {
-        "name": "Chimney Rock National Historic Site",
-        "code": "use MWR"
-    },
-    "CHIR": {
-        "name": "Chiricahua National Monument",
-        "code": "CHIR"
-    },
-    "CHRI": {
-        "name": "Christiansted National Historic Site",
-        "code": "CHRI"
-    },
-    "CIRO": {
-        "name": "City Of Rocks National Reserve",
-        "code": "CIRO"
-    },
-    "CWDW": {
-        "name": "City Of Rocks National Reserve",
-        "code": "CWDW"
-    },
-    "CLBA": {
-        "name": "Clara Barton National Historic Site",
-        "code": "CLBA"
-    },
-    "CLMO": {
-        "name": "Claude Moore Colonial Farm",
-        "code": "CLMO"
-    },
-    "COLO": {
-        "name": "Colonial National Historical Park",
-        "code": "COLO"
-    },
-    "COLM": {
-        "name": "Colorado National Monument",
-        "code": "COLM"
-    },
-    "COLT": {
-        "name": "Coltsville National Historical Park",
-        "code": "COLT"
-    },
-    "CONG": {
-        "name": "Congaree National Park",
-        "code": "CONG"
-    },
-    "COGA": {
-        "name": "Constitution Gardens",
-        "code": "COGA"
-    },
-    "CORO": {
-        "name": "Coronado National Memorial",
-        "code": "CORO"
-    },
-    "COWP": {
-        "name": "Cowpens National Battlefield",
-        "code": "COWP"
-    },
-    "CRLA": {
-        "name": "Crater Lake National Park",
-        "code": "CRLA"
-    },
-    "CRMO": {
-        "name": "Craters Of The Moon National Monument and Preserve",
-        "code": "CRMO"
-    },
-    "CUGA": {
-        "name": "Cumberland Gap National Historical Park",
-        "code": "CUGA"
-    },
-    "CUIS": {
-        "name": "Cumberland Island National Seashore",
-        "code": "CUIS"
-    },
-    "CUPN": {
-        "name": "Cumberland Piedmont Network",
-        "code": "CUPN"
-    },
-    "CURE": {
-        "name": "Curecanti National Recreation Area",
-        "code": "CURE"
-    },
-    "CUVA": {
-        "name": "Cuyahoga Valley National Park",
-        "code": "CUVA"
-    },
-    "DABE": {
-        "name": "David Berger National Memorial",
-        "code": "DABE"
-    },
-    "DAAV": {
-        "name": "Dayton Aviation Heritage National Historical Park",
-        "code": "DAAV"
-    },
-    "DESO": {
-        "name": "De Soto National Memorial",
-        "code": "DESO"
-    },
-    "DEVA": {
-        "name": "Death Valley National Park",
-        "code": "DEVA"
-    },
-    "DELE": {
-        "name": "Delaware and Lehigh National Heritage Corridor",
-        "code": "DELE"
-    },
-    "DEWA": {
-        "name": "Delaware Water Gap National Recreation Area",
-        "code": "DEWA"
-    },
-    "DENA": {
-        "name": "Denali National Park & Preserve (Formely Mount McKinley National Park)",
-        "code": "DENA"
-    },
-    "DSC": {
-        "name": "Denver Service Center",
-        "code": "DSC"
-    },
-    "DEPO": {
-        "name": "Devils Postpile National Monument",
-        "code": "DEPO"
-    },
-    "DETO": {
-        "name": "Devils Tower National Monument",
-        "code": "DETO"
-    },
-    "DINO": {
-        "name": "Dinosaur National Monument",
-        "code": "DINO"
-    },
-    "DRTO (formerly FOJE)": {
-        "name": "Dry Tortugas National Park (formerly Fort Jefferson National Monument)",
-        "code": "DRTO (formerly FOJE)"
-    },
-    "DDEM": {
-        "name": "Dwight D. Eisenhower Memorial",
-        "code": "DDEM"
-    },
-    "EML": {
-        "name": "Eastern Museum Laboratory",
-        "code": "EML"
-    },
-    "EODC": {
-        "name": "Eastern Office of Design and Construction",
-        "code": "EODC"
-    },
-    "ERMN": {
-        "name": "Eastern Rivers and Mountains Network",
-        "code": "ERMN"
-    },
-    "EBLA": {
-        "name": "Ebey\u2019s Landing National Historical Reserve",
-        "code": "EBLA"
-    },
-    "EDAL": {
-        "name": "Edgar Allan Poe National Historic Site",
-        "code": "EDAL"
-    },
-    "EFMO": {
-        "name": "Effigy Mounds National Monument",
-        "code": "EFMO"
-    },
-    "EISE": {
-        "name": "Eisenhower National Historic Site",
-        "code": "EISE"
-    },
-    "ELTE": {
-        "name": "El Camino Real de los Tejas National Historic Trail",
-        "code": "ELTE"
-    },
-    "ELCA": {
-        "name": "El Camino Real de Tierra Adentro National Historic Trail",
-        "code": "ELCA"
-    },
-    "ELMA": {
-        "name": "El Malpais National Monument",
-        "code": "ELMA"
-    },
-    "ELMO": {
-        "name": "El Morro National Monument",
-        "code": "ELMO"
-    },
-    "ELRO": {
-        "name": "Eleanor Roosevelt National Historic Site",
-        "code": "ELRO"
-    },
-    "use STLI": {
-        "name": "Ellis Island (ELIS)",
-        "code": "use STLI"
-    },
-    "TILL": {
-        "name": "Emmett Till and Mamie Till-Mobley National Monument",
-        "code": "TILL"
-    },
-    "ERIE": {
-        "name": "Erie Canalway National Heritage Cooridor",
-        "code": "ERIE"
-    },
-    "EUON": {
-        "name": "Eugene O'Neill National Historic Site",
-        "code": "EUON"
-    },
-    "EVER": {
-        "name": "Everglades National Park",
-        "code": "EVER"
-    },
-    "FATI": {
-        "name": "Fallen Timbers Battlefield and Fort Miamis National Historic Site",
-        "code": "FATI"
-    },
-    "FEHA": {
-        "name": "Federal Hall National Memorial",
-        "code": "FEHA"
-    },
-    "FIIS": {
-        "name": "Fire Island National Seashore",
-        "code": "FIIS"
-    },
-    "FILA": {
-        "name": "First Ladies National Historic Site",
-        "code": "FILA"
-    },
-    "FRST": {
-        "name": "First State National Historical Park",
-        "code": "FRST"
-    },
-    "FLNI": {
-        "name": "Flight 93 National Memorial",
-        "code": "FLNI"
-    },
-    "FLFO": {
-        "name": "Florissant Fossil Beds National Monument",
-        "code": "FLFO"
-    },
-    "FOTH": {
-        "name": "Ford's Theatre National Historic Site",
-        "code": "FOTH"
-    },
-    "FOBO": {
-        "name": "Fort Bowie National Historic Site",
-        "code": "FOBO"
-    },
-    "use TIMU": {
-        "name": "Fort Caroline National Memorial",
-        "code": "use TIMU"
-    },
-    "FODA": {
-        "name": "Fort Davis National Historic Site",
-        "code": "FODA"
-    },
-    "FODO": {
-        "name": "Fort Donelson National Battlefield",
-        "code": "FODO"
-    },
-    "FODU": {
-        "name": "Fort Dupont Park",
-        "code": "FODU"
-    },
-    "FOFO": {
-        "name": "Fort Foote Park",
-        "code": "FOFO"
-    },
-    "FOFR": {
-        "name": "Fort Frederica National Monument",
-        "code": "FOFR"
-    },
-    "FOLA": {
-        "name": "Fort Laramie National Historic Site",
-        "code": "FOLA"
-    },
-    "FOLS": {
-        "name": "Fort Larned National Historic Site",
-        "code": "FOLS"
-    },
-    "FOMA": {
-        "name": "Fort Matanzas National Monument",
-        "code": "FOMA"
-    },
-    "FOMC": {
-        "name": "Fort McHenry National Monument and Historic Shrine",
-        "code": "FOMC"
-    },
-    "FOMR": {
-        "name": "Fort Monroe National Monument",
-        "code": "FOMR"
-    },
-    "FONE": {
-        "name": "Fort Necessity National Battlefield",
-        "code": "FONE"
-    },
-    "FOPO": {
-        "name": "Fort Point National Historic Site",
-        "code": "FOPO"
-    },
-    "FOPU": {
-        "name": "Fort Pulaski National Monument",
-        "code": "FOPU"
-    },
-    "FORA": {
-        "name": "Fort Raleigh National Historic Site",
-        "code": "FORA"
-    },
-    "FOSC": {
-        "name": "Fort Scott National Historic Site",
-        "code": "FOSC"
-    },
-    "FOSM": {
-        "name": "Fort Smith National Historic Site",
-        "code": "FOSM"
-    },
-    "FOST": {
-        "name": "Fort Stanwix National Monument",
-        "code": "FOST"
-    },
-    "FOSU": {
-        "name": "Fort Sumter and Fort Moultire Historical Park (Fort Sumter National Monument)",
-        "code": "FOSU"
-    },
-    "FOUN": {
-        "name": "Fort Union National Monument",
-        "code": "FOUN"
-    },
-    "FOUS": {
-        "name": "Fort Union Trading Post National Historic Site",
-        "code": "FOUS"
-    },
-    "FOVA": {
-        "name": "Fort Vancouver National Historic Site",
-        "code": "FOVA"
-    },
-    "FOWA": {
-        "name": "Fort Washington Park",
-        "code": "FOWA"
-    },
-    "FOBU": {
-        "name": "Fossil Butte National Monument",
-        "code": "FOBU"
-    },
-    "FDRM": {
-        "name": "Franklin Delano Roosevelt Memorial (FRDE)",
-        "code": "FDRM"
-    },
-    "FRDE": {
-        "name": "Franklin Delano Roosevelt National Memorial",
-        "code": "FRDE"
-    },
-    "FRDO": {
-        "name": "Frederick Douglass National Historic Site",
-        "code": "FRDO"
-    },
-    "FRLA": {
-        "name": "Frederick Law Olmsted National Historic Site",
-        "code": "FRLA"
-    },
-    "FRSP": {
-        "name": "Fredericksburg & Spotsylvania National Military Park",
-        "code": "FRSP"
-    },
-    "FRRI": {
-        "name": "Freedom Riders National Monument",
-        "code": "FRRI"
-    },
-    "FRWA": {
-        "name": "Freedom's Way National Heritage Area",
-        "code": "FRWA"
-    },
-    "FRHI": {
-        "name": "Friendship Hill National Historic Site",
-        "code": "FRHI"
-    },
-    "GAAR": {
-        "name": "Gates of the Arctic National Park & Preserve",
-        "code": "GAAR"
-    },
-    "JEFF": {
-        "name": "Gateway Arch National Park (formerly Jefferson National Expansion Memorial)",
-        "code": "JEFF"
-    },
-    "GATE": {
-        "name": "Gateway National Recreation Area",
-        "code": "GATE"
-    },
-    "GARI": {
-        "name": "Gauley River National Recreation Area",
-        "code": "GARI"
-    },
-    "GEGR": {
-        "name": "General Grant National Memorial",
-        "code": "GEGR"
-    },
-    "GERO": {
-        "name": "George Rogers Clark National Historical Park",
-        "code": "GERO"
-    },
-    "GEWA": {
-        "name": "George Washington Birthplace National Monument",
-        "code": "GEWA"
-    },
-    "GWCA": {
-        "name": "George Washington Carver National Monument",
-        "code": "GWCA"
-    },
-    "GWMP": {
-        "name": "George Washington Memorial Parkway",
-        "code": "GWMP"
-    },
-    "GETT": {
-        "name": "Gettysburg National Military Park",
-        "code": "GETT"
-    },
-    "GICL": {
-        "name": "Gila Cliff Dwellings National Monument",
-        "code": "GICL"
-    },
-    "GLBA": {
-        "name": "Glacier Bay National Park & Preserve",
-        "code": "GLBA"
-    },
-    "GLAC": {
-        "name": "Glacier National Park",
-        "code": "GLAC"
-    },
-    "GLCA": {
-        "name": "Glen Canyon National Recreation Area",
-        "code": "GLCA"
-    },
-    "GLEC": {
-        "name": "Glen Echo Park",
-        "code": "GLEC"
-    },
-    "GLDE": {
-        "name": "Gloria Dei Church National Historic Site",
-        "code": "GLDE"
-    },
-    "GOGA": {
-        "name": "Golden Gate National Recreation Area",
-        "code": "GOGA"
-    },
-    "GOSP": {
-        "name": "Golden Spike National Park (Historic Site)",
-        "code": "GOSP"
-    },
-    "GOIS": {
-        "name": "Governors Island National Monument",
-        "code": "GOIS"
-    },
-    "GRCA": {
-        "name": "Grand Canyon National Park",
-        "code": "GRCA"
-    },
-    "GRPO": {
-        "name": "Grand Portage National Monument",
-        "code": "GRPO"
-    },
-    "GRTE": {
-        "name": "Grand Teton National Park",
-        "code": "GRTE"
-    },
-    "GRKO": {
-        "name": "Grant-Kohrs Ranch National Historic Site",
-        "code": "GRKO"
-    },
-    "GRBA": {
-        "name": "Great Basin National Park",
-        "code": "GRBA"
-    },
-    "GREG": {
-        "name": "Great Egg Harbor River",
-        "code": "GREG"
-    },
-    "GRFA": {
-        "name": "Great Falls Park",
-        "code": "GRFA"
-    },
-    "GLKN": {
-        "name": "Great Lakes Network",
-        "code": "GLKN"
-    },
-    "GRSA": {
-        "name": "Great Sand Dunes National Park & Preserve",
-        "code": "GRSA"
-    },
-    "GRSM": {
-        "name": "Great Smoky Mountains National Park",
-        "code": "GRSM"
-    },
-    "GRYN": {
-        "name": "Greater Yellowstone Network",
-        "code": "GRYN"
-    },
-    "GRSP": {
-        "name": "Green Springs National Historic Landmark District",
-        "code": "GRSP"
-    },
-    "GREE": {
-        "name": "Greenbelt Park",
-        "code": "GREE"
-    },
-    "GUMO": {
-        "name": "Guadalupe Mountains National Park",
-        "code": "GUMO"
-    },
-    "GUCO": {
-        "name": "Guilford Courthouse National Military Park",
-        "code": "GUCO"
-    },
-    "GULN": {
-        "name": "Gulf Coast Network",
-        "code": "GULN"
-    },
-    "GUIS": {
-        "name": "Gulf Islands National Seashore",
-        "code": "GUIS"
-    },
-    "GUGE": {
-        "name": "Gullah/Geechee Cultural Heritage Corridor",
-        "code": "GUGE"
-    },
-    "HAFO": {
-        "name": "Hagerman Fossil Beds National Monument",
-        "code": "HAFO"
-    },
-    "HALE": {
-        "name": "Haleakal\u0101 National Park",
-        "code": "HALE"
-    },
-    "HAGR": {
-        "name": "Hamilton Grange National Memorial",
-        "code": "HAGR"
-    },
-    "HAMP": {
-        "name": "Hampton National Historic Site",
-        "code": "HAMP"
-    },
-    "HAHA": {
-        "name": "Harmony Hall",
-        "code": "HAHA"
-    },
-    "HFC": {
-        "name": "Harpers Ferry Center",
-        "code": "HFC"
-    },
-    "HAFE": {
-        "name": "Harpers Ferry National Historical Park",
-        "code": "HAFE"
-    },
-    "HART": {
-        "name": "Harriet Tubman National Historical Park",
-        "code": "HART"
-    },
-    "HATU": {
-        "name": "Harriet Tubman Underground Railroad National Historical Park",
-        "code": "HATU"
-    },
-    "HSTR": {
-        "name": "Harry S. Truman National Historic Site",
-        "code": "HSTR"
-    },
-    "HAVO": {
-        "name": "Hawai'i Volcanoes National Park",
-        "code": "HAVO"
-    },
-    "HTLN": {
-        "name": "Heartland Network",
-        "code": "HTLN"
-    },
-    "HEHO": {
-        "name": "Herbert Hoover National Historic Site",
-        "code": "HEHO"
-    },
-    "JAME": {
-        "name": "Historic Jamestowne, Part of Colonial National Historical Park",
-        "code": "JAME"
-    },
-    "PIMA": {
-        "name": "Hohokam-Pima National Monument",
-        "code": "PIMA"
-    },
-    "HOFR": {
-        "name": "Home Of Franklin D. Roosevelt National Historic Site",
-        "code": "HOFR"
-    },
-    "HOME": {
-        "name": "Homestead National Monument of America",
-        "code": "HOME"
-    },
-    "HONO": {
-        "name": "Honouliuli Historic Site (National Monument)",
-        "code": "HONO"
-    },
-    "HOCU": {
-        "name": "Hopewell Culture National Historical Park",
-        "code": "HOCU"
-    },
-    "HOFU": {
-        "name": "Hopewell Furnace National Historic Site",
-        "code": "HOFU"
-    },
-    "HOVI": {
-        "name": "Hopewell Village National Historic Site (now Hopewell Furnace NHS)",
-        "code": "HOVI"
-    },
-    "HOAL": {
-        "name": "Horace Albright Training Center",
-        "code": "HOAL"
-    },
-    "HOBE": {
-        "name": "Horseshoe Bend National Military Park",
-        "code": "HOBE"
-    },
-    "HOSP": {
-        "name": "Hot Springs National Park",
-        "code": "HOSP"
-    },
-    "HOVE": {
-        "name": "Hovenweep National Monument",
-        "code": "HOVE"
-    },
-    "HUTR": {
-        "name": "Hubbell Trading Post National Historic Site",
-        "code": "HUTR"
-    },
-    "HURV": {
-        "name": "Hudson River Valley National Heritage Area",
-        "code": "HURV"
-    },
-    "IATR": {
-        "name": "Ice Age National Scenic Trail",
-        "code": "IATR"
-    },
-    "ILMI": {
-        "name": "Illinois and Michigan Canal National Heritage Corridor",
-        "code": "ILMI"
-    },
-    "INDE": {
-        "name": "Independence National Historical Park",
-        "code": "INDE"
-    },
-    "INDU": {
-        "name": "Indiana Dunes National Park (National Lakeshore)",
-        "code": "INDU"
-    },
-    "IMR": {
-        "name": "Intermountain Region",
-        "code": "IMR"
-    },
-    "IMRO": {
-        "name": "Intermountain Regional Office",
-        "code": "IMRO"
-    },
-    "INUP": {
-        "name": "I\u00f1upiat Heritage Center",
-        "code": "INUP"
-    },
-    "ISRO": {
-        "name": "Isle Royale National Park",
-        "code": "ISRO"
-    },
-    "JAGA": {
-        "name": "James A. Garfield National Historic Site",
-        "code": "JAGA"
-    },
-    "COLO, JAME": {
-        "name": "Jamestown National Historic Site (part of Colonial National Historical Park)",
-        "code": "COLO, JAME"
-    },
-    "JELA": {
-        "name": "Jean Lafitte National Historical Park and Preserve",
-        "code": "JELA"
-    },
-    "JNEM, JEFF": {
-        "name": "Jefferson National Expansion Memorial (now Gateway Arch National Park)",
-        "code": "JNEM, JEFF"
-    },
-    "JECA": {
-        "name": "Jewel Cave National Monument",
-        "code": "JECA"
-    },
-    "JICA": {
-        "name": "Jimmy Carter National Historic Site",
-        "code": "JICA"
-    },
-    "JODA": {
-        "name": "John Day Fossil Beds National Monument",
-        "code": "JODA"
-    },
-    "JOFI": {
-        "name": "John Fitzgerald Kennedy National Historic Site",
-        "code": "JOFI"
-    },
-    "BLAC": {
-        "name": "John H. Chafee Blackstone River Valley National Heritage Corridor",
-        "code": "BLAC"
-    },
-    "JOMU": {
-        "name": "John Muir National Historic Site",
-        "code": "JOMU"
-    },
-    "JOFL": {
-        "name": "Johnstown Flood National Memorial",
-        "code": "JOFL"
-    },
-    "JOTR": {
-        "name": "Joshua Tree National Park",
-        "code": "JOTR"
-    },
-    "JUBA": {
-        "name": "Juan Bautista de Anza National Historic Trail",
-        "code": "JUBA"
-    },
-    "KALA": {
-        "name": "Kalaupapa National Historical Park",
-        "code": "KALA"
-    },
-    "KAHO": {
-        "name": "Kaloko-Honok\u014dhau National Historical Park",
-        "code": "KAHO"
-    },
-    "KAWW": {
-        "name": "Katahdin Woods and Waters National Monument",
-        "code": "KAWW"
-    },
-    "KATM": {
-        "name": "Katmai National Park & Preserve",
-        "code": "KATM"
-    },
-    "KEFJ": {
-        "name": "Kenai Fjords National Park",
-        "code": "KEFJ"
-    },
-    "KEAQ": {
-        "name": "Kenilworth Park and Aquatic Gardens",
-        "code": "KEAQ"
-    },
-    "KEMO": {
-        "name": "Kennesaw Mountain National Battlefield Park",
-        "code": "KEMO"
-    },
-    "KEWE": {
-        "name": "Keweenaw National Historical Park",
-        "code": "KEWE"
-    },
-    "KIMO": {
-        "name": "Kings Mountain National Military Park",
-        "code": "KIMO"
-    },
-    "KLMN": {
-        "name": "Klamath Network",
-        "code": "KLMN"
-    },
-    "KLSE": {
-        "name": "Klondike Gold Rush - Seattle Unit National Historical Park",
-        "code": "KLSE"
-    },
-    "KLGO": {
-        "name": "Klondike Gold Rush National Historical Park",
-        "code": "KLGO"
-    },
-    "KNRI": {
-        "name": "Knife River Indian Villages National Historic Site",
-        "code": "KNRI"
-    },
-    "KOVA": {
-        "name": "Kobuk Valley National Park",
-        "code": "KOVA"
-    },
-    "KOWA": {
-        "name": "Korean War Veterans National Memorial",
-        "code": "KOWA"
-    },
-    "LACL": {
-        "name": "Lake Clark National Park & Preserve",
-        "code": "LACL"
-    },
-    "LAKE (formerly LAME)": {
-        "name": "Lake Mead National Recreation Area",
-        "code": "LAKE (formerly LAME)"
-    },
-    "LAMR": {
-        "name": "Lake Meredith National Recreation Area",
-        "code": "LAMR"
-    },
-    "LARO": {
-        "name": "Lake Roosevelt National Recreation Area",
-        "code": "LARO"
-    },
-    "LAVO": {
-        "name": "Lassen Volcanic National Park",
-        "code": "LAVO"
-    },
-    "LABE": {
-        "name": "Lava Beds National Monument",
-        "code": "LABE"
-    },
-    "LECL": {
-        "name": "Lewis and Clark National Historic Trail",
-        "code": "LECL"
-    },
-    "LEWI": {
-        "name": "Lewis and Clark National Historical Park",
-        "code": "LEWI"
-    },
-    "LIBO": {
-        "name": "Lincoln Boyhood National Memorial",
-        "code": "LIBO"
-    },
-    "LIHO": {
-        "name": "Lincoln Home National Historic Site",
-        "code": "LIHO"
-    },
-    "LINC": {
-        "name": "Lincoln Memorial",
-        "code": "LINC"
-    },
-    "LIBI": {
-        "name": "Little Bighorn Battlefield National Monument",
-        "code": "LIBI"
-    },
-    "LIRI": {
-        "name": "Little River Canyon National Preserve",
-        "code": "LIRI"
-    },
-    "CHSC": {
-        "name": "Little Rock Central High School National Historic Site",
-        "code": "CHSC"
-    },
-    "LONG": {
-        "name": "Longfellow House - Washington's Headquarters National Historic Site",
-        "code": "LONG"
-    },
-    "LOWE": {
-        "name": "Lowell National Historical Park",
-        "code": "LOWE"
-    },
-    "LODE": {
-        "name": "Lower Delaware Wild and Scenic River",
-        "code": "LODE"
-    },
-    "LOEA": {
-        "name": "Lower East Side Tenement Museum National Historic Site",
-        "code": "LOEA"
-    },
-    "LYJO": {
-        "name": "Lyndon B. Johnson National Historical Park",
-        "code": "LYJO"
-    },
-    "LYBA": {
-        "name": "Lyndon Baines Johnson Memorial Grove on the Potomac",
-        "code": "LYBA"
-    },
-    "MAWA": {
-        "name": "Maggie L. Walker National Historic Site",
-        "code": "MAWA"
-    },
-    "MAAC": {
-        "name": "Maine Acadian Culture",
-        "code": "MAAC"
-    },
-    "MACA": {
-        "name": "Mammoth Cave National Park",
-        "code": "MACA"
-    },
-    "MANA": {
-        "name": "Manassas National Battlefield Park",
-        "code": "MANA"
-    },
-    "MAPR": {
-        "name": "Manhattan Project National Historical Park",
-        "code": "MAPR"
-    },
-    "MANZ": {
-        "name": "Manzanar National Historic Site",
-        "code": "MANZ"
-    },
-    "MABI": {
-        "name": "Marsh-Billings-Rockefeller National Historical Park",
-        "code": "MABI"
-    },
-    "MLKM": {
-        "name": "Martin Luther King Jr National Memorial",
-        "code": "MLKM"
-    },
-    "MALU": {
-        "name": "Martin Luther King, Jr. National Historical Park",
-        "code": "MALU"
-    },
-    "MAVA": {
-        "name": "Martin Van Buren National Historic Site",
-        "code": "MAVA"
-    },
-    "MAMC": {
-        "name": "Mary McLeod Bethune Council House National Historic Site",
-        "code": "MAMC"
-    },
-    "MTC": {
-        "name": "Mather Training Center",
-        "code": "MTC"
-    },
-    "MEMY": {
-        "name": "Medgar and Myrlie Evers Home National Monument",
-        "code": "MEMY"
-    },
-    "MEDN": {
-        "name": "Mediterranean Coast Network",
-        "code": "MEDN"
-    },
-    "MEHI": {
-        "name": "Meridian Hill Park",
-        "code": "MEHI"
-    },
-    "MEVE": {
-        "name": "Mesa Verde National Park",
-        "code": "MEVE"
-    },
-    "MIDN": {
-        "name": "Mid-Atlantic Network",
-        "code": "MIDN"
-    },
-    "MARO": {
-        "name": "Mid-Atlantic Regional Office",
-        "code": "MARO"
-    },
-    "MWAC": {
-        "name": "Midwest Archeological Center",
-        "code": "MWAC"
-    },
-    "MWR": {
-        "name": "Midwest Region",
-        "code": "MWR"
-    },
-    "MWRO": {
-        "name": "Midwest Regional Office",
-        "code": "MWRO"
-    },
-    "MISP": {
-        "name": "Mill Springs Battlefield National Monument",
-        "code": "MISP"
-    },
-    "MIIN": {
-        "name": "Minidoka National Historic Site",
-        "code": "MIIN"
-    },
-    "MIMA": {
-        "name": "Minute Man National Historical Park",
-        "code": "MIMA"
-    },
-    "MIMI": {
-        "name": "Minuteman Missile National Historic Site",
-        "code": "MIMI"
-    },
-    "MIDE": {
-        "name": "Mississippi Delta National Heritage Area",
-        "code": "MIDE"
-    },
-    "MIHI": {
-        "name": "Mississippi Hills National Heritage Area",
-        "code": "MIHI"
-    },
-    "MISS": {
-        "name": "Mississippi National River and Recreation Areas",
-        "code": "MISS"
-    },
-    "MNRR": {
-        "name": "Missouri National Recreational River",
-        "code": "MNRR"
-    },
-    "MOJN": {
-        "name": "Mojave Desert Network",
-        "code": "MOJN"
-    },
-    "MOJA": {
-        "name": "Mojave National Preserve",
-        "code": "MOJA"
-    },
-    "MONO": {
-        "name": "Monocacy National Battlefield",
-        "code": "MONO"
-    },
-    "MOCA": {
-        "name": "Montezuma Castle National Monument",
-        "code": "MOCA"
-    },
-    "MOCR": {
-        "name": "Moores Creek National Battlefield",
-        "code": "MOCR"
-    },
-    "MOPI": {
-        "name": "Mormon Pioneer National Historic Trail",
-        "code": "MOPI"
-    },
-    "MORR": {
-        "name": "Morristown National Historical Park",
-        "code": "MORR"
-    },
-    "AUTO": {
-        "name": "MotorCities National Heritage",
-        "code": "AUTO"
-    },
-    "MORA": {
-        "name": "Mount Rainier National Park",
-        "code": "MORA"
-    },
-    "MORU": {
-        "name": "Mount Rushmore National Memorial",
-        "code": "MORU"
-    },
-    "MUWO": {
-        "name": "Muir Woods National Monument",
-        "code": "MUWO"
-    },
-    "MUSH": {
-        "name": "Muscle Shoals National Heritage Area",
-        "code": "MUSH"
-    },
-    "MRCE": {
-        "name": "Museum Resource Center",
-        "code": "MRCE"
-    },
-    "NATC": {
-        "name": "Natchez National Historical Park",
-        "code": "NATC"
-    },
-    "NATT": {
-        "name": "Natchez Trace National Scenic Trail",
-        "code": "NATT"
-    },
-    "NATR": {
-        "name": "Natchez Trace Parkway",
-        "code": "NATR"
-    },
-    "AVIA": {
-        "name": "National Aviation Heritage Area",
-        "code": "AVIA"
-    },
-    "NCP": {
-        "name": "National Capital Parks",
-        "code": "NCP"
-    },
-    "NACE": {
-        "name": "National Capital Parks-East",
-        "code": "NACE"
-    },
-    "NCR": {
-        "name": "National Capital Region",
-        "code": "NCR"
-    },
-    "NCRN": {
-        "name": "National Capital Region Network",
-        "code": "NCRN"
-    },
-    "COAL": {
-        "name": "National Coal Heritage Area",
-        "code": "COAL"
-    },
-    "NAMA": {
-        "name": "National Mall and Memorial Parks",
-        "code": "NAMA"
-    },
-    "NPSA": {
-        "name": "National Park of American Samoa",
-        "code": "NPSA"
-    },
-    "NPNH": {
-        "name": "National Parks of New York Harbor",
-        "code": "NPNH"
-    },
-    "HFCA": {
-        "name": "National Park Service History Collection (formerly the NPS Archives)",
-        "code": "HFCA"
-    },
-    "NABR": {
-        "name": "Natural Bridges National Monument",
-        "code": "NABR"
-    },
-    "NAVA": {
-        "name": "Navajo National Monument",
-        "code": "NAVA"
-    },
-    "NEBE": {
-        "name": "New Bedford Whaling National Historical Park",
-        "code": "NEBE"
-    },
-    "NEEN": {
-        "name": "New England National Scenic Trail",
-        "code": "NEEN"
-    },
-    "NEJE": {
-        "name": "New Jersey Coastal Heritage Trail Route",
-        "code": "NEJE"
-    },
-    "PINE": {
-        "name": "New Jersey Pinelands National Reserve",
-        "code": "PINE"
-    },
-    "JAZZ": {
-        "name": "New Orleans Jazz National Historical Park",
-        "code": "JAZZ"
-    },
-    "NERI": {
-        "name": "New River Gorge National River",
-        "code": "NERI"
-    },
-    "NEPE": {
-        "name": "Nez Perce National Historical Park",
-        "code": "NEPE"
-    },
-    "NIFA": {
-        "name": "Niagara Falls National Heritage Area",
-        "code": "NIFA"
-    },
-    "NICO": {
-        "name": "Nicodemus National Historic Site",
-        "code": "NICO"
-    },
-    "NISI": {
-        "name": "Ninety Six National Historic Site",
-        "code": "NISI"
-    },
-    "NIOB": {
-        "name": "Niobrara National Scenic River",
-        "code": "NIOB"
-    },
-    "NOAT": {
-        "name": "Noatak National Preserve",
-        "code": "NOAT"
-    },
-    "NOCA": {
-        "name": "North Cascades National Park",
-        "code": "NOCA"
-    },
-    "NCCN": {
-        "name": "North Coast and Cascades Network",
-        "code": "NCCN"
-    },
-    "NOCO": {
-        "name": "North Country National Scenic Trail",
-        "code": "NOCO"
-    },
-    "NCBN": {
-        "name": "Northeast Coastal and Barrier Network",
-        "code": "NCBN"
-    },
-    "NER": {
-        "name": "Northeast Region",
-        "code": "NER"
-    },
-    "NERO": {
-        "name": "Northeast Regional Office",
-        "code": "NERO"
-    },
-    "NETN": {
-        "name": "Northeast Temperate Network",
-        "code": "NETN"
-    },
-    "NCPN": {
-        "name": "Northern Colorado Plateau Network",
-        "code": "NCPN"
-    },
-    "NGPN": {
-        "name": "Northern Great Plains Network",
-        "code": "NGPN"
-    },
-    "NORG": {
-        "name": "Northern Rio Grande National Heritage Area",
-        "code": "NORG"
-    },
-    "OBED": {
-        "name": "Obed Wild & Scenic River",
-        "code": "OBED"
-    },
-    "OCMU": {
-        "name": "Ocmulgee Mounds National Historical Park (formerly Ocmulgee National Monument)",
-        "code": "OCMU"
-    },
-    "OIRE": {
-        "name": "Oil Region National Heritage Area",
-        "code": "OIRE"
-    },
-    "OKCI": {
-        "name": "Oklahoma City National Memorial",
-        "code": "OKCI"
-    },
-    "OLSP": {
-        "name": "Old Spanish National Historic Trail",
-        "code": "OLSP"
-    },
-    "OLYM": {
-        "name": "Olympic National Park",
-        "code": "OLYM"
-    },
-    "ORCA": {
-        "name": "Oregon Caves National Monument & Preserve",
-        "code": "ORCA"
-    },
-    "OREG": {
-        "name": "Oregon National Historic Trail",
-        "code": "OREG"
-    },
-    "ORPI": {
-        "name": "Organ Pipe Cactus National Monument",
-        "code": "ORPI"
-    },
-    "OVVI": {
-        "name": "Overmountain Victory National Historic Trail",
-        "code": "OVVI"
-    },
-    "OXHI": {
-        "name": "Oxon Cove Park & Oxon Hill Farm",
-        "code": "OXHI"
-    },
-    "OZAR": {
-        "name": "Ozark National Scenic Riverways",
-        "code": "OZAR"
-    },
-    "PACN": {
-        "name": "Pacific Islands Network",
-        "code": "PACN"
-    },
-    "PWRO": {
-        "name": "Pacific West Regional Office",
-        "code": "PWRO"
-    },
-    "PAIS": {
-        "name": "Padre Island National Seashore",
-        "code": "PAIS"
-    },
-    "PAAL": {
-        "name": "Palo Alto Battlefield National Historical Park",
-        "code": "PAAL"
-    },
-    "PARA": {
-        "name": "Parashant National Monument",
-        "code": "PARA"
-    },
-    "PAGR": {
-        "name": "Paterson Great Falls National Historical Park",
-        "code": "PAGR"
-    },
-    "PERI": {
-        "name": "Pea Ridge National Military Park",
-        "code": "PERI"
-    },
-    "PECO": {
-        "name": "Pecos National Historical Park",
-        "code": "PECO"
-    },
-    "PAAV": {
-        "name": "Pennsylvania Avenue National Historic Site",
-        "code": "PAAV"
-    },
-    "PEVI": {
-        "name": "Perry's Victory & International Peace Memorial",
-        "code": "PEVI"
-    },
-    "PETE": {
-        "name": "Petersburg National Battlefield",
-        "code": "PETE"
-    },
-    "PEFO": {
-        "name": "Petrified Forest National Park",
-        "code": "PEFO"
-    },
-    "PETR": {
-        "name": "Petroglyph National Monument",
-        "code": "PETR"
-    },
-    "PIRO": {
-        "name": "Pictured Rocks National Lakeshore",
-        "code": "PIRO"
-    },
-    "PINN": {
-        "name": "Pinnacles National Park",
-        "code": "PINN"
-    },
-    "PISP": {
-        "name": "Pipe Spring National Monument",
-        "code": "PISP"
-    },
-    "PIPE": {
-        "name": "Pipestone National Monument",
-        "code": "PIPE"
-    },
-    "PISC": {
-        "name": "Piscataway Park",
-        "code": "PISC"
-    },
-    "PORE": {
-        "name": "Point Reyes National Seashore",
-        "code": "PORE"
-    },
-    "POEX": {
-        "name": "Pony Express National Historic Trail",
-        "code": "POEX"
-    },
-    "POCH": {
-        "name": "Port Chicago Naval Magazine National Memorial",
-        "code": "POCH"
-    },
-    "POHE": {
-        "name": "Potomac Heritage National Scenic Trail",
-        "code": "POHE"
-    },
-    "POPO": {
-        "name": "Poverty Point National Monument",
-        "code": "POPO"
-    },
-    "WICL": {
-        "name": "President William Jefferson Clinton Birthplace Home National Historic Site",
-        "code": "WICL"
-    },
-    "WHHO": {
-        "name": "President's Park (White House)",
-        "code": "WHHO"
-    },
-    "PRSF": {
-        "name": "Presidio of San Francisco",
-        "code": "PRSF"
-    },
-    "PRWI": {
-        "name": "Prince William Forest Park",
-        "code": "PRWI"
-    },
-    "PULL": {
-        "name": "Pullman National Monument",
-        "code": "PULL"
-    },
-    "PUHO": {
-        "name": "Pu'uhonua O H\u014dnaunau National Historical Park",
-        "code": "PUHO"
-    },
-    "PUHE": {
-        "name": "Pu'ukohol\u0101 Heiau National Historic Site",
-        "code": "PUHE"
-    },
-    "QUSH": {
-        "name": "Quinebag and Shetucket Rivers Valley",
-        "code": "QUSH"
-    },
-    "RABR": {
-        "name": "Rainbow Bridge National Monument",
-        "code": "RABR"
-    },
-    "REER": {
-        "name": "Reconstruction Era Historical Park (National Monument)",
-        "code": "REER"
-    },
-    "REDW": {
-        "name": "Redwood National and State Parks",
-        "code": "REDW"
-    },
-    "RICH": {
-        "name": "Richmond National Battlefield Park",
-        "code": "RICH"
-    },
-    "RIGR": {
-        "name": "Rio Grande Wild & Scenic River",
-        "code": "RIGR"
-    },
-    "RIRA": {
-        "name": "River Raisin National Battlefield Park",
-        "code": "RIRA"
-    },
-    "RIST": {
-        "name": "Rivers of Steel National Heritage Area",
-        "code": "RIST"
-    },
-    "ROCR": {
-        "name": "Rock Creek Park",
-        "code": "ROCR"
-    },
-    "ROMO": {
-        "name": "Rocky Mountain National Park",
-        "code": "ROMO"
-    },
-    "ROMN": {
-        "name": "Rocky Mountain Network",
-        "code": "ROMN"
-    },
-    "ROWI": {
-        "name": "Roger Williams National Memorial",
-        "code": "ROWI"
-    },
-    "ROCA": {
-        "name": "Roosevelt Campobello International Park",
-        "code": "ROCA"
-    },
-    "ROVA": {
-        "name": "Roosevelt-Vanderbilt National Historic Sites",
-        "code": "ROVA"
-    },
-    "RORI": {
-        "name": "Rosie the Riveter/World War II Home Front National Historical Park",
-        "code": "RORI"
-    },
-    "RUCA": {
-        "name": "Russell Cave National Monument",
-        "code": "RUCA"
-    },
-    "SAHI": {
-        "name": "Sagamore Hill National Historic Site",
-        "code": "SAHI"
-    },
-    "SAGU": {
-        "name": "Saguaro National Park",
-        "code": "SAGU"
-    },
-    "SACR": {
-        "name": "Saint Croix Island International Historic Site",
-        "code": "SACR"
-    },
-    "SACN": {
-        "name": "Saint Croix National Scenic Riverway",
-        "code": "SACN"
-    },
-    "SAPA": {
-        "name": "Saint Paul's Church National Historic Site",
-        "code": "SAPA"
-    },
-    "SAGA": {
-        "name": "Saint-Gaudens National Historical Park (Historic Site)",
-        "code": "SAGA"
-    },
-    "SAMA": {
-        "name": "Salem Maritime National Historic Site",
-        "code": "SAMA"
-    },
-    "SAPU": {
-        "name": "Salinas Pueblo Missions National Monument",
-        "code": "SAPU"
-    },
-    "SARI": {
-        "name": "Salt River Bay National Historical Park and Ecological Preserve",
-        "code": "SARI"
-    },
-    "SAAN": {
-        "name": "San Antonio Missions National Historical Park",
-        "code": "SAAN"
-    },
-    "SFAN": {
-        "name": "San Francisco Bay Area Network",
-        "code": "SFAN"
-    },
-    "SAFR": {
-        "name": "San Francisco Maritime National Historical Park",
-        "code": "SAFR"
-    },
-    "SAJH": {
-        "name": "San Juan Island National Historical Park",
-        "code": "SAJH"
-    },
-    "SAJU": {
-        "name": "San Juan National Historic Site",
-        "code": "SAJU"
-    },
-    "SAND": {
-        "name": "Sand Creek Massacre National Historic Site",
-        "code": "SAND"
-    },
-    "SAMO": {
-        "name": "Santa Monica Mountains National Recreation Area",
-        "code": "SAMO"
-    },
-    "SAFE": {
-        "name": "SantaFe National Historic Trail",
-        "code": "SAFE"
-    },
-    "SARA": {
-        "name": "Saratoga National Historical Park",
-        "code": "SARA"
-    },
-    "SAIR": {
-        "name": "Saugus Iron Works National Historic Site",
-        "code": "SAIR"
-    },
-    "SCRV": {
-        "name": "Schuylkill River Valley National Heritage Area",
-        "code": "SCRV"
-    },
-    "SCBL": {
-        "name": "Scotts Bluff National Monument",
-        "code": "SCBL"
-    },
-    "SEMO": {
-        "name": "Selma to Montgomery National Historic Trail",
-        "code": "SEMO"
-    },
-    "SEKI": {
-        "name": "Sequoia & Kings Canyon National Parks",
-        "code": "SEKI"
-    },
-    "SHEN": {
-        "name": "Shenandoah National Park",
-        "code": "SHEN"
-    },
-    "SHIL": {
-        "name": "Shiloh National Military Park",
-        "code": "SHIL"
-    },
-    "SIEN": {
-        "name": "Sierra Nevada Netework",
-        "code": "SIEN"
-    },
-    "SITK": {
-        "name": "Sitka National Historical Park",
-        "code": "SITK"
-    },
-    "SLBE": {
-        "name": "Sleeping Bear Dunes National Lakeshore",
-        "code": "SLBE"
-    },
-    "SODN": {
-        "name": "Sonoran Desert Network",
-        "code": "SODN"
-    },
-    "SOCA": {
-        "name": "South Carolina National Heritage Corridor",
-        "code": "SOCA"
-    },
-    "SFCN": {
-        "name": "South Florida/Caribbean Network",
-        "code": "SFCN"
-    },
-    "SEAN": {
-        "name": "Southeast Alaska Network",
-        "code": "SEAN"
-    },
-    "SEAC": {
-        "name": "Southeast Archeological Center",
-        "code": "SEAC"
-    },
-    "SECN": {
-        "name": "Southeast Coast Network",
-        "code": "SECN"
-    },
-    "SER": {
-        "name": "Southeast Region",
-        "code": "SER"
-    },
-    "SERO": {
-        "name": "Southeast Regional Office",
-        "code": "SERO"
-    },
-    "SCPN": {
-        "name": "Southern Colorado Plateau Network",
-        "code": "SCPN"
-    },
-    "SOPN": {
-        "name": "Southern Plains Network",
-        "code": "SOPN"
-    },
-    "SWAN": {
-        "name": "Southwest Alaska Network",
-        "code": "SWAN"
-    },
-    "SWAC": {
-        "name": "Southwest Archeological Center",
-        "code": "SWAC"
-    },
-    "SWR": {
-        "name": "Southwest Region",
-        "code": "SWR"
-    },
-    "SWRO": {
-        "name": "Southwest Regional Office",
-        "code": "SWRO"
-    },
-    "SPAR": {
-        "name": "Springfield Armory National Historic Site",
-        "code": "SPAR"
-    },
-    "STSP": {
-        "name": "Star-Spangled Banner National Historic Trail",
-        "code": "STSP"
-    },
-    "STLI": {
-        "name": "Statue Of Liberty National Monument",
-        "code": "STLI"
-    },
-    "STGE": {
-        "name": "Ste. Genevieve National Historical Park",
-        "code": "STGE"
-    },
-    "STEA": {
-        "name": "Steamtown National Historic Site",
-        "code": "STEA"
-    },
-    "STRI": {
-        "name": "Stones River National Battlefield",
-        "code": "STRI"
-    },
-    "STON": {
-        "name": "Stonewall National Monument",
-        "code": "STON"
-    },
-    "SUCR": {
-        "name": "Sunset Crater Volcano National Monument",
-        "code": "SUCR"
-    },
-    "TAPR": {
-        "name": "Tallgrass Prairie National Preserve",
-        "code": "TAPR"
-    },
-    "TECW": {
-        "name": "Tennessee Civil War National Heritage Area",
-        "code": "TECW"
-    },
-    "THKO": {
-        "name": "Thaddeus Kosciuszko National Memorial",
-        "code": "THKO"
-    },
-    "THRB": {
-        "name": "Theodore Roosevelt Birthplace National Historic Site",
-        "code": "THRB"
-    },
-    "THRI": {
-        "name": "Theodore Roosevelt Inaugural National Historic Site",
-        "code": "THRI"
-    },
-    "THIS": {
-        "name": "Theodore Roosevelt Island",
-        "code": "THIS"
-    },
-    "THRO": {
-        "name": "Theodore Roosevelt National Park",
-        "code": "THRO"
-    },
-    "THCO": {
-        "name": "Thomas Cole National Historic Site",
-        "code": "THCO"
-    },
-    "EDIS": {
-        "name": "Thomas Edison National Historical Park",
-        "code": "EDIS"
-    },
-    "THJE": {
-        "name": "Thomas Jefferson Memorial",
-        "code": "THJE"
-    },
-    "THST": {
-        "name": "Thomas Stone National Historic Site",
-        "code": "THST"
-    },
-    "TICA": {
-        "name": "Timpanogos Cave National Monument",
-        "code": "TICA"
-    },
-    "TIMU": {
-        "name": "Timucuan Ecological & Historic Preserve",
-        "code": "TIMU"
-    },
-    "TONT": {
-        "name": "Tonto National Monument",
-        "code": "TONT"
-    },
-    "TOSY": {
-        "name": "Touro Synagogue National Historic Site",
-        "code": "TOSY"
-    },
-    "TRTE": {
-        "name": "Trail of Tears National Historic Trail",
-        "code": "TRTE"
-    },
-    "TULE": {
-        "name": "Tule Lake National Monument",
-        "code": "TULE"
-    },
-    "TUSK": {
-        "name": "Tule Springs Fossil Beds National Monument",
-        "code": "TUSK"
-    },
-    "TUMA": {
-        "name": "Tumac\u00e1cori National Historical Park",
-        "code": "TUMA"
-    },
-    "TUPE": {
-        "name": "Tupelo National Battlefield",
-        "code": "TUPE"
-    },
-    "TUAI": {
-        "name": "Tuskegee Airmen National Historic Site",
-        "code": "TUAI"
-    },
-    "TUIN": {
-        "name": "Tuskegee Institute National Historic Site",
-        "code": "TUIN"
-    },
-    "TUZI": {
-        "name": "Tuzigoot National Monument",
-        "code": "TUZI"
-    },
-    "USPP": {
-        "name": "U.S. Park Police",
-        "code": "USPP"
-    },
-    "ULSG": {
-        "name": "Ulysses S. Grant National Historic Site",
-        "code": "ULSG"
-    },
-    "UCBN": {
-        "name": "Upper Columbia Basin Network",
-        "code": "UCBN"
-    },
-    "UPDE": {
-        "name": "Upper Delaware Scenic & Recreational River",
-        "code": "UPDE"
-    },
-    "UPHV": {
-        "name": "Upper Housatonic Valley National Heritage Area",
-        "code": "UPHV"
-    },
-    "VALL": {
-        "name": "Valles Caldera National Preserve",
-        "code": "VALL"
-    },
-    "VAFO": {
-        "name": "Valley Forge National Historical Park",
-        "code": "VAFO"
-    },
-    "VAMA": {
-        "name": "Vanderbilt Mansion National Historic Site",
-        "code": "VAMA"
-    },
-    "VICK": {
-        "name": "Vicksburg National Military Park",
-        "code": "VICK"
-    },
-    "VIVE": {
-        "name": "Vietnam Veterans Memorial",
-        "code": "VIVE"
-    },
-    "VICR": {
-        "name": "Virgin Islands Coral Reef National Monument",
-        "code": "VICR"
-    },
-    "VIIS": {
-        "name": "Virgin Islands National Park",
-        "code": "VIIS"
-    },
-    "VOYA": {
-        "name": "Voyageurs National Park",
-        "code": "VOYA"
-    },
-    "WACO": {
-        "name": "Waco Mammoth National Monument",
-        "code": "WACO"
-    },
-    "WACA": {
-        "name": "Walnut Canyon National Monument",
-        "code": "WACA"
-    },
-    "WAPA": {
-        "name": "War In The Pacific National Historical Park",
-        "code": "WAPA"
-    },
-    "WAMO": {
-        "name": "Washington Monument",
-        "code": "WAMO"
-    },
-    "WASO": {
-        "name": "Washington Office",
-        "code": "WASO"
-    },
-    "WARO": {
-        "name": "Washington-Rochambeau Revolutionary Route National Historic Trail",
-        "code": "WARO"
-    },
-    "WABA": {
-        "name": "Washita Battlefield National Historic Site",
-        "code": "WABA"
-    },
-    "WEFA": {
-        "name": "Weir Farm National Historic Site",
-        "code": "WEFA"
-    },
-    "WACC": {
-        "name": "Western Archeological and Conservation Center",
-        "code": "WACC"
-    },
-    "WML": {
-        "name": "Western Museum Laboratory",
-        "code": "WML"
-    },
-    "WRO": {
-        "name": "Western Regional Office",
-        "code": "WRO"
-    },
-    "WHEE": {
-        "name": "Wheeling National Heritage Area",
-        "code": "WHEE"
-    },
-    "WHIS": {
-        "name": "Whiskeytown National Recreation Area",
-        "code": "WHIS"
-    },
-    "WHSA": {
-        "name": "White Sands National Park (formerly White Sands National Monument)",
-        "code": "WHSA"
-    },
-    "WHMI": {
-        "name": "Whitman Mission National Historic Site",
-        "code": "WHMI"
-    },
-    "WIHO": {
-        "name": "William Howard Taft National Historic Site",
-        "code": "WIHO"
-    },
-    "WICR": {
-        "name": "Wilson's Creek National Battlefield",
-        "code": "WICR"
-    },
-    "WICA": {
-        "name": "Wind Cave National Park",
-        "code": "WICA"
-    },
-    "WING": {
-        "name": "Wing Luke Museum of the Asian Pacific American Experience",
-        "code": "WING"
-    },
-    "WOTR": {
-        "name": "Wolf Trap National Park for the Performing Arts (formerly Wolf Trap Farm Park)",
-        "code": "WOTR"
-    },
-    "WORI": {
-        "name": "Women's Rights National Historical Park",
-        "code": "WORI"
-    },
-    "WWII": {
-        "name": "World War II Memorial National Memorial",
-        "code": "WWII"
-    },
-    "VALR": {
-        "name": "World War II Valor in the Pacific National Monument",
-        "code": "VALR"
-    },
-    "WRST": {
-        "name": "Wrangell - St. Elias National Park & Preserve",
-        "code": "WRST"
-    },
-    "WRBR": {
-        "name": "Wright Brothers National Memorial",
-        "code": "WRBR"
-    },
-    "WUPA": {
-        "name": "Wupatki National Monument",
-        "code": "WUPA"
-    },
-    "YELL": {
-        "name": "Yellowstone National Park",
-        "code": "YELL"
-    },
-    "COLO, YORK": {
-        "name": "Yorktown Battlefield (part of Colonial National Historical Park)",
-        "code": "COLO, YORK"
-    },
-    "YOSE": {
-        "name": "Yosemite National Park",
-        "code": "YOSE"
-    },
-    "YUHO": {
-        "name": "Yucca House National Monument",
-        "code": "YUHO"
-    },
-    "YUCH": {
-        "name": "Yukon-Charley Rivers National Preserve",
-        "code": "YUCH"
-    },
-    "YUCR": {
-        "name": "Yuma Crossing National Heritage Area",
-        "code": "YUCR"
-    },
-    "ZION": {
-        "name": "Zion National Park",
-        "code": "ZION"
-    }
+"map":{
+  "NP": ["#00A36C", "tree", "npfg","National Park"],
+        "NHP": ["#7D3C98", "landmark", "littlefg","National Historical Park"],
+        "NPres": ["#cd853f", "binoculars", "littlefg","National Preserve"],
+        "NHRES": ["#cd853f", "binoculars", "littlefg","National Historic Reserve"],
+        "NHS": ["#D2042D", "landmark-dome", "littlefg","National Historic Site"],
+        "NM": ["#FFC000", "monument", "littlefg","National Monument"],
+        "NRA": ["#FF5F1F", "compass", "littlefg","National Recreation Area"],
+        "NS": ["#0047AB", "water", "littlefg","National Seashore"],
+        "NL": ["lightblue", "water", "littlefg","National Lakeshore"],
+        "NMEM": ["#5C4A72", "archway", "littlefg","National Memorial"],
+        "NMP": ["#8A3B12", "person-military-rifle", "littlefg","National Military Park"],
+        "NB": ["#C04E37", "person-rifle", "littlefg","National Battle Field"],
+        "NBP": ["#B02B3B", "person-military-pointing", "littlefg","National Battle Field Park"],
+        "PARK": ["#50C878", "frog", "littlefg","Park"],
+        "NMEMPWKY": ["#848884", "car", "littlefg","National Memorial Parkway"],
+        "AIRPORT": ["#AFAFAF", "plane", "airportfg","An Airport Man IDK"],
+        "AIRPORT_INT": ["#AFAFAF", "passport", "airportfg","An Airport Man IDK"],
+        "Bur":["pink","burger","inoutfg","In N Out"],
+        "petroglyph":["#7D2929","wave-square","nativeSitesfg","Petroglyphs"],
+        "quarry":["#C56C39","hill-rockslide","nativeSitesfg","Rock Formations or Quarry"],
+        "mound":["#694C38","mound","nativeSitesfg","Mound"],
+        "greatwork":["#F8F8F6","connectdevelop","nativeSitesfg","Great Works"],
+        "city":["#000000","city","city","City"],
+        "town":["#FFA500","tree-city","city","Town or Other Municaplity"],
+        "resort":["#48D1CC","umbrella-beach","city","Resort"],
+        "beach":["#00008B","water","nature","Beach"],
+        "campground":["#6F7168","campground","campgroundfg","A campground"],
+        "garden":["#5ca904","leaf","gardenandzoofg","Botanical Garden"],
+        "zoo":["#714620","kiwi-bird","gardenandzoofg","A Zoo or Reserve"],
+        "aquarium":["#80BFD7","fish","gardenandzoofg","A Aqarium"]
+},
+"groups":[
+  "npfg",
+  "littlefg",
+  "inoutfg",
+  "airportfg",
+  "triplinefg",
+  "city",
+  "campgroundfg"
+],
+"parks":[
+  {
+    "code": "ACAD",
+    "name": "Acadia",
+    "type": "NP",
+    "lat": 44.34774867659995,
+    "long": -68.27484847,
+    "dates": "7/23/2024-7/25/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BICY",
+    "name": "Big Cypress",
+    "type": "NPres",
+    "lat": 26.04878429646862,
+    "long": -81.07529404,
+    "dates": "10/5/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "CEBE",
+    "name": "Cedar Creek & Belle Grove",
+    "type": "NHP",
+    "lat": 39.010583431093735,
+    "long": -78.30396483,
+    "dates": "8/29/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "SHEN",
+    "name": "Shenandoah",
+    "type": "NP",
+    "lat": 38.49049386523605,
+    "long": -78.46178064,
+    "dates": "8/27/2024-8/29/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "WEFA",
+    "name": "Weir Farm",
+    "type": "NHP",
+    "lat": 41.25774781799167,
+    "long": -73.45587257,
+    "dates": "9/27/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "JOFI",
+    "name": "John Fitzgerald Kennedy",
+    "type": "NHS",
+    "lat": 42.34709066933196,
+    "long": -71.1233103,
+    "dates": "10/18/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "FRLA",
+    "name": "Frederick Law Olmsted",
+    "type": "NHS",
+    "lat": 42.32543336080815,
+    "long": -71.13228326,
+    "dates": "10/18/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BOST",
+    "name": "Boston",
+    "type": "NHP",
+    "lat": 42.36035674684861,
+    "long": -71.05508462,
+    "dates": "10/18/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BOAF",
+    "name": "Boston African American",
+    "type": "NHS",
+    "lat": 42.35912201968068,
+    "long": -71.06518261,
+    "dates": "10/18/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "MIMA",
+    "name": "Minute Man",
+    "type": "NHP",
+    "lat": 42.45433317118441,
+    "long": -71.30143512,
+    "dates": "10/19/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "SPAR",
+    "name": "Springfield Armory",
+    "type": "NHS",
+    "lat": 42.10752406133906,
+    "long": -72.58125083,
+    "dates": "10/20/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "DEWA",
+    "name": "Delaware Water Gap",
+    "type": "NRA",
+    "lat": 41.21918903447282,
+    "long": -74.87313814,
+    "dates": "11/1/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "STLI",
+    "name": "Statue of Liberty",
+    "type": "NM",
+    "lat": 40.68936283772997,
+    "long": -74.04416754,
+    "dates": "11/8/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "VAMA",
+    "name": "Vanderbilt Mansion",
+    "type": "NHS",
+    "lat": 41.79663705173277,
+    "long": -73.94229354,
+    "dates": "11/11/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "HOFR",
+    "name": "Home of Franklin D. Roosevelt",
+    "type": "NHS",
+    "lat": 41.768115417443425,
+    "long": -73.93500259,
+    "dates": "11/11/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "EDIS",
+    "name": "Thomas Edison",
+    "type": "NHP",
+    "lat": 40.78415357484253,
+    "long": -74.2340614,
+    "dates": "12/27/2024",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "SAPA",
+    "name": "Saint Paul's Church",
+    "type": "NHS",
+    "lat": 40.893621765203896,
+    "long": -73.82590156,
+    "dates": "1/8/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "GATE",
+    "name": "Gateway",
+    "type": "NRA",
+    "lat": 40.461817981614395,
+    "long": -74.00208137,
+    "dates": "2/28/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "HOFU",
+    "name": "Hopewell Furnace",
+    "type": "NHS",
+    "lat": 40.206309194399424,
+    "long": -75.7680413,
+    "dates": "3/16/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "GETT",
+    "name": "Gettysburg",
+    "type": "NMP",
+    "lat": 39.81198622312757,
+    "long": -77.22619112,
+    "dates": "3/17/25-3/18/25",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "EISE",
+    "name": "Eisenhower",
+    "type": "NHS",
+    "lat": 39.794088746306976,
+    "long": -77.26318467,
+    "dates": "3/18/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "CATO",
+    "name": "Catoctin Mountain",
+    "type": "PARK",
+    "lat": 39.627054939928875,
+    "long": -77.44005895,
+    "dates": "3/18/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "ANTI",
+    "name": "Antietam",
+    "type": "NB",
+    "lat": 39.467229992299146,
+    "long": -77.73630332,
+    "dates": "3/19/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "HAFE",
+    "name": "Harpers Ferry",
+    "type": "NHP",
+    "lat": 39.318003478374855,
+    "long": -77.75807713,
+    "dates": "3/19/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "CHOH",
+    "name": "Chesapeake & Ohio Canal",
+    "type": "NHP",
+    "lat": 39.32500506806593,
+    "long": -77.72666199,
+    "dates": "3/19/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "MONO",
+    "name": "Monocacy",
+    "type": "NB",
+    "lat": 39.377611442452164,
+    "long": -77.39718631,
+    "dates": "3/20/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "FOMC",
+    "name": "Fort McHenry",
+    "type": "NM",
+    "lat": 39.264374790915554,
+    "long": -76.5807165,
+    "dates": "3/20/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "HAMP",
+    "name": "Hampton",
+    "type": "NHS",
+    "lat": 39.41652779750747,
+    "long": -76.58762117,
+    "dates": "3/20/2025",
+    "trip": "Civil War 1",
+    "stay": "through"
+  },
+  {
+    "code": "PAGR",
+    "name": "Paterson Great Falls",
+    "type": "NHP",
+    "lat": 40.91823731914403,
+    "long": -74.17983532,
+    "dates": "3/28/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "CLBA",
+    "name": "Clara Barton",
+    "type": "NHS",
+    "lat": 38.96766959002962,
+    "long": -77.14085763,
+    "dates": "3/29/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "GWMP",
+    "name": "George Washington",
+    "type": "NMEMPWKY",
+    "lat": 38.960382676001636,
+    "long": -77.15153254,
+    "dates": "3/29/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "GREE",
+    "name": "Greenbelt",
+    "type": "PARK",
+    "lat": 38.98289916873673,
+    "long": -76.89765469,
+    "dates": "3/29/25-3/31/25",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BEPA",
+    "name": "Belmont-paul Women's Equality",
+    "type": "NM",
+    "lat": 38.892673700394894,
+    "long": -77.0037642,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "DDEM",
+    "name": "Dwight D. Eisenhower",
+    "type": "NMEM",
+    "lat": 38.88702969687536,
+    "long": -77.0186052,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "PAAV",
+    "name": "Pennsylvania Avenue",
+    "type": "NHS",
+    "lat": 38.89428180010192,
+    "long": -77.02520787,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "WAMO",
+    "name": "Washington Monument",
+    "type": "NMEM",
+    "lat": 38.88968942693913,
+    "long": -77.0352582,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "WWII",
+    "name": "World War II",
+    "type": "NMEM",
+    "lat": 38.889268093425486,
+    "long": -77.04045478,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "COGA",
+    "name": "Constitution Gardens",
+    "type": "PARK",
+    "lat": 38.891079809766715,
+    "long": -77.04301698,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "VIVE",
+    "name": "Vietnam Veterans",
+    "type": "NMEM",
+    "lat": 38.89112194214608,
+    "long": -77.04763617,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "LINC",
+    "name": "Lincoln",
+    "type": "NMEM",
+    "lat": 38.88945067157764,
+    "long": -77.05019837,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "KOWA",
+    "name": "Korean war Veterans",
+    "type": "NMEM",
+    "lat": 38.88756868958258,
+    "long": -77.04799704,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "MLKM",
+    "name": "Martin Luther King Jr.",
+    "type": "NMEM",
+    "lat": 38.88598160629131,
+    "long": -77.04400939,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "FRDE",
+    "name": "Franklin Delano Roosevelt",
+    "type": "NMEM",
+    "lat": 38.883186568103426,
+    "long": -77.04307111,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "THJE",
+    "name": "Thomas Jefferson",
+    "type": "NMEM",
+    "lat": 38.88148701871426,
+    "long": -77.03684605,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "NAMA",
+    "name": "National Mall and Memorial",
+    "type": "PARK",
+    "lat": 38.88953493827039,
+    "long": -77.03143294,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "NACE",
+    "name": "National Capital Parks-East",
+    "type": "PARK",
+    "lat": 38.889849897344206,
+    "long": -77.01129482,
+    "dates": "3/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "LYBA",
+    "name": "LBJ Grove on the Potomac",
+    "type": "NMEM",
+    "lat": 38.878366848057276,
+    "long": -77.05159297,
+    "dates": "3/31/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "ARHO",
+    "name": "Arlington House",
+    "type": "NMEM",
+    "lat": 38.88131686214414,
+    "long": -77.07313579,
+    "dates": "3/31/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "THIS",
+    "name": "Theodore Roosevelt Island",
+    "type": "NMEM",
+    "lat": 38.89654308060993,
+    "long": -77.06492284,
+    "dates": "3/31/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "MANA",
+    "name": "Manassas",
+    "type": "NBP",
+    "lat": 38.81725154356313,
+    "long": -77.53543908,
+    "dates": "3/31/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "MORR",
+    "name": "Morristown",
+    "type": "NHP",
+    "lat": 40.79736441640253,
+    "long": -74.46586078,
+    "dates": "4/26/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "ROWI",
+    "name": "Roger Williams",
+    "type": "NMEM",
+    "lat": 41.83146767212702,
+    "long": -71.41069739,
+    "dates": "5/1/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "NEBE",
+    "name": "New Bedford Whaling",
+    "type": "NHP",
+    "lat": 41.63625568565642,
+    "long": -70.92400076,
+    "dates": "5/1/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "SAMA",
+    "name": "Salem Maritime",
+    "type": "NHS",
+    "lat": 42.52183737777307,
+    "long": -70.88684636,
+    "dates": "5/2/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "CUVA",
+    "name": "Cuyahoga Valley",
+    "type": "NP",
+    "lat": 41.305594292346036,
+    "long": -81.55982167,
+    "dates": "5/15/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "INDU",
+    "name": "Indiana Dunes",
+    "type": "NP",
+    "lat": 41.66844054799753,
+    "long": -87.04324191,
+    "dates": "5/16/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "HEHO",
+    "name": "Herbert Hoover",
+    "type": "NHS",
+    "lat": 41.67109622418317,
+    "long": -91.34555375,
+    "dates": "5/17/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "HOME",
+    "name": "Homestead",
+    "type": "NHP",
+    "lat": 40.28563631022528,
+    "long": -96.82576866,
+    "dates": "5/18/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "ROMO",
+    "name": "Rocky Mountain",
+    "type": "NP",
+    "lat": 40.41790060171507,
+    "long": -105.6684186,
+    "dates": "5/19/2025-5/21/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "DINO",
+    "name": "Dinosaur",
+    "type": "NM",
+    "lat": 40.51313483820603,
+    "long": -108.9486273,
+    "dates": "5/22/2025-5/24/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "COLM",
+    "name": "Colorado",
+    "type": "NM",
+    "lat": 39.05318357901909,
+    "long": -108.6925847,
+    "dates": "5/24/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "ARCH",
+    "name": "Arches",
+    "type": "NP",
+    "lat": 38.758149555235555,
+    "long": -109.5733284,
+    "dates": "5/24/2025-5/27/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "CANY",
+    "name": "Canyonlands",
+    "type": "NP",
+    "lat": 38.28549886075234,
+    "long": -109.8925376,
+    "dates": "5/25/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "CARE",
+    "name": "Capitol Reef",
+    "type": "NP",
+    "lat": 38.091740441945994,
+    "long": -111.1304757,
+    "dates": "5/27/2025-5/30/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "CEBR",
+    "name": "Cedar Breaks",
+    "type": "NM",
+    "lat": 37.63643129964391,
+    "long": -112.8452774,
+    "dates": "5/30/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "ZION",
+    "name": "Zion",
+    "type": "NP",
+    "lat": 37.328187280171676,
+    "long": -113.0226832,
+    "dates": "5/30/2025-6/3/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "GRCA",
+    "name": "Grand Canyon",
+    "type": "NP",
+    "lat": 36.33079310940465,
+    "long": -112.3585119,
+    "dates": "5/31/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "BRCA",
+    "name": "Bryce Canyon",
+    "type": "NP",
+    "lat": 37.61603682517547,
+    "long": -112.1881133,
+    "dates": "6/1/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "GRBA",
+    "name": "Great Basin",
+    "type": "NP",
+    "lat": 38.957241955496414,
+    "long": -114.2510353,
+    "dates": "6/3/2025-6/6/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "YOSE",
+    "name": "Yosemite",
+    "type": "NP",
+    "lat": 37.894832262964066,
+    "long": -119.5403115,
+    "dates": "6/6/2025-6/11/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "SEKI",
+    "name": "Sequioa",
+    "type": "NP",
+    "lat": 36.53618278459122,
+    "long": -118.5392519,
+    "dates": "6/8/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "SEKI",
+    "name": "Kings Canyon",
+    "type": "NP",
+    "lat": 36.99757036826309,
+    "long": -118.5901105,
+    "dates": "6/8/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "GOGA",
+    "name": "Golden Gate",
+    "type": "NRA",
+    "lat": 37.845370061344354,
+    "long": -122.5301743,
+    "dates": "6/11/2025-6/12/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "FOPO",
+    "name": "Fort Point",
+    "type": "NHS",
+    "lat": 37.81085748210351,
+    "long": -122.4771758,
+    "dates": "6/12/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "SAFR",
+    "name": "San Franciso Maritime",
+    "type": "NHP",
+    "lat": 37.806776039383294,
+    "long": -122.4238555,
+    "dates": "6/12/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "MUWO",
+    "name": "Muir Woods",
+    "type": "NM",
+    "lat": 37.897383921759015,
+    "long": -122.5809675,
+    "dates": "6/13/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "PORE",
+    "name": "Point Reyes",
+    "type": "NS",
+    "lat": 38.05412152531245,
+    "long": -122.8875505,
+    "dates": "6/13/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "RORI",
+    "name": "Rosie the riveter wwii home front",
+    "type": "NHP",
+    "lat": 37.90992835737878,
+    "long": -122.3572222,
+    "dates": "6/14/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "JOMU",
+    "name": "John Muir",
+    "type": "NHS",
+    "lat": 37.99257222464664,
+    "long": -122.131036,
+    "dates": "6/14/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "LAVO",
+    "name": "Lassen Volcanic",
+    "type": "NP",
+    "lat": 40.523640827155475,
+    "long": -121.4226211,
+    "dates": "6/14/2025-6/17/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "WHIS",
+    "name": "Whiskeytown",
+    "type": "NRA",
+    "lat": 40.61397385031934,
+    "long": -122.5262808,
+    "dates": "6/17/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "REDW",
+    "name": "Redwoods",
+    "type": "NP",
+    "lat": 41.40668124482149,
+    "long": -124.0469541,
+    "dates": "6/17/2025-6/20/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "CRLA",
+    "name": "Crater Lake",
+    "type": "NP",
+    "lat": 42.935877724468845,
+    "long": -122.125605,
+    "dates": "6/20/2025-6/23/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "TULE",
+    "name": "Tule Lake",
+    "type": "NM",
+    "lat": 41.88753843759738,
+    "long": -121.3769239,
+    "dates": "6/21/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "LABE",
+    "name": "Lava Beds",
+    "type": "NM",
+    "lat": 41.77514759,
+    "long": -121.5068196,
+    "dates": "6/21/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "MORA",
+    "name": "Mount Rainier",
+    "type": "NP",
+    "lat": 46.88685909773774,
+    "long": -121.7163368,
+    "dates": "6/23/2025-6/27/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "OLYM",
+    "name": "Olympic",
+    "type": "NP",
+    "lat": 47.84292977891904,
+    "long": -123.6101342,
+    "dates": "6/27/2025-7/3/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "EBLA",
+    "name": "Ebeys Landing",
+    "type": "NHRES",
+    "lat": 48.24299483940327,
+    "long": -122.6992929,
+    "dates": "7/3/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "NOCA",
+    "name": "North Cascades",
+    "type": "NP",
+    "lat": 48.80050801661068,
+    "long": -121.2722033,
+    "dates": "7/3/2025-7/6/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "NONE",
+    "name": "Ross Lake",
+    "type": "NRA",
+    "lat": 48.785532496864235,
+    "long": -121.0654506,
+    "dates": "7/3/2025-7/6/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "NONE",
+    "name": "Lake Chelan",
+    "type": "NRA",
+    "lat": 48.356380178173154,
+    "long": -120.6846383,
+    "dates": "7/3/2025-7/6/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "LARO",
+    "name": "Lake Roosevelt",
+    "type": "NRA",
+    "lat": 48.134388179979766,
+    "long": -118.2454782,
+    "dates": "7/6/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "GRKO",
+    "name": "Grant-Khors Ranch",
+    "type": "NHS",
+    "lat": 46.40624652262087,
+    "long": -112.736564,
+    "dates": "7/7/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "YELL",
+    "name": "Yellowstone",
+    "type": "NP",
+    "lat": 44.64685415674819,
+    "long": -110.5552873,
+    "dates": "7/7/2025-7/11/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "NONE",
+    "name": "John D Rockefeller Jr",
+    "type": "NMEMPWKY",
+    "lat": 44.08215690396166,
+    "long": -110.6818664,
+    "dates": "7/11/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "GRTE",
+    "name": "Grand Teton",
+    "type": "NP",
+    "lat": 43.81413981862328,
+    "long": -110.6926767,
+    "dates": "7/11/2025-7/14/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "DETO",
+    "name": "Devils Tower",
+    "type": "NM",
+    "lat": 44.59036258082578,
+    "long": -104.7145953,
+    "dates": "7/14/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "WICA",
+    "name": "Wind Cave",
+    "type": "NP",
+    "lat": 43.583161989648964,
+    "long": -103.4406675,
+    "dates": "7/14/2025-7/17/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "MORU",
+    "name": "Mount Rushmore",
+    "type": "NMEM",
+    "lat": 43.88044393617736,
+    "long": -103.4537639,
+    "dates": "7/15/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "JECA",
+    "name": "Jewel Cave",
+    "type": "NM",
+    "lat": 43.73117556994824,
+    "long": -103.8299939,
+    "dates": "7/16/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "FOLA",
+    "name": "Fort Laramie",
+    "type": "NHS",
+    "lat": 42.20379344120482,
+    "long": -104.5560794,
+    "dates": "7/16/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "SCBL",
+    "name": "Scotts Bluff",
+    "type": "NM",
+    "lat": 41.83455691593639,
+    "long": -103.7072063,
+    "dates": "7/16/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "visit"
+  },
+  {
+    "code": "AGFO",
+    "name": "Agate Fossil Beds",
+    "type": "NM",
+    "lat": 42.42529248446373,
+    "long": -103.7342786,
+    "dates": "7/17/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "BADL",
+    "name": "Badlands",
+    "type": "NP",
+    "lat": 43.88574309515302,
+    "long": -102.310831,
+    "dates": "7/17/2025-7/19/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "stay"
+  },
+  {
+    "code": "MIMI",
+    "name": "Minuteman Missile",
+    "type": "NHS",
+    "lat": 43.84470819341478,
+    "long": -101.9012044,
+    "dates": "7/19/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "PIPE",
+    "name": "Pipestone",
+    "type": "NM",
+    "lat": 44.01350445349972,
+    "long": -96.32521183,
+    "dates": "7/19/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "EFMO",
+    "name": "Effigy Mounds",
+    "type": "NM",
+    "lat": 43.08900791616202,
+    "long": -91.18566343,
+    "dates": "7/20/2025",
+    "trip": "Nuts For Nature Tour 2025",
+    "stay": "through"
+  },
+  {
+    "code": "ASIS",
+    "name": "Assategue Island",
+    "type": "NS",
+    "lat": 38.13302398,
+    "long": -75.17877762,
+    "dates": "7/29/2025-7/31/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "HATU",
+    "name": "Harriet Tubman Underground Railroad",
+    "type": "NHP",
+    "lat": 38.45021371522037,
+    "long": -76.13765085,
+    "dates": "7/30/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "FRST",
+    "name": "First State",
+    "type": "NHP",
+    "lat": 39.66001014,
+    "long": -75.56323213,
+    "dates": "7/31/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BOWA",
+    "name": "Booker T Washington",
+    "type": "NM",
+    "lat": 37.11950163155294,
+    "long": -79.73160231,
+    "dates": "8/15/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "GUCO",
+    "name": "Guilford Courthouse",
+    "type": "NMP",
+    "lat": 36.13198969788494,
+    "long": -79.84643248,
+    "dates": "8/15/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "APCO",
+    "name": "Appomattox Courthouse",
+    "type": "NHP",
+    "lat": 37.37665998233936,
+    "long": -78.79707815,
+    "dates": "8/16/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "BLRI",
+    "name": "Blue Ridge",
+    "type": "NMEMPWKY",
+    "lat": 37.435143706467116,
+    "long": -79.60496502,
+    "dates": "8/16/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "PETE",
+    "name": "Petersburg",
+    "type": "NB",
+    "lat": 37.24396874353688,
+    "long": -77.35689793,
+    "dates": "8/17/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "RICH",
+    "name": "Richmond",
+    "type": "NB",
+    "lat": 37.52702265446766,
+    "long": -77.41220327,
+    "dates": "8/18/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "FOMR",
+    "name": "Fort Monroe",
+    "type": "NM",
+    "lat": 37.004123815936936,
+    "long": -76.30736262,
+    "dates": "8/19/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "COLO",
+    "name": "Colonial",
+    "type": "NHP",
+    "lat": 37.225884175859264,
+    "long": -76.78423342,
+    "dates": "8/19/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "FRSP",
+    "name": "Fredericksburg & Spotslyvania County Battlefields Memorial",
+    "type": "NMP",
+    "lat": 38.29396010126794,
+    "long": -77.46737602,
+    "dates": "8/20/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "PRWI",
+    "name": "Prince Willams Forest",
+    "type": "PARK",
+    "lat": 38.585562961348785,
+    "long": -77.3839465,
+    "dates": "8/20/2025-8/21/2025",
+    "trip": "Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style",
+    "stay": "through"
+  },
+  {
+    "code": "STEA",
+    "name": "Steamtown",
+    "type": "NHS",
+    "lat": 41.40805866106717,
+    "long": -75.67195776,
+    "dates": "8/31/2025",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "AIRP",
+    "name": "Harry Reid International Airport",
+    "type": "AIRPORT",
+    "lat": 36.08204718885973,
+    "long": -115.1362141,
+    "dates": "1/2/2026;1/13/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "stay"
+  },
+  {
+    "code": "TUSK",
+    "name": "Tule Springs Fossil Bed's",
+    "type": "NM",
+    "lat": 36.34876094,
+    "long": -115.2904797,
+    "dates": "1/2/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "through"
+  },
+  {
+    "code": "DEVA",
+    "name": "Death Valley",
+    "type": "NP",
+    "lat": 36.580112051399595,
+    "long": -117.060624,
+    "dates": "1/2/2026-1/6/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "stay"
+  },
+  {
+    "code": "MANZ",
+    "name": "Manzanar",
+    "type": "NHS",
+    "lat": 36.72830367637733,
+    "long": -118.1514483,
+    "dates": "1/3/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "visit"
+  },
+  {
+    "code": "MOJN",
+    "name": "Mojave",
+    "type": "NPres",
+    "lat": 35.12414853571588,
+    "long": -115.5203176,
+    "dates": "1/6/2026-1/8/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "stay"
+  },
+  {
+    "code": "CAMO",
+    "name": "Castle Mountains",
+    "type": "NM",
+    "lat": 35.301953032112614,
+    "long": -115.1268424,
+    "dates": "1/7/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "visit"
+  },
+  {
+    "code": "CASA",
+    "name": "Cabrillo",
+    "type": "NM",
+    "lat": 32.67263552125186,
+    "long": -117.2414878,
+    "dates": "1/8/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "through"
+  },
+  {
+    "code": "JOTR",
+    "name": "Joshua Tree",
+    "type": "NP",
+    "lat": 33.89086257253763,
+    "long": -115.895013,
+    "dates": "1/8/2026-1/11/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "stay"
+  },
+  {
+    "code": "LAKE",
+    "name": "Lake Mead",
+    "type": "NRA",
+    "lat": 36.15540048651489,
+    "long": -114.4558739,
+    "dates": "1/11/2026-1/13/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "stay"
+  },
+  {
+    "code": "PISP",
+    "name": "Pipe Spring",
+    "type": "NM",
+    "lat": 36.86277374870997,
+    "long": -112.737474,
+    "dates": "1/12/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "visit"
+  },
+  {
+    "code": "ZION",
+    "name": "Zion",
+    "type": "NP",
+    "lat": 37.328187280171676,
+    "long": -113.0226832,
+    "dates": "1/12/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "visit"
+  },
+  {
+    "code": "AIRP",
+    "name": "Harry Reid International Airport",
+    "type": "AIRPORT",
+    "lat": 36.08204718885973,
+    "long": -115.1362141,
+    "dates": "1/2/2026;1/13/2026",
+    "trip": "Desert or Dessert??",
+    "stay": "stay"
+  },
+  {
+    "code": "INOB",
+    "name": "In N Out Burger",
+    "type": "Bur",
+    "lat": 36.26544983313767,
+    "long": -115.2571874,
+    "dates": "I honestly don't know",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "INOB",
+    "name": "In N Out Burger",
+    "type": "Bur",
+    "lat": 34.85005959254123,
+    "long": -117.0826722,
+    "dates": "I honestly don't know",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "INOB",
+    "name": "In N Out Burger",
+    "type": "Bur",
+    "lat": 37.160595199398706,
+    "long": -113.5108371,
+    "dates": "I honestly don't know",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "INOB",
+    "name": "In N Out Burger",
+    "type": "Bur",
+    "lat": 36.06921970767984,
+    "long": -115.0352404,
+    "dates": "I honestly don't know",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "INOB",
+    "name": "In N Out Burger",
+    "type": "Bur",
+    "lat": 45.011073507032265,
+    "long": -122.9945802,
+    "dates": "I honestly don't know",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "INOB",
+    "name": "In N Out Burger",
+    "type": "Bur",
+    "lat": 38.36663254616597,
+    "long": -121.961102,
+    "dates": "I honestly don't know",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "INOB",
+    "name": "In N Out Burger",
+    "type": "Bur",
+    "lat": 32.98181469738555,
+    "long": -117.0775602,
+    "dates": "I honestly don't know",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "INOB",
+    "name": "In N Out Burger",
+    "type": "Bur",
+    "lat": 37.58003490403831,
+    "long": -120.939293,
+    "dates": "I honestly don't know",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "AIRP",
+    "name": "Hartfield-Jackson Atlanta International Airport",
+    "type": "AIRPORT",
+    "lat": 33.640967066930166,
+    "long": -84.42567719,
+    "dates": "2/13/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "CHCH",
+    "name": "Chickamauga & Chattanooga",
+    "type": "NMP",
+    "lat": 35.010826835294615,
+    "long": -85.34363117,
+    "dates": "2/14/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "RUCA",
+    "name": "Russell Cave",
+    "type": "NM",
+    "lat": 34.978835744082154,
+    "long": -85.80981648,
+    "dates": "2/14/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "LIRI",
+    "name": "Little River Canyon",
+    "type": "NPres",
+    "lat": 34.39497104394009,
+    "long": -85.62120792,
+    "dates": "2/14/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "OCMU",
+    "name": "Ocmulgee Mounds",
+    "type": "NHP",
+    "lat": 32.83830898845751,
+    "long": -83.60207313,
+    "dates": "2/15/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "ANDE",
+    "name": "Andersonville",
+    "type": "NHS",
+    "lat": 32.20044913671737,
+    "long": -84.13033143,
+    "dates": "2/15/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "JICA",
+    "name": "Jimmy Carter",
+    "type": "NHP",
+    "lat": 32.03654149900641,
+    "long": -84.3925057,
+    "dates": "2/15/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "TUIN",
+    "name": "Tuskegee Institute",
+    "type": "NHS",
+    "lat": 32.429875301973574,
+    "long": -85.70685295,
+    "dates": "2/16/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "TUAI",
+    "name": "Tuskegee Airmen",
+    "type": "NHS",
+    "lat": 32.457433916684835,
+    "long": -85.68016074,
+    "dates": "2/16/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "HOBE",
+    "name": "Horseshoe Bend",
+    "type": "NMP",
+    "lat": 32.97635621269059,
+    "long": -85.73353959,
+    "dates": "2/16/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "FRRI",
+    "name": "Freedom Riders",
+    "type": "NM",
+    "lat": 33.658344786149414,
+    "long": -85.83113381,
+    "dates": "2/16/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "MALU",
+    "name": "Martin Luther King Jr.",
+    "type": "NHP",
+    "lat": 33.756923659819485,
+    "long": -84.37326563,
+    "dates": "2/17/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "CHAT",
+    "name": "Chattahoochee River",
+    "type": "NRA",
+    "lat": 33.98728723029985,
+    "long": -84.32354889,
+    "dates": "2/17/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "KEMO",
+    "name": "Kennesaw Mountain",
+    "type": "NBP",
+    "lat": 33.98324812380776,
+    "long": -84.57805965,
+    "dates": "2/17/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "AIRP",
+    "name": "Hartfield-Jackson Atlanta International Airport",
+    "type": "AIRPORT",
+    "lat": 33.640967066930166,
+    "long": -84.42567719,
+    "dates": "2/13/2026",
+    "trip": "galavant",
+    "stay": "through"
+  },
+  {
+    "code": "GATE",
+    "name": "Gateway",
+    "type": "NRA",
+    "lat": 40.461817981614395,
+    "long": -74.00208137,
+    "dates": "2/28/2026",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "LOWE",
+    "name": "Lowell",
+    "type": "NHP",
+    "lat": 42.644575940301394,
+    "long": -71.31246087,
+    "dates": "3/20/2026",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "GRBY",
+    "name": "Grace Bay",
+    "type": "resort",
+    "lat": 21.800347329851423,
+    "long": -72.16871738,
+    "dates": "date",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "NYC",
+    "name": "New York",
+    "type": "city",
+    "lat": 40.72108442108943,
+    "long": -73.99598551,
+    "dates": "Many Times",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BOST",
+    "name": "Boston",
+    "type": "city",
+    "lat": 42.35231721,
+    "long": -71.05518098,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "SAFR",
+    "name": "San Francisco",
+    "type": "city",
+    "lat": 37.773712840831706,
+    "long": -122.4128808,
+    "dates": "A Time",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BAHAR",
+    "name": "Bar Harbor",
+    "type": "town",
+    "lat": 44.386402129241695,
+    "long": -68.19868079,
+    "dates": "A Time",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "WADC",
+    "name": "Washington Dc",
+    "type": "city",
+    "lat": 38.90769985818508,
+    "long": -77.04743154,
+    "dates": "A Time",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "NAPL",
+    "name": "Naples",
+    "type": "city",
+    "lat": 26.14075974859082,
+    "long": -81.79728906,
+    "dates": "Many Times",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "FTMY",
+    "name": "Fort Myers",
+    "type": "city",
+    "lat": 26.642696760643283,
+    "long": -81.85472349,
+    "dates": "Many Times",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "HOUT",
+    "name": "Houston",
+    "type": "city",
+    "lat": 29.75863282704754,
+    "long": -95.35407332,
+    "dates": "A Time",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BOST",
+    "name": "Boston",
+    "type": "city",
+    "lat": 42.35231721,
+    "long": -71.05518098,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "ATLA",
+    "name": "Atlanata",
+    "type": "city",
+    "lat": 33.713509528581035,
+    "long": -84.46492874,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "MACO",
+    "name": "Macon",
+    "type": "city",
+    "lat": 32.85053644,
+    "long": -83.37259443,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "CHAT",
+    "name": "Chattanooga",
+    "type": "city",
+    "lat": 35.08378797187588,
+    "long": -85.24033446,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "KNOX",
+    "name": "Knoxville",
+    "type": "city",
+    "lat": 35.966693575782614,
+    "long": -83.92251193,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "LONG",
+    "name": "Longmont",
+    "type": "city",
+    "lat": 40.16690852935807,
+    "long": -105.1005548,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "DINO",
+    "name": "Dinosaur",
+    "type": "town",
+    "lat": 40.24213382,
+    "long": -109.0059948,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "MOAB",
+    "name": "Moab",
+    "type": "city",
+    "lat": 38.572899102758534,
+    "long": -109.5507521,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "LAVA",
+    "name": "Las Vegas",
+    "type": "city",
+    "lat": 36.17268334548868,
+    "long": -115.1564606,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "HEND",
+    "name": "Henderson",
+    "type": "city",
+    "lat": 36.043646021865584,
+    "long": -114.9928799,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "SADI",
+    "name": "San Diego",
+    "type": "city",
+    "lat": 32.71016604253577,
+    "long": -117.1338525,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "SARF",
+    "name": "San Rafael",
+    "type": "city",
+    "lat": 37.97294689,
+    "long": -122.5326085,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "PRES",
+    "name": "Point Reyes Station",
+    "type": "town",
+    "lat": 38.06984576,
+    "long": -122.8081293,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "VICT",
+    "name": "Victoria",
+    "type": "city",
+    "lat": 48.42996804878782,
+    "long": -123.3667756,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "MIOL",
+    "name": "Missoula",
+    "type": "city",
+    "lat": 46.87356246278564,
+    "long": -113.9965362,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "PITT",
+    "name": "Pittsburgh",
+    "type": "city",
+    "lat": 40.45464805015954,
+    "long": -79.88917262,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "PHIL",
+    "name": "Philadelphia",
+    "type": "city",
+    "lat": 39.91921652074654,
+    "long": -74.80275122,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "HART",
+    "name": "Hartford",
+    "type": "city",
+    "lat": 41.79085192247696,
+    "long": -72.53854295,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "RICH",
+    "name": "Richmond",
+    "type": "city",
+    "lat": 37.52926466381682,
+    "long": -77.28832984,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "NENE",
+    "name": "Newport News",
+    "type": "city",
+    "lat": 37.08492755079737,
+    "long": -76.47157923,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "AUBR",
+    "name": "Auburn",
+    "type": "city",
+    "lat": 32.60701186947416,
+    "long": -85.47513093,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "BIUN",
+    "name": "Billund",
+    "type": "town",
+    "lat": 55.72915014585326,
+    "long": 9.109448208769104,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "RAND",
+    "name": "Randers",
+    "type": "city",
+    "lat": 56.462520060940136,
+    "long": 10.019683514186447,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "ARHU",
+    "name": "Aarhus",
+    "type": "city",
+    "lat": 56.16300424270926,
+    "long": 10.203603777311798,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "SKAG",
+    "name": "Skagen",
+    "type": "town",
+    "lat": 57.72393666025133,
+    "long": 10.576492328081038,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "COPE",
+    "name": "Copenhagen",
+    "type": "city",
+    "lat": 55.67475223794112,
+    "long": 12.58489749517682,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "STOC",
+    "name": "Stockholm",
+    "type": "city",
+    "lat": 59.33330221535525,
+    "long": 18.081348673768243,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  },
+  {
+    "code": "NIAG",
+    "name": "Niagara Falls",
+    "type": "city",
+    "lat": 43.090297839680446,
+    "long": -79.09249775,
+    "dates": "meow",
+    "trip": "",
+    "stay": ""
+  }
+]
 }

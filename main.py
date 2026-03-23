@@ -18,6 +18,8 @@ inoutfg=folium.FeatureGroup(name='In n Out Locations',show=False)
 airportfg=folium.FeatureGroup(name='Airports',show=True)
 triplinefg=folium.FeatureGroup(name='Trip lines',show=False)
 city=folium.FeatureGroup(name='Cities',show=False)
+campgroundfg=folium.FeatureGroup(name="Campgrounds",show=False)
+gardenandzoofg=folium.FeatureGroup(name="Gardens, Zoos, Aquariums", show=False)
 
 
 groups={
@@ -26,7 +28,9 @@ groups={
 'inoutfg':inoutfg,
 'airportfg':airportfg,
 'triplinefg':triplinefg,
-'city':city
+'city':city,
+'campgroundfg':campgroundfg,
+"gardenandzoofg":gardenandzoofg
 }
 
 objPark.make(df,sites,trips,in_n_out)
@@ -48,12 +52,14 @@ inoutfg.add_to(m)
 airportfg.add_to(m)
 triplinefg.add_to(m)
 city.add_to(m)
+campgroundfg.add_to(m)
+gardenandzoofg.add_to(m)
 
 folium.LayerControl().add_to(m)
 
 m.save("index.html")
 
-coObj=obj(42.36593547920669, -71.00937673924525)
+'''coObj=obj(42.36593547920669, -71.00937673924525)
 
 dfc=pd.read_csv('info/co.csv')
 
@@ -89,4 +95,4 @@ triplinecfg.add_to(mc)
 
 folium.LayerControl().add_to(mc)
 
-mc.save("countires.html")
+mc.save("countires.html")'''

@@ -1,0 +1,2302 @@
+{
+    "ABLI": {
+        "name": "Abraham Lincoln Birthplace National Historical Park",
+        "code": "ABLI"
+    },
+    "ACAD": {
+        "name": "Acadia National Park",
+        "code": "ACAD"
+    },
+    "ADAM": {
+        "name": "Adams National Historical Park",
+        "code": "ADAM"
+    },
+    "AFAM": {
+        "name": "African American Civil War Memorial",
+        "code": "AFAM"
+    },
+    "AFBG": {
+        "name": "African Burial Ground National Monument",
+        "code": "AFBG"
+    },
+    "AGFO": {
+        "name": "Agate Fossil Beds National Monument",
+        "code": "AGFO"
+    },
+    "ALKA": {
+        "name": "Ala Kahakai National Historic Trail",
+        "code": "ALKA"
+    },
+    "ALAG": {
+        "name": "Alagnak Wild River",
+        "code": "ALAG"
+    },
+    "ANCH": {
+        "name": "Alaska Public Lands",
+        "code": "ANCH"
+    },
+    "AKR": {
+        "name": "Alaska Region",
+        "code": "AKR"
+    },
+    "AKRO": {
+        "name": "Alaska Regional Office",
+        "code": "AKRO"
+    },
+    "ALCA": {
+        "name": "Alcatraz Island",
+        "code": "ALCA"
+    },
+    "ALEU": {
+        "name": "Aleutian World War II National Historic Area",
+        "code": "ALEU"
+    },
+    "ALFL": {
+        "name": "Alibates Flint Quarries National Monument",
+        "code": "ALFL"
+    },
+    "ALPO": {
+        "name": "Allegheny Portage Railroad National Historic Site",
+        "code": "ALPO"
+    },
+    "AMCH": {
+        "name": "Amache National Historic Site",
+        "code": "AMCH"
+    },
+    "AMME": {
+        "name": "American Memorial Park",
+        "code": "AMME"
+    },
+    "AMIS": {
+        "name": "Amistad National Recreation Area",
+        "code": "AMIS"
+    },
+    "ANAC": {
+        "name": "Anacostia Park",
+        "code": "ANAC"
+    },
+    "ANDE": {
+        "name": "Andersonville National Historic Site",
+        "code": "ANDE"
+    },
+    "ANJO": {
+        "name": "Andrew Johnson National Historic Site",
+        "code": "ANJO"
+    },
+    "ANIA": {
+        "name": "Aniakchak National Monument and Preserve",
+        "code": "ANIA"
+    },
+    "ANTI": {
+        "name": "Antietam National Battlefield",
+        "code": "ANTI"
+    },
+    "APIS": {
+        "name": "Apostle Islands National Lakeshore",
+        "code": "APIS"
+    },
+    "APHN": {
+        "name": "Appalachian Highlands Network",
+        "code": "APHN"
+    },
+    "APPA": {
+        "name": "Appalachian National Scenic Trail",
+        "code": "APPA"
+    },
+    "APCO": {
+        "name": "Appomattox Court House National Historical Park",
+        "code": "APCO"
+    },
+    "ARMO": {
+        "name": "Arabia Mountain National Heritage Area",
+        "code": "ARMO"
+    },
+    "ARCH": {
+        "name": "Arches National Park",
+        "code": "ARCH"
+    },
+    "ARCN": {
+        "name": "Arctic Network",
+        "code": "ARCN"
+    },
+    "ARPO": {
+        "name": "Arkansas Post National Memorial",
+        "code": "ARPO"
+    },
+    "ARHO": {
+        "name": "Arlington House, The Robert E. Lee Memorial",
+        "code": "ARHO"
+    },
+    "ASIS": {
+        "name": "Assateague Island National Seashore",
+        "code": "ASIS"
+    },
+    "ATTR": {
+        "name": "Atchafalaya National Heritage Area",
+        "code": "ATTR"
+    },
+    "AUCA": {
+        "name": "Augusta Canal National Heritage Area",
+        "code": "AUCA"
+    },
+    "AZRU": {
+        "name": "Aztec Ruins National Monument",
+        "code": "AZRU"
+    },
+    "BADL": {
+        "name": "Badlands National Park",
+        "code": "BADL"
+    },
+    "BALT": {
+        "name": "Baltimore National Heritage Area",
+        "code": "BALT"
+    },
+    "BAWA": {
+        "name": "Baltimore-Washington Parkway",
+        "code": "BAWA"
+    },
+    "BAND": {
+        "name": "Bandelier National Monument",
+        "code": "BAND"
+    },
+    "BEPA": {
+        "name": "Belmont-Paul Women's Equality National Monument (Sewall-Belmont Women's Equality NM)",
+        "code": "BEPA"
+    },
+    "BEOL": {
+        "name": "Bent's Old Fort National Historic Site",
+        "code": "BEOL"
+    },
+    "BELA": {
+        "name": "Bering Land Bridge National Preserve",
+        "code": "BELA"
+    },
+    "BIBE": {
+        "name": "Big Bend National Park",
+        "code": "BIBE"
+    },
+    "BICY": {
+        "name": "Big Cypress National Preserve",
+        "code": "BICY"
+    },
+    "BIHO": {
+        "name": "Big Hole National Battlefield",
+        "code": "BIHO"
+    },
+    "BISO": {
+        "name": "Big South Fork National River and Recreation Area",
+        "code": "BISO"
+    },
+    "BITH": {
+        "name": "Big Thicket National Preserve",
+        "code": "BITH"
+    },
+    "BICA": {
+        "name": "Bighorn Canyon National Recreation Area",
+        "code": "BICA"
+    },
+    "BICR": {
+        "name": "Birmingham Civil Rights National Monument",
+        "code": "BICR"
+    },
+    "BISC": {
+        "name": "Biscayne National Park",
+        "code": "BISC"
+    },
+    "BLCA": {
+        "name": "Black Canyon Of The Gunnison National Park",
+        "code": "BLCA"
+    },
+    "BLRV": {
+        "name": "Blackstone River Valley National Historical Park",
+        "code": "BLRV"
+    },
+    "BLSC": {
+        "name": "Blackwell School National Historic Site",
+        "code": "BLSC"
+    },
+    "BLRN": {
+        "name": "Blue Ridge National Heritage Area",
+        "code": "BLRN"
+    },
+    "BLRI": {
+        "name": "Blue Ridge Parkway",
+        "code": "BLRI"
+    },
+    "BLUE": {
+        "name": "Bluestone National Scenic River",
+        "code": "BLUE"
+    },
+    "BOWA": {
+        "name": "Booker T. Washington National Monument",
+        "code": "BOWA"
+    },
+    "BOAF": {
+        "name": "Boston African American National Historic Site",
+        "code": "BOAF"
+    },
+    "BOHA": {
+        "name": "Boston Harbor Islands National Recreation Area",
+        "code": "BOHA"
+    },
+    "BOST": {
+        "name": "Boston National Historical Park",
+        "code": "BOST"
+    },
+    "BRCR": {
+        "name": "Brices Cross Roads National Battlefield Site",
+        "code": "BRCR"
+    },
+    "BRVB": {
+        "name": "Brown v. Board Of Education National Historic Site",
+        "code": "BRVB"
+    },
+    "BRCA": {
+        "name": "Bryce Canyon National Park",
+        "code": "BRCA"
+    },
+    "BUIS": {
+        "name": "Buck Island Reef National Monument",
+        "code": "BUIS"
+    },
+    "BUFF": {
+        "name": "Buffalo National River",
+        "code": "BUFF"
+    },
+    "CABR": {
+        "name": "Cabrillo National Monument",
+        "code": "CABR"
+    },
+    "CALA": {
+        "name": "Cache la Poudre River National Heritage Area",
+        "code": "CALA"
+    },
+    "CALI": {
+        "name": "California National Historic Trail",
+        "code": "CALI"
+    },
+    "CANE": {
+        "name": "Camp Nelson National Monument",
+        "code": "CANE"
+    },
+    "CANA": {
+        "name": "Canaveral National Seashore",
+        "code": "CANA"
+    },
+    "CARI": {
+        "name": "Cane River Creole National Historical Park",
+        "code": "CARI"
+    },
+    "CRHA": {
+        "name": "Cane River National Heritage Area",
+        "code": "CRHA"
+    },
+    "CACH": {
+        "name": "Canyon de Chelly National Monument",
+        "code": "CACH"
+    },
+    "CANY": {
+        "name": "Canyonlands National Park",
+        "code": "CANY"
+    },
+    "CACO": {
+        "name": "Cape Cod National Seashore",
+        "code": "CACO"
+    },
+    "CAHA": {
+        "name": "Cape Henry Memorial, Part of Colonial National Historical Park",
+        "code": "CAHA"
+    },
+    "CAKR": {
+        "name": "Cape Krusenstern National Monument",
+        "code": "CAKR"
+    },
+    "CALO": {
+        "name": "Cape Lookout National Seashore",
+        "code": "CALO"
+    },
+    "CAHI": {
+        "name": "Capitol Hill Parks",
+        "code": "CAHI"
+    },
+    "CARE": {
+        "name": "Capitol Reef National Park",
+        "code": "CARE"
+    },
+    "CAJO": {
+        "name": "Captain John Smith Chesapeake National Historic Trail",
+        "code": "CAJO"
+    },
+    "CAVO": {
+        "name": "Capulin Volcano National Monument",
+        "code": "CAVO"
+    },
+    "CARL": {
+        "name": "Carl Sandburg Home National Historic Site",
+        "code": "CARL"
+    },
+    "CAVE (formerly CACA)": {
+        "name": "Carlsbad Caverns National Park",
+        "code": "CAVE (formerly CACA)"
+    },
+    "CAWO": {
+        "name": "Carter G. Woodson Home National Historic Site",
+        "code": "CAWO"
+    },
+    "CAGR": {
+        "name": "Casa Grande Ruins National Monument",
+        "code": "CAGR"
+    },
+    "CASA": {
+        "name": "Castillo de San Marcos National Monument",
+        "code": "CASA"
+    },
+    "CACL": {
+        "name": "Castle Clinton National Monument",
+        "code": "CACL"
+    },
+    "CAMO": {
+        "name": "Castle Mountains National Monument",
+        "code": "CAMO"
+    },
+    "CATO": {
+        "name": "Catoctin Mountain Park",
+        "code": "CATO"
+    },
+    "CEBR": {
+        "name": "Cedar Breaks National Monument",
+        "code": "CEBR"
+    },
+    "CEBE": {
+        "name": "Cedar Creek and Belle Grove National Historical Park",
+        "code": "CEBE"
+    },
+    "CAKN": {
+        "name": "Central Alaska Network",
+        "code": "CAKN"
+    },
+    "CECH": {
+        "name": "C\u00e9sar E. Ch\u00e1vez National Monument",
+        "code": "CECH"
+    },
+    "CHCU": {
+        "name": "Chaco Culture National Historical Park",
+        "code": "CHCU"
+    },
+    "CHAM": {
+        "name": "Chamizal National Memorial",
+        "code": "CHAM"
+    },
+    "CHVA": {
+        "name": "Champlain Valley National Heritage Partnership",
+        "code": "CHVA"
+    },
+    "CHIS": {
+        "name": "Channel Islands National Park",
+        "code": "CHIS"
+    },
+    "CHPI": {
+        "name": "Charles Pinckney National Historic Site",
+        "code": "CHPI"
+    },
+    "CHYO": {
+        "name": "Charles Young Buffalo Soldiers National Monument",
+        "code": "CHYO"
+    },
+    "CHAT": {
+        "name": "Chattahoochee River National Recreation Area",
+        "code": "CHAT"
+    },
+    "CHOH": {
+        "name": "Chesapeake and Ohio Canal National Historical Park",
+        "code": "CHOH"
+    },
+    "CHBA": {
+        "name": "Chesapeake Bay Gateways",
+        "code": "CHBA"
+    },
+    "CHCH": {
+        "name": "Chickamauga and Chattanooga National Military Park",
+        "code": "CHCH"
+    },
+    "CHIC": {
+        "name": "Chickasaw National Recreation Area (formerly Platt National Park)",
+        "code": "CHIC"
+    },
+    "CHDN": {
+        "name": "Chihuahuan Desert Network",
+        "code": "CHDN"
+    },
+    "use MWR": {
+        "name": "Chimney Rock National Historic Site",
+        "code": "use MWR"
+    },
+    "CHIR": {
+        "name": "Chiricahua National Monument",
+        "code": "CHIR"
+    },
+    "CHRI": {
+        "name": "Christiansted National Historic Site",
+        "code": "CHRI"
+    },
+    "CIRO": {
+        "name": "City Of Rocks National Reserve",
+        "code": "CIRO"
+    },
+    "CWDW": {
+        "name": "City Of Rocks National Reserve",
+        "code": "CWDW"
+    },
+    "CLBA": {
+        "name": "Clara Barton National Historic Site",
+        "code": "CLBA"
+    },
+    "CLMO": {
+        "name": "Claude Moore Colonial Farm",
+        "code": "CLMO"
+    },
+    "COLO": {
+        "name": "Colonial National Historical Park",
+        "code": "COLO"
+    },
+    "COLM": {
+        "name": "Colorado National Monument",
+        "code": "COLM"
+    },
+    "COLT": {
+        "name": "Coltsville National Historical Park",
+        "code": "COLT"
+    },
+    "CONG": {
+        "name": "Congaree National Park",
+        "code": "CONG"
+    },
+    "COGA": {
+        "name": "Constitution Gardens",
+        "code": "COGA"
+    },
+    "CORO": {
+        "name": "Coronado National Memorial",
+        "code": "CORO"
+    },
+    "COWP": {
+        "name": "Cowpens National Battlefield",
+        "code": "COWP"
+    },
+    "CRLA": {
+        "name": "Crater Lake National Park",
+        "code": "CRLA"
+    },
+    "CRMO": {
+        "name": "Craters Of The Moon National Monument and Preserve",
+        "code": "CRMO"
+    },
+    "CUGA": {
+        "name": "Cumberland Gap National Historical Park",
+        "code": "CUGA"
+    },
+    "CUIS": {
+        "name": "Cumberland Island National Seashore",
+        "code": "CUIS"
+    },
+    "CUPN": {
+        "name": "Cumberland Piedmont Network",
+        "code": "CUPN"
+    },
+    "CURE": {
+        "name": "Curecanti National Recreation Area",
+        "code": "CURE"
+    },
+    "CUVA": {
+        "name": "Cuyahoga Valley National Park",
+        "code": "CUVA"
+    },
+    "DABE": {
+        "name": "David Berger National Memorial",
+        "code": "DABE"
+    },
+    "DAAV": {
+        "name": "Dayton Aviation Heritage National Historical Park",
+        "code": "DAAV"
+    },
+    "DESO": {
+        "name": "De Soto National Memorial",
+        "code": "DESO"
+    },
+    "DEVA": {
+        "name": "Death Valley National Park",
+        "code": "DEVA"
+    },
+    "DELE": {
+        "name": "Delaware and Lehigh National Heritage Corridor",
+        "code": "DELE"
+    },
+    "DEWA": {
+        "name": "Delaware Water Gap National Recreation Area",
+        "code": "DEWA"
+    },
+    "DENA": {
+        "name": "Denali National Park & Preserve (Formely Mount McKinley National Park)",
+        "code": "DENA"
+    },
+    "DSC": {
+        "name": "Denver Service Center",
+        "code": "DSC"
+    },
+    "DEPO": {
+        "name": "Devils Postpile National Monument",
+        "code": "DEPO"
+    },
+    "DETO": {
+        "name": "Devils Tower National Monument",
+        "code": "DETO"
+    },
+    "DINO": {
+        "name": "Dinosaur National Monument",
+        "code": "DINO"
+    },
+    "DRTO (formerly FOJE)": {
+        "name": "Dry Tortugas National Park (formerly Fort Jefferson National Monument)",
+        "code": "DRTO (formerly FOJE)"
+    },
+    "DDEM": {
+        "name": "Dwight D. Eisenhower Memorial",
+        "code": "DDEM"
+    },
+    "EML": {
+        "name": "Eastern Museum Laboratory",
+        "code": "EML"
+    },
+    "EODC": {
+        "name": "Eastern Office of Design and Construction",
+        "code": "EODC"
+    },
+    "ERMN": {
+        "name": "Eastern Rivers and Mountains Network",
+        "code": "ERMN"
+    },
+    "EBLA": {
+        "name": "Ebey\u2019s Landing National Historical Reserve",
+        "code": "EBLA"
+    },
+    "EDAL": {
+        "name": "Edgar Allan Poe National Historic Site",
+        "code": "EDAL"
+    },
+    "EFMO": {
+        "name": "Effigy Mounds National Monument",
+        "code": "EFMO"
+    },
+    "EISE": {
+        "name": "Eisenhower National Historic Site",
+        "code": "EISE"
+    },
+    "ELTE": {
+        "name": "El Camino Real de los Tejas National Historic Trail",
+        "code": "ELTE"
+    },
+    "ELCA": {
+        "name": "El Camino Real de Tierra Adentro National Historic Trail",
+        "code": "ELCA"
+    },
+    "ELMA": {
+        "name": "El Malpais National Monument",
+        "code": "ELMA"
+    },
+    "ELMO": {
+        "name": "El Morro National Monument",
+        "code": "ELMO"
+    },
+    "ELRO": {
+        "name": "Eleanor Roosevelt National Historic Site",
+        "code": "ELRO"
+    },
+    "use STLI": {
+        "name": "Ellis Island (ELIS)",
+        "code": "use STLI"
+    },
+    "TILL": {
+        "name": "Emmett Till and Mamie Till-Mobley National Monument",
+        "code": "TILL"
+    },
+    "ERIE": {
+        "name": "Erie Canalway National Heritage Cooridor",
+        "code": "ERIE"
+    },
+    "EUON": {
+        "name": "Eugene O'Neill National Historic Site",
+        "code": "EUON"
+    },
+    "EVER": {
+        "name": "Everglades National Park",
+        "code": "EVER"
+    },
+    "FATI": {
+        "name": "Fallen Timbers Battlefield and Fort Miamis National Historic Site",
+        "code": "FATI"
+    },
+    "FEHA": {
+        "name": "Federal Hall National Memorial",
+        "code": "FEHA"
+    },
+    "FIIS": {
+        "name": "Fire Island National Seashore",
+        "code": "FIIS"
+    },
+    "FILA": {
+        "name": "First Ladies National Historic Site",
+        "code": "FILA"
+    },
+    "FRST": {
+        "name": "First State National Historical Park",
+        "code": "FRST"
+    },
+    "FLNI": {
+        "name": "Flight 93 National Memorial",
+        "code": "FLNI"
+    },
+    "FLFO": {
+        "name": "Florissant Fossil Beds National Monument",
+        "code": "FLFO"
+    },
+    "FOTH": {
+        "name": "Ford's Theatre National Historic Site",
+        "code": "FOTH"
+    },
+    "FOBO": {
+        "name": "Fort Bowie National Historic Site",
+        "code": "FOBO"
+    },
+    "use TIMU": {
+        "name": "Fort Caroline National Memorial",
+        "code": "use TIMU"
+    },
+    "FODA": {
+        "name": "Fort Davis National Historic Site",
+        "code": "FODA"
+    },
+    "FODO": {
+        "name": "Fort Donelson National Battlefield",
+        "code": "FODO"
+    },
+    "FODU": {
+        "name": "Fort Dupont Park",
+        "code": "FODU"
+    },
+    "FOFO": {
+        "name": "Fort Foote Park",
+        "code": "FOFO"
+    },
+    "FOFR": {
+        "name": "Fort Frederica National Monument",
+        "code": "FOFR"
+    },
+    "FOLA": {
+        "name": "Fort Laramie National Historic Site",
+        "code": "FOLA"
+    },
+    "FOLS": {
+        "name": "Fort Larned National Historic Site",
+        "code": "FOLS"
+    },
+    "FOMA": {
+        "name": "Fort Matanzas National Monument",
+        "code": "FOMA"
+    },
+    "FOMC": {
+        "name": "Fort McHenry National Monument and Historic Shrine",
+        "code": "FOMC"
+    },
+    "FOMR": {
+        "name": "Fort Monroe National Monument",
+        "code": "FOMR"
+    },
+    "FONE": {
+        "name": "Fort Necessity National Battlefield",
+        "code": "FONE"
+    },
+    "FOPO": {
+        "name": "Fort Point National Historic Site",
+        "code": "FOPO"
+    },
+    "FOPU": {
+        "name": "Fort Pulaski National Monument",
+        "code": "FOPU"
+    },
+    "FORA": {
+        "name": "Fort Raleigh National Historic Site",
+        "code": "FORA"
+    },
+    "FOSC": {
+        "name": "Fort Scott National Historic Site",
+        "code": "FOSC"
+    },
+    "FOSM": {
+        "name": "Fort Smith National Historic Site",
+        "code": "FOSM"
+    },
+    "FOST": {
+        "name": "Fort Stanwix National Monument",
+        "code": "FOST"
+    },
+    "FOSU": {
+        "name": "Fort Sumter and Fort Moultire Historical Park (Fort Sumter National Monument)",
+        "code": "FOSU"
+    },
+    "FOUN": {
+        "name": "Fort Union National Monument",
+        "code": "FOUN"
+    },
+    "FOUS": {
+        "name": "Fort Union Trading Post National Historic Site",
+        "code": "FOUS"
+    },
+    "FOVA": {
+        "name": "Fort Vancouver National Historic Site",
+        "code": "FOVA"
+    },
+    "FOWA": {
+        "name": "Fort Washington Park",
+        "code": "FOWA"
+    },
+    "FOBU": {
+        "name": "Fossil Butte National Monument",
+        "code": "FOBU"
+    },
+    "FDRM": {
+        "name": "Franklin Delano Roosevelt Memorial (FRDE)",
+        "code": "FDRM"
+    },
+    "FRDE": {
+        "name": "Franklin Delano Roosevelt National Memorial",
+        "code": "FRDE"
+    },
+    "FRDO": {
+        "name": "Frederick Douglass National Historic Site",
+        "code": "FRDO"
+    },
+    "FRLA": {
+        "name": "Frederick Law Olmsted National Historic Site",
+        "code": "FRLA"
+    },
+    "FRSP": {
+        "name": "Fredericksburg & Spotsylvania National Military Park",
+        "code": "FRSP"
+    },
+    "FRRI": {
+        "name": "Freedom Riders National Monument",
+        "code": "FRRI"
+    },
+    "FRWA": {
+        "name": "Freedom's Way National Heritage Area",
+        "code": "FRWA"
+    },
+    "FRHI": {
+        "name": "Friendship Hill National Historic Site",
+        "code": "FRHI"
+    },
+    "GAAR": {
+        "name": "Gates of the Arctic National Park & Preserve",
+        "code": "GAAR"
+    },
+    "JEFF": {
+        "name": "Gateway Arch National Park (formerly Jefferson National Expansion Memorial)",
+        "code": "JEFF"
+    },
+    "GATE": {
+        "name": "Gateway National Recreation Area",
+        "code": "GATE"
+    },
+    "GARI": {
+        "name": "Gauley River National Recreation Area",
+        "code": "GARI"
+    },
+    "GEGR": {
+        "name": "General Grant National Memorial",
+        "code": "GEGR"
+    },
+    "GERO": {
+        "name": "George Rogers Clark National Historical Park",
+        "code": "GERO"
+    },
+    "GEWA": {
+        "name": "George Washington Birthplace National Monument",
+        "code": "GEWA"
+    },
+    "GWCA": {
+        "name": "George Washington Carver National Monument",
+        "code": "GWCA"
+    },
+    "GWMP": {
+        "name": "George Washington Memorial Parkway",
+        "code": "GWMP"
+    },
+    "GETT": {
+        "name": "Gettysburg National Military Park",
+        "code": "GETT"
+    },
+    "GICL": {
+        "name": "Gila Cliff Dwellings National Monument",
+        "code": "GICL"
+    },
+    "GLBA": {
+        "name": "Glacier Bay National Park & Preserve",
+        "code": "GLBA"
+    },
+    "GLAC": {
+        "name": "Glacier National Park",
+        "code": "GLAC"
+    },
+    "GLCA": {
+        "name": "Glen Canyon National Recreation Area",
+        "code": "GLCA"
+    },
+    "GLEC": {
+        "name": "Glen Echo Park",
+        "code": "GLEC"
+    },
+    "GLDE": {
+        "name": "Gloria Dei Church National Historic Site",
+        "code": "GLDE"
+    },
+    "GOGA": {
+        "name": "Golden Gate National Recreation Area",
+        "code": "GOGA"
+    },
+    "GOSP": {
+        "name": "Golden Spike National Park (Historic Site)",
+        "code": "GOSP"
+    },
+    "GOIS": {
+        "name": "Governors Island National Monument",
+        "code": "GOIS"
+    },
+    "GRCA": {
+        "name": "Grand Canyon National Park",
+        "code": "GRCA"
+    },
+    "GRPO": {
+        "name": "Grand Portage National Monument",
+        "code": "GRPO"
+    },
+    "GRTE": {
+        "name": "Grand Teton National Park",
+        "code": "GRTE"
+    },
+    "GRKO": {
+        "name": "Grant-Kohrs Ranch National Historic Site",
+        "code": "GRKO"
+    },
+    "GRBA": {
+        "name": "Great Basin National Park",
+        "code": "GRBA"
+    },
+    "GREG": {
+        "name": "Great Egg Harbor River",
+        "code": "GREG"
+    },
+    "GRFA": {
+        "name": "Great Falls Park",
+        "code": "GRFA"
+    },
+    "GLKN": {
+        "name": "Great Lakes Network",
+        "code": "GLKN"
+    },
+    "GRSA": {
+        "name": "Great Sand Dunes National Park & Preserve",
+        "code": "GRSA"
+    },
+    "GRSM": {
+        "name": "Great Smoky Mountains National Park",
+        "code": "GRSM"
+    },
+    "GRYN": {
+        "name": "Greater Yellowstone Network",
+        "code": "GRYN"
+    },
+    "GRSP": {
+        "name": "Green Springs National Historic Landmark District",
+        "code": "GRSP"
+    },
+    "GREE": {
+        "name": "Greenbelt Park",
+        "code": "GREE"
+    },
+    "GUMO": {
+        "name": "Guadalupe Mountains National Park",
+        "code": "GUMO"
+    },
+    "GUCO": {
+        "name": "Guilford Courthouse National Military Park",
+        "code": "GUCO"
+    },
+    "GULN": {
+        "name": "Gulf Coast Network",
+        "code": "GULN"
+    },
+    "GUIS": {
+        "name": "Gulf Islands National Seashore",
+        "code": "GUIS"
+    },
+    "GUGE": {
+        "name": "Gullah/Geechee Cultural Heritage Corridor",
+        "code": "GUGE"
+    },
+    "HAFO": {
+        "name": "Hagerman Fossil Beds National Monument",
+        "code": "HAFO"
+    },
+    "HALE": {
+        "name": "Haleakal\u0101 National Park",
+        "code": "HALE"
+    },
+    "HAGR": {
+        "name": "Hamilton Grange National Memorial",
+        "code": "HAGR"
+    },
+    "HAMP": {
+        "name": "Hampton National Historic Site",
+        "code": "HAMP"
+    },
+    "HAHA": {
+        "name": "Harmony Hall",
+        "code": "HAHA"
+    },
+    "HFC": {
+        "name": "Harpers Ferry Center",
+        "code": "HFC"
+    },
+    "HAFE": {
+        "name": "Harpers Ferry National Historical Park",
+        "code": "HAFE"
+    },
+    "HART": {
+        "name": "Harriet Tubman National Historical Park",
+        "code": "HART"
+    },
+    "HATU": {
+        "name": "Harriet Tubman Underground Railroad National Historical Park",
+        "code": "HATU"
+    },
+    "HSTR": {
+        "name": "Harry S. Truman National Historic Site",
+        "code": "HSTR"
+    },
+    "HAVO": {
+        "name": "Hawai'i Volcanoes National Park",
+        "code": "HAVO"
+    },
+    "HTLN": {
+        "name": "Heartland Network",
+        "code": "HTLN"
+    },
+    "HEHO": {
+        "name": "Herbert Hoover National Historic Site",
+        "code": "HEHO"
+    },
+    "JAME": {
+        "name": "Historic Jamestowne, Part of Colonial National Historical Park",
+        "code": "JAME"
+    },
+    "PIMA": {
+        "name": "Hohokam-Pima National Monument",
+        "code": "PIMA"
+    },
+    "HOFR": {
+        "name": "Home Of Franklin D. Roosevelt National Historic Site",
+        "code": "HOFR"
+    },
+    "HOME": {
+        "name": "Homestead National Monument of America",
+        "code": "HOME"
+    },
+    "HONO": {
+        "name": "Honouliuli Historic Site (National Monument)",
+        "code": "HONO"
+    },
+    "HOCU": {
+        "name": "Hopewell Culture National Historical Park",
+        "code": "HOCU"
+    },
+    "HOFU": {
+        "name": "Hopewell Furnace National Historic Site",
+        "code": "HOFU"
+    },
+    "HOVI": {
+        "name": "Hopewell Village National Historic Site (now Hopewell Furnace NHS)",
+        "code": "HOVI"
+    },
+    "HOAL": {
+        "name": "Horace Albright Training Center",
+        "code": "HOAL"
+    },
+    "HOBE": {
+        "name": "Horseshoe Bend National Military Park",
+        "code": "HOBE"
+    },
+    "HOSP": {
+        "name": "Hot Springs National Park",
+        "code": "HOSP"
+    },
+    "HOVE": {
+        "name": "Hovenweep National Monument",
+        "code": "HOVE"
+    },
+    "HUTR": {
+        "name": "Hubbell Trading Post National Historic Site",
+        "code": "HUTR"
+    },
+    "HURV": {
+        "name": "Hudson River Valley National Heritage Area",
+        "code": "HURV"
+    },
+    "IATR": {
+        "name": "Ice Age National Scenic Trail",
+        "code": "IATR"
+    },
+    "ILMI": {
+        "name": "Illinois and Michigan Canal National Heritage Corridor",
+        "code": "ILMI"
+    },
+    "INDE": {
+        "name": "Independence National Historical Park",
+        "code": "INDE"
+    },
+    "INDU": {
+        "name": "Indiana Dunes National Park (National Lakeshore)",
+        "code": "INDU"
+    },
+    "IMR": {
+        "name": "Intermountain Region",
+        "code": "IMR"
+    },
+    "IMRO": {
+        "name": "Intermountain Regional Office",
+        "code": "IMRO"
+    },
+    "INUP": {
+        "name": "I\u00f1upiat Heritage Center",
+        "code": "INUP"
+    },
+    "ISRO": {
+        "name": "Isle Royale National Park",
+        "code": "ISRO"
+    },
+    "JAGA": {
+        "name": "James A. Garfield National Historic Site",
+        "code": "JAGA"
+    },
+    "COLO, JAME": {
+        "name": "Jamestown National Historic Site (part of Colonial National Historical Park)",
+        "code": "COLO, JAME"
+    },
+    "JELA": {
+        "name": "Jean Lafitte National Historical Park and Preserve",
+        "code": "JELA"
+    },
+    "JNEM, JEFF": {
+        "name": "Jefferson National Expansion Memorial (now Gateway Arch National Park)",
+        "code": "JNEM, JEFF"
+    },
+    "JECA": {
+        "name": "Jewel Cave National Monument",
+        "code": "JECA"
+    },
+    "JICA": {
+        "name": "Jimmy Carter National Historic Site",
+        "code": "JICA"
+    },
+    "JODA": {
+        "name": "John Day Fossil Beds National Monument",
+        "code": "JODA"
+    },
+    "JOFI": {
+        "name": "John Fitzgerald Kennedy National Historic Site",
+        "code": "JOFI"
+    },
+    "BLAC": {
+        "name": "John H. Chafee Blackstone River Valley National Heritage Corridor",
+        "code": "BLAC"
+    },
+    "JOMU": {
+        "name": "John Muir National Historic Site",
+        "code": "JOMU"
+    },
+    "JOFL": {
+        "name": "Johnstown Flood National Memorial",
+        "code": "JOFL"
+    },
+    "JOTR": {
+        "name": "Joshua Tree National Park",
+        "code": "JOTR"
+    },
+    "JUBA": {
+        "name": "Juan Bautista de Anza National Historic Trail",
+        "code": "JUBA"
+    },
+    "KALA": {
+        "name": "Kalaupapa National Historical Park",
+        "code": "KALA"
+    },
+    "KAHO": {
+        "name": "Kaloko-Honok\u014dhau National Historical Park",
+        "code": "KAHO"
+    },
+    "KAWW": {
+        "name": "Katahdin Woods and Waters National Monument",
+        "code": "KAWW"
+    },
+    "KATM": {
+        "name": "Katmai National Park & Preserve",
+        "code": "KATM"
+    },
+    "KEFJ": {
+        "name": "Kenai Fjords National Park",
+        "code": "KEFJ"
+    },
+    "KEAQ": {
+        "name": "Kenilworth Park and Aquatic Gardens",
+        "code": "KEAQ"
+    },
+    "KEMO": {
+        "name": "Kennesaw Mountain National Battlefield Park",
+        "code": "KEMO"
+    },
+    "KEWE": {
+        "name": "Keweenaw National Historical Park",
+        "code": "KEWE"
+    },
+    "KIMO": {
+        "name": "Kings Mountain National Military Park",
+        "code": "KIMO"
+    },
+    "KLMN": {
+        "name": "Klamath Network",
+        "code": "KLMN"
+    },
+    "KLSE": {
+        "name": "Klondike Gold Rush - Seattle Unit National Historical Park",
+        "code": "KLSE"
+    },
+    "KLGO": {
+        "name": "Klondike Gold Rush National Historical Park",
+        "code": "KLGO"
+    },
+    "KNRI": {
+        "name": "Knife River Indian Villages National Historic Site",
+        "code": "KNRI"
+    },
+    "KOVA": {
+        "name": "Kobuk Valley National Park",
+        "code": "KOVA"
+    },
+    "KOWA": {
+        "name": "Korean War Veterans National Memorial",
+        "code": "KOWA"
+    },
+    "LACL": {
+        "name": "Lake Clark National Park & Preserve",
+        "code": "LACL"
+    },
+    "LAKE (formerly LAME)": {
+        "name": "Lake Mead National Recreation Area",
+        "code": "LAKE (formerly LAME)"
+    },
+    "LAMR": {
+        "name": "Lake Meredith National Recreation Area",
+        "code": "LAMR"
+    },
+    "LARO": {
+        "name": "Lake Roosevelt National Recreation Area",
+        "code": "LARO"
+    },
+    "LAVO": {
+        "name": "Lassen Volcanic National Park",
+        "code": "LAVO"
+    },
+    "LABE": {
+        "name": "Lava Beds National Monument",
+        "code": "LABE"
+    },
+    "LECL": {
+        "name": "Lewis and Clark National Historic Trail",
+        "code": "LECL"
+    },
+    "LEWI": {
+        "name": "Lewis and Clark National Historical Park",
+        "code": "LEWI"
+    },
+    "LIBO": {
+        "name": "Lincoln Boyhood National Memorial",
+        "code": "LIBO"
+    },
+    "LIHO": {
+        "name": "Lincoln Home National Historic Site",
+        "code": "LIHO"
+    },
+    "LINC": {
+        "name": "Lincoln Memorial",
+        "code": "LINC"
+    },
+    "LIBI": {
+        "name": "Little Bighorn Battlefield National Monument",
+        "code": "LIBI"
+    },
+    "LIRI": {
+        "name": "Little River Canyon National Preserve",
+        "code": "LIRI"
+    },
+    "CHSC": {
+        "name": "Little Rock Central High School National Historic Site",
+        "code": "CHSC"
+    },
+    "LONG": {
+        "name": "Longfellow House - Washington's Headquarters National Historic Site",
+        "code": "LONG"
+    },
+    "LOWE": {
+        "name": "Lowell National Historical Park",
+        "code": "LOWE"
+    },
+    "LODE": {
+        "name": "Lower Delaware Wild and Scenic River",
+        "code": "LODE"
+    },
+    "LOEA": {
+        "name": "Lower East Side Tenement Museum National Historic Site",
+        "code": "LOEA"
+    },
+    "LYJO": {
+        "name": "Lyndon B. Johnson National Historical Park",
+        "code": "LYJO"
+    },
+    "LYBA": {
+        "name": "Lyndon Baines Johnson Memorial Grove on the Potomac",
+        "code": "LYBA"
+    },
+    "MAWA": {
+        "name": "Maggie L. Walker National Historic Site",
+        "code": "MAWA"
+    },
+    "MAAC": {
+        "name": "Maine Acadian Culture",
+        "code": "MAAC"
+    },
+    "MACA": {
+        "name": "Mammoth Cave National Park",
+        "code": "MACA"
+    },
+    "MANA": {
+        "name": "Manassas National Battlefield Park",
+        "code": "MANA"
+    },
+    "MAPR": {
+        "name": "Manhattan Project National Historical Park",
+        "code": "MAPR"
+    },
+    "MANZ": {
+        "name": "Manzanar National Historic Site",
+        "code": "MANZ"
+    },
+    "MABI": {
+        "name": "Marsh-Billings-Rockefeller National Historical Park",
+        "code": "MABI"
+    },
+    "MLKM": {
+        "name": "Martin Luther King Jr National Memorial",
+        "code": "MLKM"
+    },
+    "MALU": {
+        "name": "Martin Luther King, Jr. National Historical Park",
+        "code": "MALU"
+    },
+    "MAVA": {
+        "name": "Martin Van Buren National Historic Site",
+        "code": "MAVA"
+    },
+    "MAMC": {
+        "name": "Mary McLeod Bethune Council House National Historic Site",
+        "code": "MAMC"
+    },
+    "MTC": {
+        "name": "Mather Training Center",
+        "code": "MTC"
+    },
+    "MEMY": {
+        "name": "Medgar and Myrlie Evers Home National Monument",
+        "code": "MEMY"
+    },
+    "MEDN": {
+        "name": "Mediterranean Coast Network",
+        "code": "MEDN"
+    },
+    "MEHI": {
+        "name": "Meridian Hill Park",
+        "code": "MEHI"
+    },
+    "MEVE": {
+        "name": "Mesa Verde National Park",
+        "code": "MEVE"
+    },
+    "MIDN": {
+        "name": "Mid-Atlantic Network",
+        "code": "MIDN"
+    },
+    "MARO": {
+        "name": "Mid-Atlantic Regional Office",
+        "code": "MARO"
+    },
+    "MWAC": {
+        "name": "Midwest Archeological Center",
+        "code": "MWAC"
+    },
+    "MWR": {
+        "name": "Midwest Region",
+        "code": "MWR"
+    },
+    "MWRO": {
+        "name": "Midwest Regional Office",
+        "code": "MWRO"
+    },
+    "MISP": {
+        "name": "Mill Springs Battlefield National Monument",
+        "code": "MISP"
+    },
+    "MIIN": {
+        "name": "Minidoka National Historic Site",
+        "code": "MIIN"
+    },
+    "MIMA": {
+        "name": "Minute Man National Historical Park",
+        "code": "MIMA"
+    },
+    "MIMI": {
+        "name": "Minuteman Missile National Historic Site",
+        "code": "MIMI"
+    },
+    "MIDE": {
+        "name": "Mississippi Delta National Heritage Area",
+        "code": "MIDE"
+    },
+    "MIHI": {
+        "name": "Mississippi Hills National Heritage Area",
+        "code": "MIHI"
+    },
+    "MISS": {
+        "name": "Mississippi National River and Recreation Areas",
+        "code": "MISS"
+    },
+    "MNRR": {
+        "name": "Missouri National Recreational River",
+        "code": "MNRR"
+    },
+    "MOJN": {
+        "name": "Mojave Desert Network",
+        "code": "MOJN"
+    },
+    "MOJA": {
+        "name": "Mojave National Preserve",
+        "code": "MOJA"
+    },
+    "MONO": {
+        "name": "Monocacy National Battlefield",
+        "code": "MONO"
+    },
+    "MOCA": {
+        "name": "Montezuma Castle National Monument",
+        "code": "MOCA"
+    },
+    "MOCR": {
+        "name": "Moores Creek National Battlefield",
+        "code": "MOCR"
+    },
+    "MOPI": {
+        "name": "Mormon Pioneer National Historic Trail",
+        "code": "MOPI"
+    },
+    "MORR": {
+        "name": "Morristown National Historical Park",
+        "code": "MORR"
+    },
+    "AUTO": {
+        "name": "MotorCities National Heritage",
+        "code": "AUTO"
+    },
+    "MORA": {
+        "name": "Mount Rainier National Park",
+        "code": "MORA"
+    },
+    "MORU": {
+        "name": "Mount Rushmore National Memorial",
+        "code": "MORU"
+    },
+    "MUWO": {
+        "name": "Muir Woods National Monument",
+        "code": "MUWO"
+    },
+    "MUSH": {
+        "name": "Muscle Shoals National Heritage Area",
+        "code": "MUSH"
+    },
+    "MRCE": {
+        "name": "Museum Resource Center",
+        "code": "MRCE"
+    },
+    "NATC": {
+        "name": "Natchez National Historical Park",
+        "code": "NATC"
+    },
+    "NATT": {
+        "name": "Natchez Trace National Scenic Trail",
+        "code": "NATT"
+    },
+    "NATR": {
+        "name": "Natchez Trace Parkway",
+        "code": "NATR"
+    },
+    "AVIA": {
+        "name": "National Aviation Heritage Area",
+        "code": "AVIA"
+    },
+    "NCP": {
+        "name": "National Capital Parks",
+        "code": "NCP"
+    },
+    "NACE": {
+        "name": "National Capital Parks-East",
+        "code": "NACE"
+    },
+    "NCR": {
+        "name": "National Capital Region",
+        "code": "NCR"
+    },
+    "NCRN": {
+        "name": "National Capital Region Network",
+        "code": "NCRN"
+    },
+    "COAL": {
+        "name": "National Coal Heritage Area",
+        "code": "COAL"
+    },
+    "NAMA": {
+        "name": "National Mall and Memorial Parks",
+        "code": "NAMA"
+    },
+    "NPSA": {
+        "name": "National Park of American Samoa",
+        "code": "NPSA"
+    },
+    "NPNH": {
+        "name": "National Parks of New York Harbor",
+        "code": "NPNH"
+    },
+    "HFCA": {
+        "name": "National Park Service History Collection (formerly the NPS Archives)",
+        "code": "HFCA"
+    },
+    "NABR": {
+        "name": "Natural Bridges National Monument",
+        "code": "NABR"
+    },
+    "NAVA": {
+        "name": "Navajo National Monument",
+        "code": "NAVA"
+    },
+    "NEBE": {
+        "name": "New Bedford Whaling National Historical Park",
+        "code": "NEBE"
+    },
+    "NEEN": {
+        "name": "New England National Scenic Trail",
+        "code": "NEEN"
+    },
+    "NEJE": {
+        "name": "New Jersey Coastal Heritage Trail Route",
+        "code": "NEJE"
+    },
+    "PINE": {
+        "name": "New Jersey Pinelands National Reserve",
+        "code": "PINE"
+    },
+    "JAZZ": {
+        "name": "New Orleans Jazz National Historical Park",
+        "code": "JAZZ"
+    },
+    "NERI": {
+        "name": "New River Gorge National River",
+        "code": "NERI"
+    },
+    "NEPE": {
+        "name": "Nez Perce National Historical Park",
+        "code": "NEPE"
+    },
+    "NIFA": {
+        "name": "Niagara Falls National Heritage Area",
+        "code": "NIFA"
+    },
+    "NICO": {
+        "name": "Nicodemus National Historic Site",
+        "code": "NICO"
+    },
+    "NISI": {
+        "name": "Ninety Six National Historic Site",
+        "code": "NISI"
+    },
+    "NIOB": {
+        "name": "Niobrara National Scenic River",
+        "code": "NIOB"
+    },
+    "NOAT": {
+        "name": "Noatak National Preserve",
+        "code": "NOAT"
+    },
+    "NOCA": {
+        "name": "North Cascades National Park",
+        "code": "NOCA"
+    },
+    "NCCN": {
+        "name": "North Coast and Cascades Network",
+        "code": "NCCN"
+    },
+    "NOCO": {
+        "name": "North Country National Scenic Trail",
+        "code": "NOCO"
+    },
+    "NCBN": {
+        "name": "Northeast Coastal and Barrier Network",
+        "code": "NCBN"
+    },
+    "NER": {
+        "name": "Northeast Region",
+        "code": "NER"
+    },
+    "NERO": {
+        "name": "Northeast Regional Office",
+        "code": "NERO"
+    },
+    "NETN": {
+        "name": "Northeast Temperate Network",
+        "code": "NETN"
+    },
+    "NCPN": {
+        "name": "Northern Colorado Plateau Network",
+        "code": "NCPN"
+    },
+    "NGPN": {
+        "name": "Northern Great Plains Network",
+        "code": "NGPN"
+    },
+    "NORG": {
+        "name": "Northern Rio Grande National Heritage Area",
+        "code": "NORG"
+    },
+    "OBED": {
+        "name": "Obed Wild & Scenic River",
+        "code": "OBED"
+    },
+    "OCMU": {
+        "name": "Ocmulgee Mounds National Historical Park (formerly Ocmulgee National Monument)",
+        "code": "OCMU"
+    },
+    "OIRE": {
+        "name": "Oil Region National Heritage Area",
+        "code": "OIRE"
+    },
+    "OKCI": {
+        "name": "Oklahoma City National Memorial",
+        "code": "OKCI"
+    },
+    "OLSP": {
+        "name": "Old Spanish National Historic Trail",
+        "code": "OLSP"
+    },
+    "OLYM": {
+        "name": "Olympic National Park",
+        "code": "OLYM"
+    },
+    "ORCA": {
+        "name": "Oregon Caves National Monument & Preserve",
+        "code": "ORCA"
+    },
+    "OREG": {
+        "name": "Oregon National Historic Trail",
+        "code": "OREG"
+    },
+    "ORPI": {
+        "name": "Organ Pipe Cactus National Monument",
+        "code": "ORPI"
+    },
+    "OVVI": {
+        "name": "Overmountain Victory National Historic Trail",
+        "code": "OVVI"
+    },
+    "OXHI": {
+        "name": "Oxon Cove Park & Oxon Hill Farm",
+        "code": "OXHI"
+    },
+    "OZAR": {
+        "name": "Ozark National Scenic Riverways",
+        "code": "OZAR"
+    },
+    "PACN": {
+        "name": "Pacific Islands Network",
+        "code": "PACN"
+    },
+    "PWRO": {
+        "name": "Pacific West Regional Office",
+        "code": "PWRO"
+    },
+    "PAIS": {
+        "name": "Padre Island National Seashore",
+        "code": "PAIS"
+    },
+    "PAAL": {
+        "name": "Palo Alto Battlefield National Historical Park",
+        "code": "PAAL"
+    },
+    "PARA": {
+        "name": "Parashant National Monument",
+        "code": "PARA"
+    },
+    "PAGR": {
+        "name": "Paterson Great Falls National Historical Park",
+        "code": "PAGR"
+    },
+    "PERI": {
+        "name": "Pea Ridge National Military Park",
+        "code": "PERI"
+    },
+    "PECO": {
+        "name": "Pecos National Historical Park",
+        "code": "PECO"
+    },
+    "PAAV": {
+        "name": "Pennsylvania Avenue National Historic Site",
+        "code": "PAAV"
+    },
+    "PEVI": {
+        "name": "Perry's Victory & International Peace Memorial",
+        "code": "PEVI"
+    },
+    "PETE": {
+        "name": "Petersburg National Battlefield",
+        "code": "PETE"
+    },
+    "PEFO": {
+        "name": "Petrified Forest National Park",
+        "code": "PEFO"
+    },
+    "PETR": {
+        "name": "Petroglyph National Monument",
+        "code": "PETR"
+    },
+    "PIRO": {
+        "name": "Pictured Rocks National Lakeshore",
+        "code": "PIRO"
+    },
+    "PINN": {
+        "name": "Pinnacles National Park",
+        "code": "PINN"
+    },
+    "PISP": {
+        "name": "Pipe Spring National Monument",
+        "code": "PISP"
+    },
+    "PIPE": {
+        "name": "Pipestone National Monument",
+        "code": "PIPE"
+    },
+    "PISC": {
+        "name": "Piscataway Park",
+        "code": "PISC"
+    },
+    "PORE": {
+        "name": "Point Reyes National Seashore",
+        "code": "PORE"
+    },
+    "POEX": {
+        "name": "Pony Express National Historic Trail",
+        "code": "POEX"
+    },
+    "POCH": {
+        "name": "Port Chicago Naval Magazine National Memorial",
+        "code": "POCH"
+    },
+    "POHE": {
+        "name": "Potomac Heritage National Scenic Trail",
+        "code": "POHE"
+    },
+    "POPO": {
+        "name": "Poverty Point National Monument",
+        "code": "POPO"
+    },
+    "WICL": {
+        "name": "President William Jefferson Clinton Birthplace Home National Historic Site",
+        "code": "WICL"
+    },
+    "WHHO": {
+        "name": "President's Park (White House)",
+        "code": "WHHO"
+    },
+    "PRSF": {
+        "name": "Presidio of San Francisco",
+        "code": "PRSF"
+    },
+    "PRWI": {
+        "name": "Prince William Forest Park",
+        "code": "PRWI"
+    },
+    "PULL": {
+        "name": "Pullman National Monument",
+        "code": "PULL"
+    },
+    "PUHO": {
+        "name": "Pu'uhonua O H\u014dnaunau National Historical Park",
+        "code": "PUHO"
+    },
+    "PUHE": {
+        "name": "Pu'ukohol\u0101 Heiau National Historic Site",
+        "code": "PUHE"
+    },
+    "QUSH": {
+        "name": "Quinebag and Shetucket Rivers Valley",
+        "code": "QUSH"
+    },
+    "RABR": {
+        "name": "Rainbow Bridge National Monument",
+        "code": "RABR"
+    },
+    "REER": {
+        "name": "Reconstruction Era Historical Park (National Monument)",
+        "code": "REER"
+    },
+    "REDW": {
+        "name": "Redwood National and State Parks",
+        "code": "REDW"
+    },
+    "RICH": {
+        "name": "Richmond National Battlefield Park",
+        "code": "RICH"
+    },
+    "RIGR": {
+        "name": "Rio Grande Wild & Scenic River",
+        "code": "RIGR"
+    },
+    "RIRA": {
+        "name": "River Raisin National Battlefield Park",
+        "code": "RIRA"
+    },
+    "RIST": {
+        "name": "Rivers of Steel National Heritage Area",
+        "code": "RIST"
+    },
+    "ROCR": {
+        "name": "Rock Creek Park",
+        "code": "ROCR"
+    },
+    "ROMO": {
+        "name": "Rocky Mountain National Park",
+        "code": "ROMO"
+    },
+    "ROMN": {
+        "name": "Rocky Mountain Network",
+        "code": "ROMN"
+    },
+    "ROWI": {
+        "name": "Roger Williams National Memorial",
+        "code": "ROWI"
+    },
+    "ROCA": {
+        "name": "Roosevelt Campobello International Park",
+        "code": "ROCA"
+    },
+    "ROVA": {
+        "name": "Roosevelt-Vanderbilt National Historic Sites",
+        "code": "ROVA"
+    },
+    "RORI": {
+        "name": "Rosie the Riveter/World War II Home Front National Historical Park",
+        "code": "RORI"
+    },
+    "RUCA": {
+        "name": "Russell Cave National Monument",
+        "code": "RUCA"
+    },
+    "SAHI": {
+        "name": "Sagamore Hill National Historic Site",
+        "code": "SAHI"
+    },
+    "SAGU": {
+        "name": "Saguaro National Park",
+        "code": "SAGU"
+    },
+    "SACR": {
+        "name": "Saint Croix Island International Historic Site",
+        "code": "SACR"
+    },
+    "SACN": {
+        "name": "Saint Croix National Scenic Riverway",
+        "code": "SACN"
+    },
+    "SAPA": {
+        "name": "Saint Paul's Church National Historic Site",
+        "code": "SAPA"
+    },
+    "SAGA": {
+        "name": "Saint-Gaudens National Historical Park (Historic Site)",
+        "code": "SAGA"
+    },
+    "SAMA": {
+        "name": "Salem Maritime National Historic Site",
+        "code": "SAMA"
+    },
+    "SAPU": {
+        "name": "Salinas Pueblo Missions National Monument",
+        "code": "SAPU"
+    },
+    "SARI": {
+        "name": "Salt River Bay National Historical Park and Ecological Preserve",
+        "code": "SARI"
+    },
+    "SAAN": {
+        "name": "San Antonio Missions National Historical Park",
+        "code": "SAAN"
+    },
+    "SFAN": {
+        "name": "San Francisco Bay Area Network",
+        "code": "SFAN"
+    },
+    "SAFR": {
+        "name": "San Francisco Maritime National Historical Park",
+        "code": "SAFR"
+    },
+    "SAJH": {
+        "name": "San Juan Island National Historical Park",
+        "code": "SAJH"
+    },
+    "SAJU": {
+        "name": "San Juan National Historic Site",
+        "code": "SAJU"
+    },
+    "SAND": {
+        "name": "Sand Creek Massacre National Historic Site",
+        "code": "SAND"
+    },
+    "SAMO": {
+        "name": "Santa Monica Mountains National Recreation Area",
+        "code": "SAMO"
+    },
+    "SAFE": {
+        "name": "SantaFe National Historic Trail",
+        "code": "SAFE"
+    },
+    "SARA": {
+        "name": "Saratoga National Historical Park",
+        "code": "SARA"
+    },
+    "SAIR": {
+        "name": "Saugus Iron Works National Historic Site",
+        "code": "SAIR"
+    },
+    "SCRV": {
+        "name": "Schuylkill River Valley National Heritage Area",
+        "code": "SCRV"
+    },
+    "SCBL": {
+        "name": "Scotts Bluff National Monument",
+        "code": "SCBL"
+    },
+    "SEMO": {
+        "name": "Selma to Montgomery National Historic Trail",
+        "code": "SEMO"
+    },
+    "SEKI": {
+        "name": "Sequoia & Kings Canyon National Parks",
+        "code": "SEKI"
+    },
+    "SHEN": {
+        "name": "Shenandoah National Park",
+        "code": "SHEN"
+    },
+    "SHIL": {
+        "name": "Shiloh National Military Park",
+        "code": "SHIL"
+    },
+    "SIEN": {
+        "name": "Sierra Nevada Netework",
+        "code": "SIEN"
+    },
+    "SITK": {
+        "name": "Sitka National Historical Park",
+        "code": "SITK"
+    },
+    "SLBE": {
+        "name": "Sleeping Bear Dunes National Lakeshore",
+        "code": "SLBE"
+    },
+    "SODN": {
+        "name": "Sonoran Desert Network",
+        "code": "SODN"
+    },
+    "SOCA": {
+        "name": "South Carolina National Heritage Corridor",
+        "code": "SOCA"
+    },
+    "SFCN": {
+        "name": "South Florida/Caribbean Network",
+        "code": "SFCN"
+    },
+    "SEAN": {
+        "name": "Southeast Alaska Network",
+        "code": "SEAN"
+    },
+    "SEAC": {
+        "name": "Southeast Archeological Center",
+        "code": "SEAC"
+    },
+    "SECN": {
+        "name": "Southeast Coast Network",
+        "code": "SECN"
+    },
+    "SER": {
+        "name": "Southeast Region",
+        "code": "SER"
+    },
+    "SERO": {
+        "name": "Southeast Regional Office",
+        "code": "SERO"
+    },
+    "SCPN": {
+        "name": "Southern Colorado Plateau Network",
+        "code": "SCPN"
+    },
+    "SOPN": {
+        "name": "Southern Plains Network",
+        "code": "SOPN"
+    },
+    "SWAN": {
+        "name": "Southwest Alaska Network",
+        "code": "SWAN"
+    },
+    "SWAC": {
+        "name": "Southwest Archeological Center",
+        "code": "SWAC"
+    },
+    "SWR": {
+        "name": "Southwest Region",
+        "code": "SWR"
+    },
+    "SWRO": {
+        "name": "Southwest Regional Office",
+        "code": "SWRO"
+    },
+    "SPAR": {
+        "name": "Springfield Armory National Historic Site",
+        "code": "SPAR"
+    },
+    "STSP": {
+        "name": "Star-Spangled Banner National Historic Trail",
+        "code": "STSP"
+    },
+    "STLI": {
+        "name": "Statue Of Liberty National Monument",
+        "code": "STLI"
+    },
+    "STGE": {
+        "name": "Ste. Genevieve National Historical Park",
+        "code": "STGE"
+    },
+    "STEA": {
+        "name": "Steamtown National Historic Site",
+        "code": "STEA"
+    },
+    "STRI": {
+        "name": "Stones River National Battlefield",
+        "code": "STRI"
+    },
+    "STON": {
+        "name": "Stonewall National Monument",
+        "code": "STON"
+    },
+    "SUCR": {
+        "name": "Sunset Crater Volcano National Monument",
+        "code": "SUCR"
+    },
+    "TAPR": {
+        "name": "Tallgrass Prairie National Preserve",
+        "code": "TAPR"
+    },
+    "TECW": {
+        "name": "Tennessee Civil War National Heritage Area",
+        "code": "TECW"
+    },
+    "THKO": {
+        "name": "Thaddeus Kosciuszko National Memorial",
+        "code": "THKO"
+    },
+    "THRB": {
+        "name": "Theodore Roosevelt Birthplace National Historic Site",
+        "code": "THRB"
+    },
+    "THRI": {
+        "name": "Theodore Roosevelt Inaugural National Historic Site",
+        "code": "THRI"
+    },
+    "THIS": {
+        "name": "Theodore Roosevelt Island",
+        "code": "THIS"
+    },
+    "THRO": {
+        "name": "Theodore Roosevelt National Park",
+        "code": "THRO"
+    },
+    "THCO": {
+        "name": "Thomas Cole National Historic Site",
+        "code": "THCO"
+    },
+    "EDIS": {
+        "name": "Thomas Edison National Historical Park",
+        "code": "EDIS"
+    },
+    "THJE": {
+        "name": "Thomas Jefferson Memorial",
+        "code": "THJE"
+    },
+    "THST": {
+        "name": "Thomas Stone National Historic Site",
+        "code": "THST"
+    },
+    "TICA": {
+        "name": "Timpanogos Cave National Monument",
+        "code": "TICA"
+    },
+    "TIMU": {
+        "name": "Timucuan Ecological & Historic Preserve",
+        "code": "TIMU"
+    },
+    "TONT": {
+        "name": "Tonto National Monument",
+        "code": "TONT"
+    },
+    "TOSY": {
+        "name": "Touro Synagogue National Historic Site",
+        "code": "TOSY"
+    },
+    "TRTE": {
+        "name": "Trail of Tears National Historic Trail",
+        "code": "TRTE"
+    },
+    "TULE": {
+        "name": "Tule Lake National Monument",
+        "code": "TULE"
+    },
+    "TUSK": {
+        "name": "Tule Springs Fossil Beds National Monument",
+        "code": "TUSK"
+    },
+    "TUMA": {
+        "name": "Tumac\u00e1cori National Historical Park",
+        "code": "TUMA"
+    },
+    "TUPE": {
+        "name": "Tupelo National Battlefield",
+        "code": "TUPE"
+    },
+    "TUAI": {
+        "name": "Tuskegee Airmen National Historic Site",
+        "code": "TUAI"
+    },
+    "TUIN": {
+        "name": "Tuskegee Institute National Historic Site",
+        "code": "TUIN"
+    },
+    "TUZI": {
+        "name": "Tuzigoot National Monument",
+        "code": "TUZI"
+    },
+    "USPP": {
+        "name": "U.S. Park Police",
+        "code": "USPP"
+    },
+    "ULSG": {
+        "name": "Ulysses S. Grant National Historic Site",
+        "code": "ULSG"
+    },
+    "UCBN": {
+        "name": "Upper Columbia Basin Network",
+        "code": "UCBN"
+    },
+    "UPDE": {
+        "name": "Upper Delaware Scenic & Recreational River",
+        "code": "UPDE"
+    },
+    "UPHV": {
+        "name": "Upper Housatonic Valley National Heritage Area",
+        "code": "UPHV"
+    },
+    "VALL": {
+        "name": "Valles Caldera National Preserve",
+        "code": "VALL"
+    },
+    "VAFO": {
+        "name": "Valley Forge National Historical Park",
+        "code": "VAFO"
+    },
+    "VAMA": {
+        "name": "Vanderbilt Mansion National Historic Site",
+        "code": "VAMA"
+    },
+    "VICK": {
+        "name": "Vicksburg National Military Park",
+        "code": "VICK"
+    },
+    "VIVE": {
+        "name": "Vietnam Veterans Memorial",
+        "code": "VIVE"
+    },
+    "VICR": {
+        "name": "Virgin Islands Coral Reef National Monument",
+        "code": "VICR"
+    },
+    "VIIS": {
+        "name": "Virgin Islands National Park",
+        "code": "VIIS"
+    },
+    "VOYA": {
+        "name": "Voyageurs National Park",
+        "code": "VOYA"
+    },
+    "WACO": {
+        "name": "Waco Mammoth National Monument",
+        "code": "WACO"
+    },
+    "WACA": {
+        "name": "Walnut Canyon National Monument",
+        "code": "WACA"
+    },
+    "WAPA": {
+        "name": "War In The Pacific National Historical Park",
+        "code": "WAPA"
+    },
+    "WAMO": {
+        "name": "Washington Monument",
+        "code": "WAMO"
+    },
+    "WASO": {
+        "name": "Washington Office",
+        "code": "WASO"
+    },
+    "WARO": {
+        "name": "Washington-Rochambeau Revolutionary Route National Historic Trail",
+        "code": "WARO"
+    },
+    "WABA": {
+        "name": "Washita Battlefield National Historic Site",
+        "code": "WABA"
+    },
+    "WEFA": {
+        "name": "Weir Farm National Historic Site",
+        "code": "WEFA"
+    },
+    "WACC": {
+        "name": "Western Archeological and Conservation Center",
+        "code": "WACC"
+    },
+    "WML": {
+        "name": "Western Museum Laboratory",
+        "code": "WML"
+    },
+    "WRO": {
+        "name": "Western Regional Office",
+        "code": "WRO"
+    },
+    "WHEE": {
+        "name": "Wheeling National Heritage Area",
+        "code": "WHEE"
+    },
+    "WHIS": {
+        "name": "Whiskeytown National Recreation Area",
+        "code": "WHIS"
+    },
+    "WHSA": {
+        "name": "White Sands National Park (formerly White Sands National Monument)",
+        "code": "WHSA"
+    },
+    "WHMI": {
+        "name": "Whitman Mission National Historic Site",
+        "code": "WHMI"
+    },
+    "WIHO": {
+        "name": "William Howard Taft National Historic Site",
+        "code": "WIHO"
+    },
+    "WICR": {
+        "name": "Wilson's Creek National Battlefield",
+        "code": "WICR"
+    },
+    "WICA": {
+        "name": "Wind Cave National Park",
+        "code": "WICA"
+    },
+    "WING": {
+        "name": "Wing Luke Museum of the Asian Pacific American Experience",
+        "code": "WING"
+    },
+    "WOTR": {
+        "name": "Wolf Trap National Park for the Performing Arts (formerly Wolf Trap Farm Park)",
+        "code": "WOTR"
+    },
+    "WORI": {
+        "name": "Women's Rights National Historical Park",
+        "code": "WORI"
+    },
+    "WWII": {
+        "name": "World War II Memorial National Memorial",
+        "code": "WWII"
+    },
+    "VALR": {
+        "name": "World War II Valor in the Pacific National Monument",
+        "code": "VALR"
+    },
+    "WRST": {
+        "name": "Wrangell - St. Elias National Park & Preserve",
+        "code": "WRST"
+    },
+    "WRBR": {
+        "name": "Wright Brothers National Memorial",
+        "code": "WRBR"
+    },
+    "WUPA": {
+        "name": "Wupatki National Monument",
+        "code": "WUPA"
+    },
+    "YELL": {
+        "name": "Yellowstone National Park",
+        "code": "YELL"
+    },
+    "COLO, YORK": {
+        "name": "Yorktown Battlefield (part of Colonial National Historical Park)",
+        "code": "COLO, YORK"
+    },
+    "YOSE": {
+        "name": "Yosemite National Park",
+        "code": "YOSE"
+    },
+    "YUHO": {
+        "name": "Yucca House National Monument",
+        "code": "YUHO"
+    },
+    "YUCH": {
+        "name": "Yukon-Charley Rivers National Preserve",
+        "code": "YUCH"
+    },
+    "YUCR": {
+        "name": "Yuma Crossing National Heritage Area",
+        "code": "YUCR"
+    },
+    "ZION": {
+        "name": "Zion National Park",
+        "code": "ZION"
+    }
+}

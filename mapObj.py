@@ -27,7 +27,11 @@ class park:
         'town':("#FFA500",'tree-city','city','Town or Other Municaplity'),
         'resort':('#48D1CC','umbrella-beach','city','Resort'),
         'beach':('#00008B','water','nature','Beach'),
-        'nationalPark':('#4A5D23','tree','nature','National Park or Reserve')
+        'nationalPark':('#4A5D23','tree','nature','National Park or Reserve'),
+        "Campground":("#6F7168","campground","campgroundfg","A campground"),
+        "garden":("#5ca904","leaf","gardenandzoofg","Botanical Garden"),
+        "zoo":("#714620","kiwi-bird","gardenandzoofg","A Zoo or Reserve"),
+        "aquarium":("#80BFD7","fish","gardenandzoofg","A Aqarium")
     }
 
     def __init__(self,name,code,type,lat,long,date):

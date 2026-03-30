@@ -28,27 +28,27 @@ MONO,Monocacy,NB,39.377611442452164,-77.39718631,3/20/2025,Civil War 1,through
 FOMC,Fort McHenry,NM,39.264374790915554,-76.5807165,3/20/2025,Civil War 1,through
 HAMP,Hampton,NHS,39.41652779750747,-76.58762117,3/20/2025,Civil War 1,through
 PAGR,Paterson Great Falls,NHP,40.91823731914403,-74.17983532,3/28/2025,,
-CLBA,Clara Barton,NHS,38.96766959002962,-77.14085763,3/29/2025,,
-GWMP,George Washington,NMEMPWKY,38.960382676001636,-77.15153254,3/29/2025,,
-GREE,Greenbelt,PARK,38.98289916873673,-76.89765469,3/29/25-3/31/25,,
-BEPA,Belmont-paul Women's Equality,NM,38.892673700394894,-77.0037642,3/30/2025,,
-DDEM,Dwight D. Eisenhower,NMEM,38.88702969687536,-77.0186052,3/30/2025,,
-PAAV,Pennsylvania Avenue,NHS,38.89428180010192,-77.02520787,3/30/2025,,
-WAMO,Washington Monument,NMEM,38.88968942693913,-77.0352582,3/30/2025,,
-WWII,World War II,NMEM,38.889268093425486,-77.04045478,3/30/2025,,
-COGA,Constitution Gardens,PARK,38.891079809766715,-77.04301698,3/30/2025,,
-VIVE,Vietnam Veterans,NMEM,38.89112194214608,-77.04763617,3/30/2025,,
-LINC,Lincoln,NMEM,38.88945067157764,-77.05019837,3/30/2025,,
-KOWA,Korean war Veterans,NMEM,38.88756868958258,-77.04799704,3/30/2025,,
-MLKM,Martin Luther King Jr.,NMEM,38.88598160629131,-77.04400939,3/30/2025,,
-FRDE,Franklin Delano Roosevelt,NMEM,38.883186568103426,-77.04307111,3/30/2025,,
-THJE,Thomas Jefferson,NMEM,38.88148701871426,-77.03684605,3/30/2025,,
-NAMA,National Mall and Memorial,PARK,38.88953493827039,-77.03143294,3/30/2025,,
-NACE,National Capital Parks-East,PARK,38.889849897344206,-77.01129482,3/30/2025,,
-LYBA,LBJ Grove on the Potomac,NMEM,38.878366848057276,-77.05159297,3/31/2025,,
-ARHO,Arlington House,NMEM,38.88131686214414,-77.07313579,3/31/2025,,
-THIS,Theodore Roosevelt Island,NMEM,38.89654308060993,-77.06492284,3/31/2025,,
-MANA,Manassas,NBP,38.81725154356313,-77.53543908,3/31/2025,,
+CLBA,Clara Barton,NHS,38.96766959002962,-77.14085763,3/29/2025,DC,through
+GWMP,George Washington,NMEMPWKY,38.960382676001636,-77.15153254,3/29/2025,DC,through
+GREE,Greenbelt,PARK,38.98289916873673,-76.89765469,3/29/25-3/31/25,DC,stay
+BEPA,Belmont-paul Women's Equality,NM,38.892673700394894,-77.0037642,3/30/2025,DC,visit
+DDEM,Dwight D. Eisenhower,NMEM,38.88702969687536,-77.0186052,3/30/2025,DC,visit
+PAAV,Pennsylvania Avenue,NHS,38.89428180010192,-77.02520787,3/30/2025,DC,visit
+WAMO,Washington Monument,NMEM,38.88968942693913,-77.0352582,3/30/2025,DC,visit
+WWII,World War II,NMEM,38.889268093425486,-77.04045478,3/30/2025,DC,visit
+COGA,Constitution Gardens,PARK,38.891079809766715,-77.04301698,3/30/2025,DC,visit
+VIVE,Vietnam Veterans,NMEM,38.89112194214608,-77.04763617,3/30/2025,DC,visit
+LINC,Lincoln,NMEM,38.88945067157764,-77.05019837,3/30/2025,DC,visit
+KOWA,Korean war Veterans,NMEM,38.88756868958258,-77.04799704,3/30/2025,DC,visit
+MLKM,Martin Luther King Jr.,NMEM,38.88598160629131,-77.04400939,3/30/2025,DC,visit
+FRDE,Franklin Delano Roosevelt,NMEM,38.883186568103426,-77.04307111,3/30/2025,DC,visit
+THJE,Thomas Jefferson,NMEM,38.88148701871426,-77.03684605,3/30/2025,DC,visit
+NAMA,National Mall and Memorial,PARK,38.88953493827039,-77.03143294,3/30/2025,DC,visit
+NACE,National Capital Parks-East,PARK,38.889849897344206,-77.01129482,3/30/2025,DC,visit
+LYBA,LBJ Grove on the Potomac,NMEM,38.878366848057276,-77.05159297,3/31/2025,DC,through
+ARHO,Arlington House,NMEM,38.88131686214414,-77.07313579,3/31/2025,DC,through
+THIS,Theodore Roosevelt Island,NMEM,38.89654308060993,-77.06492284,3/31/2025,DC,through
+MANA,Manassas,NBP,38.81725154356313,-77.53543908,3/31/2025,DC,through
 MORR,Morristown,NHP,40.79736441640253,-74.46586078,4/26/2025,,
 ROWI,Roger Williams,NMEM,41.83146767212702,-71.41069739,5/1/2025,,
 NEBE,New Bedford Whaling,NHP,41.63625568565642,-70.92400076,5/1/2025,,
@@ -120,7 +120,7 @@ COLO,Colonial,NHP,37.225884175859264,-76.78423342,8/19/2025,Civil War 2 Electric
 FRSP,Fredericksburg & Spotslyvania County Battlefields Memorial,NMP,38.29396010126794,-77.46737602,8/20/2025,Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style,through
 PRWI,Prince Willams Forest,PARK,38.585562961348785,-77.3839465,8/20/2025-8/21/2025,Civil War 2 Electric Boogaloo the Squeakquel the Rebirth Second Coming the Ermm civil war gay bros solo style,through
 STEA,Steamtown,NHS,41.40805866106717,-75.67195776,8/31/2025,,
-AIRP,Harry Reid International Airport,AIRPORT,36.08204718885973,-115.1362141,1/2/2026;1/13/2026,Desert or Dessert??,stay
+AIRP,Harry Reid International Airport,AIRPORT,36.08204718885973,-115.1362141,1/2/2026,Desert or Dessert??,stay
 TUSK,Tule Springs Fossil Bed's,NM,36.34876094,-115.2904797,1/2/2026,Desert or Dessert??,through
 DEVA,Death Valley,NP,36.580112051399595,-117.060624,1/2/2026-1/6/2026,Desert or Dessert??,stay
 MANZ,Manzanar,NHS,36.72830367637733,-118.1514483,1/3/2026,Desert or Dessert??,visit
@@ -131,15 +131,7 @@ JOTR,Joshua Tree,NP,33.89086257253763,-115.895013,1/8/2026-1/11/2026,Desert or D
 LAKE,Lake Mead,NRA,36.15540048651489,-114.4558739,1/11/2026-1/13/2026,Desert or Dessert??,stay
 PISP,Pipe Spring,NM,36.86277374870997,-112.737474,1/12/2026,Desert or Dessert??,visit
 ZION,Zion,NP,37.328187280171676,-113.0226832,1/12/2026,Desert or Dessert??,visit
-AIRP,Harry Reid International Airport,AIRPORT,36.08204718885973,-115.1362141,1/2/2026;1/13/2026,Desert or Dessert??,stay
-INOB,In N Out Burger,Bur,36.26544983313767,-115.2571874,I honestly don't know,,
-INOB,In N Out Burger,Bur,34.85005959254123,-117.0826722,I honestly don't know,,
-INOB,In N Out Burger,Bur,37.160595199398706,-113.5108371,I honestly don't know,,
-INOB,In N Out Burger,Bur,36.06921970767984,-115.0352404,I honestly don't know,,
-INOB,In N Out Burger,Bur,45.011073507032265,-122.9945802,I honestly don't know,,
-INOB,In N Out Burger,Bur,38.36663254616597,-121.961102,I honestly don't know,,
-INOB,In N Out Burger,Bur,32.98181469738555,-117.0775602,I honestly don't know,,
-INOB,In N Out Burger,Bur,37.58003490403831,-120.939293,I honestly don't know,,
+AIRP,Harry Reid International Airport,AIRPORT,36.08204718885973,-115.1362141,1/13/2026,Desert or Dessert??,stay
 AIRP,Hartfield-Jackson Atlanta International Airport,AIRPORT,33.640967066930166,-84.42567719,2/13/2026,galavant,through
 CHCH,Chickamauga & Chattanooga,NMP,35.010826835294615,-85.34363117,2/14/2026,galavant,through
 RUCA,Russell Cave,NM,34.978835744082154,-85.80981648,2/14/2026,galavant,through
@@ -157,6 +149,31 @@ KEMO,Kennesaw Mountain,NBP,33.98324812380776,-84.57805965,2/17/2026,galavant,thr
 AIRP,Hartfield-Jackson Atlanta International Airport,AIRPORT,33.640967066930166,-84.42567719,2/13/2026,galavant,through
 GATE,Gateway,NRA,40.461817981614395,-74.00208137,2/28/2026,,
 LOWE,Lowell,NHP,42.644575940301394,-71.31246087,3/20/2026,,
+CUVA,Cuyahoga Valley,NP,41.305594292346036,-81.55982167,3/24/2026,Civil War 3 Revenge of The Parks. Arguably a Piece of Gold in the Other Two Shit Shows,through
+GERO,George Rogers Clark,NHP,38.67807964,-87.53668443,3/25/2026,Civil War 3 Revenge of The Parks. Arguably a Piece of Gold in the Other Two Shit Shows,through
+LINCBH,Lincoln Boyhood,NMEM,38.113569696010586,-86.99585211,3/25/2026,Civil War 3 Revenge of The Parks. Arguably a Piece of Gold in the Other Two Shit Shows,through
+MAMM,Mammoth Cave,NP,37.20358746110172,-86.11347305,3/25/2026-3/27/2026,Civil War 3 Revenge of The Parks. Arguably a Piece of Gold in the Other Two Shit Shows,stay
+ABLI,Abraham Lincoln Birthplace,NHP,37.531292063980956,-85.73747164,3/27/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),visit
+STON,Stones River,NB,35.87628414861126,-86.43074058,3/28/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+FORTD,Fort Donelson,NB,36.48196099696205,-87.86314447,3/28/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+NATCPH,Natchez Trace Pharr Mounds,NMEMPWKY,34.47111200880717, -88.42009889512306,3/29/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+NATCOV,Natchez Trace 20 Mile Overlook,NMEMPWKY,34.4308257968093, -88.54973310857207,3/29/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+NATC,Natchez Trace,NMEMPWKY,34.43159002671572, -88.70044521682783,3/29/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+TUPE,Tupelo,NB,34.25591397411444,-88.736936,3/29/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+BRCR,Brices Cross Roads,NB,34.50640293117454,-88.72892764,3/29/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+NATC,Natchez Trace,NMEMPWKY,34.43159002671572, -88.70044521682783,3/29/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+NATCMD,Natchez Trace Bynum Mounds,NMEMPWKY,33.905735554216015, -88.95015681291191,3/29/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+VICK,Vicksburg,NMP,32.35494383177487,-90.84522661,3/29/2026-3/30/2026,Civil War 3 Revenge of The Parks (Arguably a Piece of Gold in the Other Two Shit Shows),through
+
+INOB,In N Out Burger,Bur,36.26544983313767,-115.2571874,I honestly don't know,,
+INOB,In N Out Burger,Bur,34.85005959254123,-117.0826722,I honestly don't know,,
+INOB,In N Out Burger,Bur,37.160595199398706,-113.5108371,I honestly don't know,,
+INOB,In N Out Burger,Bur,36.06921970767984,-115.0352404,I honestly don't know,,
+INOB,In N Out Burger,Bur,45.011073507032265,-122.9945802,I honestly don't know,,
+INOB,In N Out Burger,Bur,38.36663254616597,-121.961102,I honestly don't know,,
+INOB,In N Out Burger,Bur,32.98181469738555,-117.0775602,I honestly don't know,,
+INOB,In N Out Burger,Bur,37.58003490403831,-120.939293,I honestly don't know,,
+INOB,In N Out Burger,Bur,35.86429169179398, -86.4305625568156,I honestly don't know,,
 
 GRBY,Grace Bay,resort,21.800347329851423,-72.16871738,date,,
 NYC,New York,city,40.72108442108943,-73.99598551,Many Times,,
@@ -243,6 +260,11 @@ GRBT,Greenbelt Campground,Campground,38.97895426870136, -76.89974932908454,meow,
 BIMD,Big Meadows Campground,Campground,38.529108117027775, -78.43685538669477,meow,,
 SEWL,Seawall Campground,Campground,44.24232921922367, -68.30595228486426,meow,,
 SMMT,Smith Mountain State Park Campground,Campground,37.08426331421959, -79.59393683993355,meow,,
+SRACC,Shenagngo Rec Area Campground,Campground,41.29571047324754, -80.43514656156536,3/23/2026,,
+SHAGC,Shakamak State Park Campground,Campground,39.16265515846663, -87.23144907493621,3/24/2026,,
+MACAC,Mammoth Cave Campground,Campground,37.18217452946785, -86.0968450032464,3/25/2026-3/27/2026,,
+DECRC,Defeadted Creek Campground,Campground,36.30225706166131, -85.90926380328892,3/28/2026,,
+PIGRC,Piney Grove Campground,Campground,34.56900102863459, -88.32818353712824,3/29/2026,,
 
 NEBG,New England Botanic Garden at Tower Hill,garden,42.3631048265975, -71.72800348719254,3/21/2026,,
 NEAQ,New England Aquarium,aquarium,42.35950149258494, -71.04921187327152,I Forget,,

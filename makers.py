@@ -62,7 +62,7 @@ class icon(maker_tools):
             
 
 class obj(maker_tools):
-    colors=['red','blue','green','purple','pink','darkred','orange','darkblue','lightred','black','orange']
+    colors=['red','blue','green','purple','pink','darkred','orange','darkblue','black','orange']
     def __init__(self,start_lat,start_long):
         self.lat=start_lat
         self.long=start_long
@@ -84,6 +84,7 @@ class obj(maker_tools):
                 color=obj.colors[random.randint(0,len(obj.colors)-1)]
                 trips[row['trip']]=trip(row['trip'],self.lat,self.long,color)
                 obj.colors.remove(color)
+
                 
                 trips[row['trip']].path_logic(row)
 
